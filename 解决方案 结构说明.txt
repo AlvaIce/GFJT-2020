@@ -1,0 +1,27 @@
+QRST_DI（Quantified Remote Sensing Technology —— Data Infrastructure）
+软件源码分：
+	QRST_DI_DS数据阵列、
+	QRST_DI_TS服务阵列、
+	QRST_DI_SS涉密数据、
+	QRST_DI_MS运管系统、
+	ExternalUC第三方插件、
+	Tester测试用例，
+六部分组成。
+
+QRST_DI_DS数据阵列，包含：
+	QRST_DI_DS-Basis数据阵列基础类库：引用II级，提供数据阵列Hadoop存储管理基础类、MySQL数据库交互基础类
+	QRST_DI_DS-Metadata元数据提取库：引用III级，提供自定义数据、各种典型卫星数据的元数据制定提取类库
+	QRST_DI_DS-Server数据阵列运行控制服务器:引用IV级，数据阵列管理、控制、调度、迁徙、备份等。
+
+QRST_DI_TS服务阵列，包含：
+	QRST_DI_TS-Basis服务阵列站点类库：引用III级，提供服务阵列架构定义、站点管理、监控、调度。
+	QRST_DI_TS-Process服务阵列处理类库：引用IV级，订单构建、任务执行。
+	QRST_DI_TS-SiteServer服务阵列运行控制服务器：引用V级，服务阵列任务执行；服务阵列管理、控制、调度、数据迁徙、备份等。
+	
+QRST_DI_MS运管系统，包含：
+	QRST_DI_MS-Basis运行服务基础类库：引用I级，全局基础类库，包括订单、任务等基础定义。
+	QRST_DI_MS-Console运管系统：引用VII级，系统管理、监控、调度。
+	QRST_DI_MS-Server运行服务器：引用VI级，开启系统执行、服务，负责连接存储站点，接收任务订单，分配任务。
+	QRST_DI_MS-Resource界面资源类库。
+	
+

@@ -1,0 +1,30 @@
+!!!异常2018/5/15 16:14:01:System.Exception: 注册DbUtilitiesTCPServer异常 ---> System.Net.Sockets.SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 System.Runtime.Remoting.Channels.ExclusiveTcpListener.Start(Boolean exclusiveAddressUse)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpServerChannel.StartListening(Object data)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpServerChannel.SetupChannel()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpServerChannel..ctor(IDictionary properties, IServerChannelSinkProvider sinkProvider, IAuthorizeRemotingConnection authorizeCallback)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpServerChannel..ctor(IDictionary properties, IServerChannelSinkProvider sinkProvider)
+   在 QRST_DI_SS_DBServer.DBEngine.DbUtilitiesTCPServer.StartTCPService(String tcpPort) 位置 D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_SS_DBServer\DBEngine\DbUtilitiesTCPServer.cs:行号 37
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_SS_DBServer.DBEngine.DbUtilitiesTCPServer.StartTCPService(String tcpPort) 位置 D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_SS_DBServer\DBEngine\DbUtilitiesTCPServer.cs:行号 59
+   在 QRST_DI_SS_DBServer.Program.StartBaseUtilitiesServ() 位置 D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_SS_DBServer\Program.cs:行号 130
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_SS_DBServer\Program.cs:行号 65
+!!!异常2018/5/15 16:18:09:System.Exception: 注册DbUtilitiesTCPServer异常 ---> System.Net.Sockets.SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 System.Runtime.Remoting.Channels.ExclusiveTcpListener.Start(Boolean exclusiveAddressUse)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpServerChannel.StartListening(Object data)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpServerChannel.SetupChannel()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpServerChannel..ctor(IDictionary properties, IServerChannelSinkProvider sinkProvider, IAuthorizeRemotingConnection authorizeCallback)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpServerChannel..ctor(IDictionary properties, IServerChannelSinkProvider sinkProvider)
+   在 QRST_DI_SS_DBServer.DBEngine.DbUtilitiesTCPServer.StartTCPService(String tcpPort) 位置 D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_SS_DBServer\DBEngine\DbUtilitiesTCPServer.cs:行号 37
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_SS_DBServer.DBEngine.DbUtilitiesTCPServer.StartTCPService(String tcpPort) 位置 D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_SS_DBServer\DBEngine\DbUtilitiesTCPServer.cs:行号 59
+   在 QRST_DI_SS_DBServer.Program.StartBaseUtilitiesServ() 位置 D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_SS_DBServer\Program.cs:行号 130
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_SS_DBServer\Program.cs:行号 65

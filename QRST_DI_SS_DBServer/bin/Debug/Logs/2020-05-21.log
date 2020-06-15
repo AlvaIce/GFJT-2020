@@ -1,0 +1,76 @@
+!!!异常2020-05-21 15:03:08:System.Exception: Create:获取元数据异常 ---> System.Exception: create:获取元数据异常 ---> System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> MySql.Data.MySqlClient.MySqlException: Authentication to host '192.168.0.104' for user 'jtyg' using method 'mysql_native_password' failed with message: Access denied for user 'jtyg'@'LAPTOP-KE0V2BID' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'jtyg'@'LAPTOP-KE0V2BID' (using password: YES)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_DS_DBEngine.MySqlBaseUtilities.GetDataSet(String sql) 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DBEngine\MySqlBaseUtilities.cs:行号 396
+   在 QRST_DI_DS_DBEngine.DBMySqlOperating.InitializeDBConnection() 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DBEngine\DBMySqlOperating.cs:行号 134
+   在 QRST_DI_DS_DBEngine.DBMySqlOperating..ctor() 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DBEngine\DBMySqlOperating.cs:行号 19
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Runtime.Remoting.RemotingConfigHandler.RemotingConfigInfo.StartupWellKnownObject(String asmName, String svrTypeName, String URI, WellKnownObjectMode mode, Boolean fReplace)
+   在 System.Runtime.Remoting.RemotingConfigHandler.RemotingConfigInfo.StartupWellKnownObject(String URI)
+   在 System.Runtime.Remoting.RemotingConfigHandler.CreateWellKnownObject(String uri)
+   在 System.Runtime.Remoting.IdentityHolder.CasualResolveIdentity(String uri)
+   在 System.Runtime.Remoting.Messaging.MethodCall.ResolveType()
+   在 System.Runtime.Remoting.Messaging.MethodCall.ResolveMethod(Boolean bThrowIfNotResolved)
+   在 System.Runtime.Remoting.Messaging.MethodCall..ctor(Object handlerObject, BinaryMethodCallMessage smuggledMsg)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryMethodCall.ReadArray(Object[] callA, Object handlerObject)
+   在 System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Remoting.Channels.CoreChannel.DeserializeBinaryRequestMessage(String objectUri, Stream inputStream, Boolean bStrictBinding, TypeFilterLevel securityLevel)
+   在 System.Runtime.Remoting.Channels.BinaryServerFormatterSink.ProcessMessage(IServerChannelSinkStack sinkStack, IMessage requestMsg, ITransportHeaders requestHeaders, Stream requestStream, IMessage& responseMsg, ITransportHeaders& responseHeaders, Stream& responseStream)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 QRST_DI_SS_DBInterfaces.IDBEngine.IDbOperating.GetSubDbUtilities(EnumDBType dbtype)
+   在 QRST_DI_Resources.Constant.create() 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI-Resources\Constant.cs:行号 818
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.create() 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI-Resources\Constant.cs:行号 947
+   在 QRST_DI_Resources.Constant.Create() 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI-Resources\Constant.cs:行号 975
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.Create() 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI-Resources\Constant.cs:行号 981
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_SS_DBServer\Program.cs:行号 66
+!!!异常2020-05-21 15:12:52:System.Exception: Create:获取元数据异常 ---> System.Exception: create:获取元数据异常 ---> System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> MySql.Data.MySqlClient.MySqlException: Authentication to host '192.168.0.104' for user 'jtyg' using method 'mysql_native_password' failed with message: Access denied for user 'jtyg'@'LAPTOP-KE0V2BID' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'jtyg'@'LAPTOP-KE0V2BID' (using password: YES)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_DS_DBEngine.MySqlBaseUtilities.GetDataSet(String sql) 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DBEngine\MySqlBaseUtilities.cs:行号 396
+   在 QRST_DI_DS_DBEngine.DBMySqlOperating.InitializeDBConnection() 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DBEngine\DBMySqlOperating.cs:行号 134
+   在 QRST_DI_DS_DBEngine.DBMySqlOperating..ctor() 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DBEngine\DBMySqlOperating.cs:行号 19
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Runtime.Remoting.RemotingConfigHandler.RemotingConfigInfo.StartupWellKnownObject(String asmName, String svrTypeName, String URI, WellKnownObjectMode mode, Boolean fReplace)
+   在 System.Runtime.Remoting.RemotingConfigHandler.RemotingConfigInfo.StartupWellKnownObject(String URI)
+   在 System.Runtime.Remoting.RemotingConfigHandler.CreateWellKnownObject(String uri)
+   在 System.Runtime.Remoting.IdentityHolder.CasualResolveIdentity(String uri)
+   在 System.Runtime.Remoting.Messaging.MethodCall.ResolveType()
+   在 System.Runtime.Remoting.Messaging.MethodCall.ResolveMethod(Boolean bThrowIfNotResolved)
+   在 System.Runtime.Remoting.Messaging.MethodCall..ctor(Object handlerObject, BinaryMethodCallMessage smuggledMsg)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryMethodCall.ReadArray(Object[] callA, Object handlerObject)
+   在 System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Remoting.Channels.CoreChannel.DeserializeBinaryRequestMessage(String objectUri, Stream inputStream, Boolean bStrictBinding, TypeFilterLevel securityLevel)
+   在 System.Runtime.Remoting.Channels.BinaryServerFormatterSink.ProcessMessage(IServerChannelSinkStack sinkStack, IMessage requestMsg, ITransportHeaders requestHeaders, Stream requestStream, IMessage& responseMsg, ITransportHeaders& responseHeaders, Stream& responseStream)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 QRST_DI_SS_DBInterfaces.IDBEngine.IDbOperating.GetSubDbUtilities(EnumDBType dbtype)
+   在 QRST_DI_Resources.Constant.create() 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI-Resources\Constant.cs:行号 818
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.create() 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI-Resources\Constant.cs:行号 947
+   在 QRST_DI_Resources.Constant.Create() 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI-Resources\Constant.cs:行号 975
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.Create() 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI-Resources\Constant.cs:行号 981
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_SS_DBServer\Program.cs:行号 66

@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{410B04B7-1EEE-43D1-A0EA-766EF01750C3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication2</RootNamespace>
+    <AssemblyName>WindowsFormsApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\DotNetBar\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=10.5.0.3, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\DotNetBar\DevComponents.Instrumentation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.TreeGX, Version=10.5.0.3, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\DotNetBar\DevComponents.TreeGX.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\QRST_DI_MS-Console V2.0\ref\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FileReName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileReName.Designer.cs">
+      <DependentUpon>FileReName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFile.Designer.cs">
+      <DependentUpon>NewFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ctrlVirtualDir.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlVirtualDir.Designer.cs">
+      <DependentUpon>ctrlVirtualDir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportManage.Designer.cs">
+      <DependentUpon>ReportManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ribbon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ribbon.Designer.cs">
+      <DependentUpon>Ribbon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLogin.Designer.cs">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FileReName.resx">
+      <DependentUpon>FileReName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFile.resx">
+      <DependentUpon>NewFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ctrlVirtualDir.resx">
+      <DependentUpon>ctrlVirtualDir.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportManage.resx">
+      <DependentUpon>ReportManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ribbon.resx">
+      <DependentUpon>Ribbon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLogin.resx">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="bin\Debug\Combine\bin\x64\i.mosaic.exe.manifest" />
+    <None Include="bin\Debug\Combine\bin\x64\i.mosaic.exp" />
+    <None Include="bin\Debug\Combine\bin\x64\i.mosaic.ilk" />
+    <None Include="bin\Debug\Combine\bin\x64\i.mosaic.lib" />
+    <None Include="bin\Debug\Combine\bin\x64\i.mosaic.suo" />
+    <None Include="bin\Debug\Combine\lib\gdal192_64bit\gdal_i.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\OpenCVConfig.cmake" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_calib3d246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_calib3d246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_contrib246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_contrib246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_core246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_core246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_features2d246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_features2d246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_flann246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_flann246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_gpu246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_gpu246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_haartraining_engine.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_haartraining_engined.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_highgui246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_highgui246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_imgproc246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_imgproc246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_legacy246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_legacy246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_ml246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_ml246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_nonfree246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_nonfree246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_objdetect246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_objdetect246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_ocl246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_ocl246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_photo246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_photo246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_stitching246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_stitching246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_superres246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_superres246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_ts246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_ts246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_video246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_video246d.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_videostab246.lib" />
+    <None Include="bin\Debug\Combine\lib\opencv246\opencv_videostab246d.lib" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closed file.bmp" />
+    <None Include="Resources\Document1.png" />
+    <None Include="Resources\FolderClosed1.png" />
+    <None Include="Resources\FolderOpen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Combine\bin\x64\blend.txt" />
+    <Content Include="bin\Debug\Combine\bin\x64\DevComponents.DotNetBar2.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\DevComponents.TreeGX.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\gdal19.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\gdal190d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\hd421m.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\hdf5dll.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\hm421m.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\i.mosaic.exe" />
+    <Content Include="bin\Debug\Combine\bin\x64\i.mosaic.pdb" />
+    <Content Include="bin\Debug\Combine\bin\x64\mfc100d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\msvcp100.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\msvcp100d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\msvcr100.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\msvcr100d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_calib3d246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_calib3d246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_contrib246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_contrib246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_core246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_core246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_features2d246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_features2d246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_ffmpeg246_64.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_flann246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_flann246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_gpu246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_gpu246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_highgui246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_highgui246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_imgproc246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_imgproc246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_legacy246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_legacy246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_ml246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_ml246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_nonfree246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_nonfree246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_objdetect246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_objdetect246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_ocl246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_ocl246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_photo246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_photo246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_stitching246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_stitching246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_superres246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_superres246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_ts246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_ts246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_video246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_video246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_videostab246.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\opencv_videostab246d.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\proj.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\subimage.txt" />
+    <Content Include="bin\Debug\Combine\bin\x64\szlibdll.dll" />
+    <Content Include="bin\Debug\Combine\bin\x64\zlib1.dll" />
+    <Content Include="bin\Debug\Combine\inc\defines.hpp" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cplkeywordparser.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_atomic_ops.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_config.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_config_extras.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_conv.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_csv.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_error.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_hash_set.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_http.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_list.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_minixml.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_minizip_ioapi.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_minizip_unzip.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_minizip_zip.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_multiproc.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_odbc.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_port.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_quad_tree.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_string.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_time.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_vsi.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_vsi_virtual.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_win32ce_api.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\cpl_wince.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdal.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdalgrid.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdaljp2metadata.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdalwarper.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdalwarpkernel_opencl.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdal_alg.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdal_alg_priv.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdal_csv.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdal_frmts.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdal_pam.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdal_priv.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdal_proxy.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdal_rat.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdal_version.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gdal_vrt.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\gvgcpfit.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\memdataset.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogrgeomediageometry.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogrpgeogeometry.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogrsf_frmts.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogr_api.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogr_attrind.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogr_core.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogr_expat.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogr_feature.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogr_featurestyle.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogr_geometry.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogr_geos.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogr_p.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogr_spatialref.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogr_srs_api.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\ogr_srs_esri_names.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\rawdataset.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\swq.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\thinplatespline.h" />
+    <Content Include="bin\Debug\Combine\inc\gdal192_64bit\vrtdataset.h" />
+    <Content Include="bin\Debug\Combine\inc\geotiff.h" />
+    <Content Include="bin\Debug\Combine\inc\invert.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\calib3d\calib3d.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\contrib\contrib.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\contrib\detection_based_tracker.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\contrib\hybridtracker.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\contrib\openfabmap.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\contrib\retina.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\core.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\core_c.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\cuda_devptrs.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\devmem2d.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\eigen.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\gpumat.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\internal.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\mat.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\opengl_interop.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\opengl_interop_deprecated.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\operations.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\types_c.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\version.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\core\wimage.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\features2d\features2d.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\allocator.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\all_indices.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\any.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\autotuned_index.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\composite_index.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\config.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\defines.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\dist.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\dummy.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\dynamic_bitset.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\flann.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\flann_base.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\general.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\ground_truth.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\hdf5.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\heap.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\hierarchical_clustering_index.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\index_testing.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\kdtree_index.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\kdtree_single_index.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\kmeans_index.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\linear_index.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\logger.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\lsh_index.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\lsh_table.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\matrix.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\miniflann.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\nn_index.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\object_factory.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\params.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\random.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\result_set.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\sampling.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\saving.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\simplex_downhill.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\flann\timer.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\block.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\border_interpolate.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\color.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\common.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\datamov_utils.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\detail\color_detail.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\detail\reduce.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\detail\reduce_key_val.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\detail\transform_detail.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\detail\type_traits_detail.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\detail\vec_distance_detail.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\dynamic_smem.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\emulation.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\filters.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\funcattrib.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\functional.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\limits.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\reduce.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\saturate_cast.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\scan.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\simd_functions.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\static_check.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\transform.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\type_traits.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\utility.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\vec_distance.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\vec_math.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\vec_traits.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\warp.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\warp_reduce.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\device\warp_shuffle.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\devmem2d.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\gpu.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\gpumat.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\gpu\stream_accessor.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\highgui\cap_ios.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\highgui\highgui.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\highgui\highgui_c.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\highgui\ios.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\imgproc\imgproc.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\imgproc\imgproc_c.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\imgproc\types_c.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\legacy\blobtrack.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\legacy\compat.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\legacy\legacy.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\legacy\streams.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\ml\ml.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\nonfree\features2d.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\nonfree\gpu.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\nonfree\nonfree.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\nonfree\ocl.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\objdetect\objdetect.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\ocl\matrix_operations.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\ocl\ocl.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\ocl\private\util.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\opencv.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\opencv_modules.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\photo\photo.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\photo\photo_c.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\stitching\detail\autocalib.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\stitching\detail\blenders.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\stitching\detail\camera.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\stitching\detail\exposure_compensate.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\stitching\detail\matchers.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\stitching\detail\motion_estimators.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\stitching\detail\seam_finders.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\stitching\detail\util.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\stitching\detail\util_inl.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\stitching\detail\warpers.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\stitching\detail\warpers_inl.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\stitching\stitcher.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\stitching\warpers.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\superres\optical_flow.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\superres\superres.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\ts\gpu_perf.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\ts\gpu_test.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\ts\ts.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\ts\ts_gtest.h" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\ts\ts_perf.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\videostab\deblurring.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\videostab\fast_marching.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\videostab\fast_marching_inl.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\videostab\frame_source.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\videostab\global_motion.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\videostab\inpainting.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\videostab\log.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\videostab\motion_stabilizing.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\videostab\optical_flow.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\videostab\stabilizer.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\videostab\videostab.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\video\background_segm.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\video\tracking.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\video\video.hpp" />
+    <Content Include="bin\Debug\Combine\inc\opencv246\world\world.hpp" />
+    <Content Include="bin\Debug\DevComponents.Instrumentation.dll" />
+    <Content Include="Resources\big-refresh.png" />
+    <Content Include="Resources\copy-small.png" />
+    <Content Include="Resources\copy_file.ico" />
+    <Content Include="Resources\delete-small.png" />
+    <Content Include="Resources\delete_file.ico" />
+    <None Include="Resources\folder_5.png" />
+    <Content Include="Resources\folder_51.png" />
+    <Content Include="Resources\move-file.ico" />
+    <Content Include="Resources\move-small.png" />
+    <Content Include="Resources\newfile-small.png" />
+    <Content Include="Resources\newfile.png" />
+    <Content Include="Resources\new_file .png" />
+    <Content Include="Resources\new_file_48.ico" />
+    <Content Include="Resources\new_file_48px_1187338_easyicon.net.ico" />
+    <Content Include="Resources\paste-48.ico" />
+    <Content Include="Resources\paste-small.png" />
+    <Content Include="Resources\refresh.png" />
+    <Content Include="Resources\reload.png" />
+    <Content Include="Resources\Rename_16.png" />
+    <Content Include="Resources\Rename_48.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QRST_DI_DS-Basis\QRST_DI_DS-Basis.csproj">
+      <Project>{C31DA657-ED54-479E-80C2-8420AAD9532D}</Project>
+      <Name>QRST_DI_DS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_MS-Basis\QRST_DI_MS-Basis.csproj">
+      <Project>{FE9E2418-C7EA-4D0B-83CD-B2C70262BF1A}</Project>
+      <Name>QRST_DI_MS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_TS-Basis\QRST_DI_TS-Basis.csproj">
+      <Project>{BAA54246-EE88-4BD8-84C8-04D363462285}</Project>
+      <Name>QRST_DI_TS-Basis</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

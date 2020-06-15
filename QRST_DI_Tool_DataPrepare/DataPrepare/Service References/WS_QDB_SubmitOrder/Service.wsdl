@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="http://tempuri.org/AbstractTypes" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetNewWorkSpace">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dataType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNewWorkSpaceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNewWorkSpaceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitHJDataImport">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sharePath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitHJDataImportResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SubmitHJDataImportResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitDataImport">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sharePath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitDataImportResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SubmitDataImportResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitImportOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dataType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sharePath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitImportOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SubmitImportOrderResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dataType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pathID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="opID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadDataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownLoad">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dataID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pathID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="opID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownLoadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DownLoadResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitInstalledOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="orderName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="orderParas" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SubmitInstalledOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubmitInstalledOrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateWorkSpaceForPreProcess">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateWorkSpaceForPreProcessResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateWorkSpaceForPreProcessResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ApplyNewGF1DataImportOrder">
+        <s:complexType />
+      </s:element>
+      <s:element name="ApplyNewGF1DataImportOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ApplyNewGF1DataImportOrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderWorkspace">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ordercode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderWorkspaceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrderWorkspaceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResumeGF1DataImportOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ordercode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResumeGF1DataImportOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ResumeGF1DataImportOrderResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetOrderStatus2Waiting">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="orderCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetOrderStatus2WaitingResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetOrderStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ordercode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrderStatusResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="int" type="s:int" />
+      <s:element name="boolean" type="s:boolean" />
+    </s:schema>
+    <s:schema targetNamespace="http://tempuri.org/AbstractTypes">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:complexType name="StringArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="String" type="s:string" />
+            </s:sequence>
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetNewWorkSpaceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNewWorkSpace" />
+  </wsdl:message>
+  <wsdl:message name="GetNewWorkSpaceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNewWorkSpaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitHJDataImportSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitHJDataImport" />
+  </wsdl:message>
+  <wsdl:message name="SubmitHJDataImportSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitHJDataImportResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitDataImportSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitDataImport" />
+  </wsdl:message>
+  <wsdl:message name="SubmitDataImportSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitDataImportResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitImportOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitImportOrder" />
+  </wsdl:message>
+  <wsdl:message name="SubmitImportOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitImportOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadDataSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadData" />
+  </wsdl:message>
+  <wsdl:message name="UploadDataSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownLoadSoapIn">
+    <wsdl:part name="parameters" element="tns:DownLoad" />
+  </wsdl:message>
+  <wsdl:message name="DownLoadSoapOut">
+    <wsdl:part name="parameters" element="tns:DownLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitInstalledOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitInstalledOrder" />
+  </wsdl:message>
+  <wsdl:message name="SubmitInstalledOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitInstalledOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateWorkSpaceForPreProcessSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateWorkSpaceForPreProcess" />
+  </wsdl:message>
+  <wsdl:message name="CreateWorkSpaceForPreProcessSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateWorkSpaceForPreProcessResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApplyNewGF1DataImportOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:ApplyNewGF1DataImportOrder" />
+  </wsdl:message>
+  <wsdl:message name="ApplyNewGF1DataImportOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:ApplyNewGF1DataImportOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderWorkspaceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderWorkspace" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderWorkspaceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderWorkspaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResumeGF1DataImportOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:ResumeGF1DataImportOrder" />
+  </wsdl:message>
+  <wsdl:message name="ResumeGF1DataImportOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:ResumeGF1DataImportOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetOrderStatus2WaitingSoapIn">
+    <wsdl:part name="parameters" element="tns:SetOrderStatus2Waiting" />
+  </wsdl:message>
+  <wsdl:message name="SetOrderStatus2WaitingSoapOut">
+    <wsdl:part name="parameters" element="tns:SetOrderStatus2WaitingResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderStatus" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNewWorkSpaceHttpGetIn">
+    <wsdl:part name="dataType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetNewWorkSpaceHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitHJDataImportHttpGetIn">
+    <wsdl:part name="sharePath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitHJDataImportHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="SubmitDataImportHttpGetIn">
+    <wsdl:part name="datatype" type="s:string" />
+    <wsdl:part name="sharePath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitDataImportHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="SubmitImportOrderHttpGetIn">
+    <wsdl:part name="dataType" type="s:string" />
+    <wsdl:part name="sharePath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitImportOrderHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="UploadDataHttpGetIn">
+    <wsdl:part name="dataType" type="s:string" />
+    <wsdl:part name="pathID" type="s:string" />
+    <wsdl:part name="opID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UploadDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="DownLoadHttpGetIn">
+    <wsdl:part name="dataID" type="s:string" />
+    <wsdl:part name="pathID" type="s:string" />
+    <wsdl:part name="opID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DownLoadHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="SubmitInstalledOrderHttpGetIn">
+    <wsdl:part name="orderName" type="s:string" />
+    <wsdl:part name="orderParas" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="SubmitInstalledOrderHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateWorkSpaceForPreProcessHttpGetIn" />
+  <wsdl:message name="CreateWorkSpaceForPreProcessHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ApplyNewGF1DataImportOrderHttpGetIn" />
+  <wsdl:message name="ApplyNewGF1DataImportOrderHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderWorkspaceHttpGetIn">
+    <wsdl:part name="ordercode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderWorkspaceHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ResumeGF1DataImportOrderHttpGetIn">
+    <wsdl:part name="ordercode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ResumeGF1DataImportOrderHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SetOrderStatus2WaitingHttpGetIn">
+    <wsdl:part name="orderCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetOrderStatus2WaitingHttpGetOut" />
+  <wsdl:message name="GetOrderStatusHttpGetIn">
+    <wsdl:part name="ordercode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderStatusHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetNewWorkSpaceHttpPostIn">
+    <wsdl:part name="dataType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetNewWorkSpaceHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitHJDataImportHttpPostIn">
+    <wsdl:part name="sharePath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitHJDataImportHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="SubmitDataImportHttpPostIn">
+    <wsdl:part name="datatype" type="s:string" />
+    <wsdl:part name="sharePath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitDataImportHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="SubmitImportOrderHttpPostIn">
+    <wsdl:part name="dataType" type="s:string" />
+    <wsdl:part name="sharePath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitImportOrderHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="UploadDataHttpPostIn">
+    <wsdl:part name="dataType" type="s:string" />
+    <wsdl:part name="pathID" type="s:string" />
+    <wsdl:part name="opID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UploadDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="DownLoadHttpPostIn">
+    <wsdl:part name="dataID" type="s:string" />
+    <wsdl:part name="pathID" type="s:string" />
+    <wsdl:part name="opID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DownLoadHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="SubmitInstalledOrderHttpPostIn">
+    <wsdl:part name="orderName" type="s:string" />
+    <wsdl:part name="orderParas" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="SubmitInstalledOrderHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateWorkSpaceForPreProcessHttpPostIn" />
+  <wsdl:message name="CreateWorkSpaceForPreProcessHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ApplyNewGF1DataImportOrderHttpPostIn" />
+  <wsdl:message name="ApplyNewGF1DataImportOrderHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderWorkspaceHttpPostIn">
+    <wsdl:part name="ordercode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderWorkspaceHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ResumeGF1DataImportOrderHttpPostIn">
+    <wsdl:part name="ordercode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ResumeGF1DataImportOrderHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SetOrderStatus2WaitingHttpPostIn">
+    <wsdl:part name="orderCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetOrderStatus2WaitingHttpPostOut" />
+  <wsdl:message name="GetOrderStatusHttpPostIn">
+    <wsdl:part name="ordercode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderStatusHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="SubmitOrderSoap">
+    <wsdl:operation name="GetNewWorkSpace">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">创建一个共享的工作空间，用户将数据临时放入该空间下，触发入库，若为'-1'，则申请失败！dataType为数据类型</wsdl:documentation>
+      <wsdl:input message="tns:GetNewWorkSpaceSoapIn" />
+      <wsdl:output message="tns:GetNewWorkSpaceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitHJDataImport">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">触发数据入库！</wsdl:documentation>
+      <wsdl:input message="tns:SubmitHJDataImportSoapIn" />
+      <wsdl:output message="tns:SubmitHJDataImportSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitDataImport">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">触发数据批量入库！datatype为数据类型，dirPath为数据目录</wsdl:documentation>
+      <wsdl:input message="tns:SubmitDataImportSoapIn" />
+      <wsdl:output message="tns:SubmitDataImportSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitImportOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">触发数据入库！dataType为需要上传的数据类型，sharePath为数据所在的网络路径,生产线</wsdl:documentation>
+      <wsdl:input message="tns:SubmitImportOrderSoapIn" />
+      <wsdl:output message="tns:SubmitImportOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">用户数据上传统一接口，dataType为上传类型，pathID源数据url,opID为操作号！</wsdl:documentation>
+      <wsdl:input message="tns:UploadDataSoapIn" />
+      <wsdl:output message="tns:UploadDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownLoad">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">集成共享下载数据统一接口，dataID为数据唯一编码，pathID为下载目的地,opID为操作号！</wsdl:documentation>
+      <wsdl:input message="tns:DownLoadSoapIn" />
+      <wsdl:output message="tns:DownLoadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitInstalledOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提交内置指定订单</wsdl:documentation>
+      <wsdl:input message="tns:SubmitInstalledOrderSoapIn" />
+      <wsdl:output message="tns:SubmitInstalledOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateWorkSpaceForPreProcess">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为预处理准备数据生产工作空间！-1表示创建失败,否则传送[订单号：工作空间路径]，例如：'P1475369832501:\127.0.0.1\QRST_DB_Share\P1475369832501'！ zxw 20130818</wsdl:documentation>
+      <wsdl:input message="tns:CreateWorkSpaceForPreProcessSoapIn" />
+      <wsdl:output message="tns:CreateWorkSpaceForPreProcessSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApplyNewGF1DataImportOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为原始数据及元数据入库订单创建工作空间。-1表示创建失败,否则传送[订单号]，例如：'P1475369832501'</wsdl:documentation>
+      <wsdl:input message="tns:ApplyNewGF1DataImportOrderSoapIn" />
+      <wsdl:output message="tns:ApplyNewGF1DataImportOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderWorkspace">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为原始数据及元数据入库订单创建工作空间。-1表示创建失败,否则传送[工作空间路径]，例如：'\127.0.0.1\QRST_DB_Share\P1475369832501'！</wsdl:documentation>
+      <wsdl:input message="tns:GetOrderWorkspaceSoapIn" />
+      <wsdl:output message="tns:GetOrderWorkspaceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResumeGF1DataImportOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">继续执行下一步订单</wsdl:documentation>
+      <wsdl:input message="tns:ResumeGF1DataImportOrderSoapIn" />
+      <wsdl:output message="tns:ResumeGF1DataImportOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetOrderStatus2Waiting">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更改订单状态,使订单进入等待状态 zxw 20130818</wsdl:documentation>
+      <wsdl:input message="tns:SetOrderStatus2WaitingSoapIn" />
+      <wsdl:output message="tns:SetOrderStatus2WaitingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderStatus">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更改订单状态,使订单进入等待状态 joki 131128</wsdl:documentation>
+      <wsdl:input message="tns:GetOrderStatusSoapIn" />
+      <wsdl:output message="tns:GetOrderStatusSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SubmitOrderHttpGet">
+    <wsdl:operation name="GetNewWorkSpace">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">创建一个共享的工作空间，用户将数据临时放入该空间下，触发入库，若为'-1'，则申请失败！dataType为数据类型</wsdl:documentation>
+      <wsdl:input message="tns:GetNewWorkSpaceHttpGetIn" />
+      <wsdl:output message="tns:GetNewWorkSpaceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitHJDataImport">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">触发数据入库！</wsdl:documentation>
+      <wsdl:input message="tns:SubmitHJDataImportHttpGetIn" />
+      <wsdl:output message="tns:SubmitHJDataImportHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitDataImport">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">触发数据批量入库！datatype为数据类型，dirPath为数据目录</wsdl:documentation>
+      <wsdl:input message="tns:SubmitDataImportHttpGetIn" />
+      <wsdl:output message="tns:SubmitDataImportHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitImportOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">触发数据入库！dataType为需要上传的数据类型，sharePath为数据所在的网络路径,生产线</wsdl:documentation>
+      <wsdl:input message="tns:SubmitImportOrderHttpGetIn" />
+      <wsdl:output message="tns:SubmitImportOrderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">用户数据上传统一接口，dataType为上传类型，pathID源数据url,opID为操作号！</wsdl:documentation>
+      <wsdl:input message="tns:UploadDataHttpGetIn" />
+      <wsdl:output message="tns:UploadDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownLoad">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">集成共享下载数据统一接口，dataID为数据唯一编码，pathID为下载目的地,opID为操作号！</wsdl:documentation>
+      <wsdl:input message="tns:DownLoadHttpGetIn" />
+      <wsdl:output message="tns:DownLoadHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitInstalledOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提交内置指定订单</wsdl:documentation>
+      <wsdl:input message="tns:SubmitInstalledOrderHttpGetIn" />
+      <wsdl:output message="tns:SubmitInstalledOrderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateWorkSpaceForPreProcess">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为预处理准备数据生产工作空间！-1表示创建失败,否则传送[订单号：工作空间路径]，例如：'P1475369832501:\127.0.0.1\QRST_DB_Share\P1475369832501'！ zxw 20130818</wsdl:documentation>
+      <wsdl:input message="tns:CreateWorkSpaceForPreProcessHttpGetIn" />
+      <wsdl:output message="tns:CreateWorkSpaceForPreProcessHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApplyNewGF1DataImportOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为原始数据及元数据入库订单创建工作空间。-1表示创建失败,否则传送[订单号]，例如：'P1475369832501'</wsdl:documentation>
+      <wsdl:input message="tns:ApplyNewGF1DataImportOrderHttpGetIn" />
+      <wsdl:output message="tns:ApplyNewGF1DataImportOrderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderWorkspace">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为原始数据及元数据入库订单创建工作空间。-1表示创建失败,否则传送[工作空间路径]，例如：'\127.0.0.1\QRST_DB_Share\P1475369832501'！</wsdl:documentation>
+      <wsdl:input message="tns:GetOrderWorkspaceHttpGetIn" />
+      <wsdl:output message="tns:GetOrderWorkspaceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResumeGF1DataImportOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">继续执行下一步订单</wsdl:documentation>
+      <wsdl:input message="tns:ResumeGF1DataImportOrderHttpGetIn" />
+      <wsdl:output message="tns:ResumeGF1DataImportOrderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetOrderStatus2Waiting">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更改订单状态,使订单进入等待状态 zxw 20130818</wsdl:documentation>
+      <wsdl:input message="tns:SetOrderStatus2WaitingHttpGetIn" />
+      <wsdl:output message="tns:SetOrderStatus2WaitingHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderStatus">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更改订单状态,使订单进入等待状态 joki 131128</wsdl:documentation>
+      <wsdl:input message="tns:GetOrderStatusHttpGetIn" />
+      <wsdl:output message="tns:GetOrderStatusHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SubmitOrderHttpPost">
+    <wsdl:operation name="GetNewWorkSpace">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">创建一个共享的工作空间，用户将数据临时放入该空间下，触发入库，若为'-1'，则申请失败！dataType为数据类型</wsdl:documentation>
+      <wsdl:input message="tns:GetNewWorkSpaceHttpPostIn" />
+      <wsdl:output message="tns:GetNewWorkSpaceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitHJDataImport">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">触发数据入库！</wsdl:documentation>
+      <wsdl:input message="tns:SubmitHJDataImportHttpPostIn" />
+      <wsdl:output message="tns:SubmitHJDataImportHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitDataImport">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">触发数据批量入库！datatype为数据类型，dirPath为数据目录</wsdl:documentation>
+      <wsdl:input message="tns:SubmitDataImportHttpPostIn" />
+      <wsdl:output message="tns:SubmitDataImportHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitImportOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">触发数据入库！dataType为需要上传的数据类型，sharePath为数据所在的网络路径,生产线</wsdl:documentation>
+      <wsdl:input message="tns:SubmitImportOrderHttpPostIn" />
+      <wsdl:output message="tns:SubmitImportOrderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">用户数据上传统一接口，dataType为上传类型，pathID源数据url,opID为操作号！</wsdl:documentation>
+      <wsdl:input message="tns:UploadDataHttpPostIn" />
+      <wsdl:output message="tns:UploadDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownLoad">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">集成共享下载数据统一接口，dataID为数据唯一编码，pathID为下载目的地,opID为操作号！</wsdl:documentation>
+      <wsdl:input message="tns:DownLoadHttpPostIn" />
+      <wsdl:output message="tns:DownLoadHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitInstalledOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提交内置指定订单</wsdl:documentation>
+      <wsdl:input message="tns:SubmitInstalledOrderHttpPostIn" />
+      <wsdl:output message="tns:SubmitInstalledOrderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateWorkSpaceForPreProcess">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为预处理准备数据生产工作空间！-1表示创建失败,否则传送[订单号：工作空间路径]，例如：'P1475369832501:\127.0.0.1\QRST_DB_Share\P1475369832501'！ zxw 20130818</wsdl:documentation>
+      <wsdl:input message="tns:CreateWorkSpaceForPreProcessHttpPostIn" />
+      <wsdl:output message="tns:CreateWorkSpaceForPreProcessHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApplyNewGF1DataImportOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为原始数据及元数据入库订单创建工作空间。-1表示创建失败,否则传送[订单号]，例如：'P1475369832501'</wsdl:documentation>
+      <wsdl:input message="tns:ApplyNewGF1DataImportOrderHttpPostIn" />
+      <wsdl:output message="tns:ApplyNewGF1DataImportOrderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderWorkspace">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为原始数据及元数据入库订单创建工作空间。-1表示创建失败,否则传送[工作空间路径]，例如：'\127.0.0.1\QRST_DB_Share\P1475369832501'！</wsdl:documentation>
+      <wsdl:input message="tns:GetOrderWorkspaceHttpPostIn" />
+      <wsdl:output message="tns:GetOrderWorkspaceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResumeGF1DataImportOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">继续执行下一步订单</wsdl:documentation>
+      <wsdl:input message="tns:ResumeGF1DataImportOrderHttpPostIn" />
+      <wsdl:output message="tns:ResumeGF1DataImportOrderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetOrderStatus2Waiting">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更改订单状态,使订单进入等待状态 zxw 20130818</wsdl:documentation>
+      <wsdl:input message="tns:SetOrderStatus2WaitingHttpPostIn" />
+      <wsdl:output message="tns:SetOrderStatus2WaitingHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderStatus">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更改订单状态,使订单进入等待状态 joki 131128</wsdl:documentation>
+      <wsdl:input message="tns:GetOrderStatusHttpPostIn" />
+      <wsdl:output message="tns:GetOrderStatusHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SubmitOrderSoap" type="tns:SubmitOrderSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetNewWorkSpace">
+      <soap:operation soapAction="http://tempuri.org/GetNewWorkSpace" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitHJDataImport">
+      <soap:operation soapAction="http://tempuri.org/SubmitHJDataImport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitDataImport">
+      <soap:operation soapAction="http://tempuri.org/SubmitDataImport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitImportOrder">
+      <soap:operation soapAction="http://tempuri.org/SubmitImportOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadData">
+      <soap:operation soapAction="http://tempuri.org/UploadData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownLoad">
+      <soap:operation soapAction="http://tempuri.org/DownLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitInstalledOrder">
+      <soap:operation soapAction="http://tempuri.org/SubmitInstalledOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateWorkSpaceForPreProcess">
+      <soap:operation soapAction="http://tempuri.org/CreateWorkSpaceForPreProcess" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApplyNewGF1DataImportOrder">
+      <soap:operation soapAction="http://tempuri.org/ApplyNewGF1DataImportOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderWorkspace">
+      <soap:operation soapAction="http://tempuri.org/GetOrderWorkspace" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResumeGF1DataImportOrder">
+      <soap:operation soapAction="http://tempuri.org/ResumeGF1DataImportOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetOrderStatus2Waiting">
+      <soap:operation soapAction="http://tempuri.org/SetOrderStatus2Waiting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderStatus">
+      <soap:operation soapAction="http://tempuri.org/GetOrderStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SubmitOrderSoap12" type="tns:SubmitOrderSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetNewWorkSpace">
+      <soap12:operation soapAction="http://tempuri.org/GetNewWorkSpace" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitHJDataImport">
+      <soap12:operation soapAction="http://tempuri.org/SubmitHJDataImport" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitDataImport">
+      <soap12:operation soapAction="http://tempuri.org/SubmitDataImport" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitImportOrder">
+      <soap12:operation soapAction="http://tempuri.org/SubmitImportOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadData">
+      <soap12:operation soapAction="http://tempuri.org/UploadData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownLoad">
+      <soap12:operation soapAction="http://tempuri.org/DownLoad" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitInstalledOrder">
+      <soap12:operation soapAction="http://tempuri.org/SubmitInstalledOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateWorkSpaceForPreProcess">
+      <soap12:operation soapAction="http://tempuri.org/CreateWorkSpaceForPreProcess" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApplyNewGF1DataImportOrder">
+      <soap12:operation soapAction="http://tempuri.org/ApplyNewGF1DataImportOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderWorkspace">
+      <soap12:operation soapAction="http://tempuri.org/GetOrderWorkspace" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResumeGF1DataImportOrder">
+      <soap12:operation soapAction="http://tempuri.org/ResumeGF1DataImportOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetOrderStatus2Waiting">
+      <soap12:operation soapAction="http://tempuri.org/SetOrderStatus2Waiting" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderStatus">
+      <soap12:operation soapAction="http://tempuri.org/GetOrderStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SubmitOrderHttpGet" type="tns:SubmitOrderHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetNewWorkSpace">
+      <http:operation location="/GetNewWorkSpace" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitHJDataImport">
+      <http:operation location="/SubmitHJDataImport" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitDataImport">
+      <http:operation location="/SubmitDataImport" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitImportOrder">
+      <http:operation location="/SubmitImportOrder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadData">
+      <http:operation location="/UploadData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownLoad">
+      <http:operation location="/DownLoad" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitInstalledOrder">
+      <http:operation location="/SubmitInstalledOrder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateWorkSpaceForPreProcess">
+      <http:operation location="/CreateWorkSpaceForPreProcess" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApplyNewGF1DataImportOrder">
+      <http:operation location="/ApplyNewGF1DataImportOrder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderWorkspace">
+      <http:operation location="/GetOrderWorkspace" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResumeGF1DataImportOrder">
+      <http:operation location="/ResumeGF1DataImportOrder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetOrderStatus2Waiting">
+      <http:operation location="/SetOrderStatus2Waiting" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderStatus">
+      <http:operation location="/GetOrderStatus" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SubmitOrderHttpPost" type="tns:SubmitOrderHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetNewWorkSpace">
+      <http:operation location="/GetNewWorkSpace" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitHJDataImport">
+      <http:operation location="/SubmitHJDataImport" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitDataImport">
+      <http:operation location="/SubmitDataImport" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitImportOrder">
+      <http:operation location="/SubmitImportOrder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadData">
+      <http:operation location="/UploadData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownLoad">
+      <http:operation location="/DownLoad" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitInstalledOrder">
+      <http:operation location="/SubmitInstalledOrder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateWorkSpaceForPreProcess">
+      <http:operation location="/CreateWorkSpaceForPreProcess" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApplyNewGF1DataImportOrder">
+      <http:operation location="/ApplyNewGF1DataImportOrder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderWorkspace">
+      <http:operation location="/GetOrderWorkspace" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResumeGF1DataImportOrder">
+      <http:operation location="/ResumeGF1DataImportOrder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetOrderStatus2Waiting">
+      <http:operation location="/SetOrderStatus2Waiting" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderStatus">
+      <http:operation location="/GetOrderStatus" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SubmitOrder">
+    <wsdl:port name="SubmitOrderSoap" binding="tns:SubmitOrderSoap">
+      <soap:address location="http://192.168.10.104/WS_QDB_SubmitOrder/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SubmitOrderSoap12" binding="tns:SubmitOrderSoap12">
+      <soap12:address location="http://192.168.10.104/WS_QDB_SubmitOrder/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SubmitOrderHttpGet" binding="tns:SubmitOrderHttpGet">
+      <http:address location="http://192.168.10.104/WS_QDB_SubmitOrder/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SubmitOrderHttpPost" binding="tns:SubmitOrderHttpPost">
+      <http:address location="http://192.168.10.104/WS_QDB_SubmitOrder/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

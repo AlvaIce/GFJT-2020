@@ -1,0 +1,27 @@
+2017/6/26 17:12:08:DbServer开始查询：,数据库地址：\\192.168.10.28\QRST_DB_Prototype\QRST_DB_Tile\0\QDB_IDX_0.db,SQL：select * from distinctSatellite
+任务出错：无法找到表 0。
+总记录条数:0,耗时:0.4010649秒
+2017/6/26 17:12:08:DbServer开始查询：,数据库地址：\\192.168.10.28\QRST_DB_Prototype\QRST_DB_Tile\0\QDB_IDX_0.db,SQL：select * from distinctSensor
+任务出错：无法找到表 0。
+总记录条数:0,耗时:0.0772063秒
+2017/6/26 17:12:08:DbServer开始查询：,数据库地址：\\192.168.10.28\QRST_DB_Prototype\QRST_DB_Tile\0\QDB_IDX_0.db,SQL：select * from distinctCTtype
+任务出错：无法找到表 0。
+总记录条数:0,耗时:0.0862267秒
+2017/6/26 17:12:08:DbServer开始查询：,数据库地址：\\192.168.10.28\QRST_DB_Prototype\QRST_DB_Tile\0\QDB_IDX_0.db,SQL：select * from distinctCTLevel
+任务出错：无法找到表 0。
+总记录条数:0,耗时:0.0802529秒
+2017/6/26 17:12:09:DbServer开始查询：,数据库地址：\\192.168.10.28\QRST_DB_Prototype\QRST_DB_Tile\0\QDB_IDX_0.db,SQL：select distinct Satellite from correctedTiles
+2017/6/26 17:12:09:DbServer结束查询：,数目：2
+总记录条数:2,耗时:0.0130374秒
+2017/6/26 17:12:36:DbServer开始查询：,数据库地址：\\192.168.10.28\QRST_DB_Prototype\QRST_DB_Tile\0\QDB_IDX_0.db,SQL：select distinct Sensor from correctedTiles
+2017/6/26 17:12:36:DbServer结束查询：,数目：2
+总记录条数:2,耗时:0.0330805秒
+2017/6/26 17:12:52:DbServer开始查询：,数据库地址：\\192.168.10.28\QRST_DB_Prototype\QRST_DB_Tile\0\QDB_IDX_0.db,SQL：select distinct type from correctedTiles
+2017/6/26 17:12:52:DbServer结束查询：,数目：4
+总记录条数:4,耗时:0.012032秒
+2017/6/26 17:13:20:DbServer开始查询：,数据库地址：\\192.168.10.28\QRST_DB_Prototype\QRST_DB_Tile\0\QDB_IDX_0.db,SQL：select distinct Level from correctedTiles
+2017/6/26 17:13:20:DbServer结束查询：,数目：2
+总记录条数:2,耗时:0.0150401秒
+2017/6/26 17:13:43:DbServer开始查询：,数据库地址：\\192.168.10.28\QRST_DB_Prototype\QRST_DB_Tile\0\QDB_IDX_0.db,SQL：select * from correctedTiles limit 0,1
+2017/6/26 17:13:43:DbServer结束查询：,数目：1
+总记录条数:1,耗时:0.0501365秒

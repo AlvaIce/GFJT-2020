@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <!--消息中心配置-->
+  <MCConnect>
+    <MCPort>5189</MCPort>
+    <MCIP>192.168.10.202</MCIP>
+  </MCConnect>
+  <!--文件监控配置-->
+  <FileWatcher>
+    <Port>55599</Port>
+    <ShareDirectory>\\192.168.10.242\QRST_DB_Store\taskxml</ShareDirectory>
+  </FileWatcher>
+  <!--数据库配置-->
+  <DBConfiguration>
+    <DBIP>192.168.10.202</DBIP>
+    <DBName>qrst_db</DBName>
+    <UserName>HJDATABASE_ADMIN</UserName>
+    <UserPass>dbadmin_2011</UserPass>
+  </DBConfiguration>
+</root>

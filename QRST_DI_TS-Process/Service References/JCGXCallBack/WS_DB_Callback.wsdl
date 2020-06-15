@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://jcgxws.database.com" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://jcgxws.database.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>WS_DB_Callback</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://jcgxws.database.com">
+      <xs:element name="CallBack_Down">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="opID" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="backInfo" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CallBack_DownResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CallBack_Up">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="opID" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="backInfo" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CallBack_UpResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="CallBack_DownRequest">
+    <wsdl:part name="parameters" element="ns:CallBack_Down" />
+  </wsdl:message>
+  <wsdl:message name="CallBack_DownResponse">
+    <wsdl:part name="parameters" element="ns:CallBack_DownResponse" />
+  </wsdl:message>
+  <wsdl:message name="CallBack_UpRequest">
+    <wsdl:part name="parameters" element="ns:CallBack_Up" />
+  </wsdl:message>
+  <wsdl:message name="CallBack_UpResponse">
+    <wsdl:part name="parameters" element="ns:CallBack_UpResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WS_DB_CallbackPortType">
+    <wsdl:operation name="CallBack_Down">
+      <wsdl:input wsaw:Action="urn:CallBack_Down" message="ns:CallBack_DownRequest" />
+      <wsdl:output wsaw:Action="urn:CallBack_DownResponse" message="ns:CallBack_DownResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CallBack_Up">
+      <wsdl:input wsaw:Action="urn:CallBack_Up" message="ns:CallBack_UpRequest" />
+      <wsdl:output wsaw:Action="urn:CallBack_UpResponse" message="ns:CallBack_UpResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WS_DB_CallbackSoap11Binding" type="ns:WS_DB_CallbackPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CallBack_Down">
+      <soap:operation soapAction="urn:CallBack_Down" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CallBack_Up">
+      <soap:operation soapAction="urn:CallBack_Up" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WS_DB_CallbackSoap12Binding" type="ns:WS_DB_CallbackPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CallBack_Down">
+      <soap12:operation soapAction="urn:CallBack_Down" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CallBack_Up">
+      <soap12:operation soapAction="urn:CallBack_Up" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WS_DB_CallbackHttpBinding" type="ns:WS_DB_CallbackPortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="CallBack_Down">
+      <http:operation location="WS_DB_Callback/CallBack_Down" />
+      <wsdl:input>
+        <mime:content part="CallBack_Down" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="CallBack_Down" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CallBack_Up">
+      <http:operation location="WS_DB_Callback/CallBack_Up" />
+      <wsdl:input>
+        <mime:content part="CallBack_Up" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="CallBack_Up" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WS_DB_Callback">
+    <wsdl:port name="WS_DB_CallbackHttpSoap11Endpoint" binding="ns:WS_DB_CallbackSoap11Binding">
+      <soap:address location="http://192.168.1.145:8080/JCGXService/services/WS_DB_Callback.WS_DB_CallbackHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="WS_DB_CallbackHttpSoap12Endpoint" binding="ns:WS_DB_CallbackSoap12Binding">
+      <soap12:address location="http://192.168.1.145:8080/JCGXService/services/WS_DB_Callback.WS_DB_CallbackHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="WS_DB_CallbackHttpEndpoint" binding="ns:WS_DB_CallbackHttpBinding">
+      <http:address location="http://192.168.1.145:8080/JCGXService/services/WS_DB_Callback.WS_DB_CallbackHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

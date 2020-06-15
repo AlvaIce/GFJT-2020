@@ -1,0 +1,7 @@
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Release\QDB_DBOperation_Dll.dll.config
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Release\QDB_DBOperation_Dll.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Release\QDB_DBOperation_Dll.pdb
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Release\MySql.Data.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Release\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Release\QDB_DBOperation_Dll.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Release\QDB_DBOperation_Dll.pdb

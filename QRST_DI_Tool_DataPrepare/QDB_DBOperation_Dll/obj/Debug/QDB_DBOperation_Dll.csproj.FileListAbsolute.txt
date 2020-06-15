@@ -1,0 +1,63 @@
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll.config
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\MySql.Data.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.csprojResolveAssemblyReference.cache
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll.config
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\MySql.Data.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.csprojResolveAssemblyReference.cache
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.pdb
+D:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll.config
+D:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.pdb
+D:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\MySql.Data.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.pdb
+D:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.csprojResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll.config
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.pdb
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\MySql.Data.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll.config
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\MySql.Data.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.csprojResolveAssemblyReference.cache
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll.config
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\MySql.Data.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll.config
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\MySql.Data.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll.config
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\MySql.Data.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.csprojResolveAssemblyReference.cache
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll.config
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\QDB_DBOperation_Dll.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\bin\Debug\MySql.Data.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.csprojResolveAssemblyReference.cache
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_Tool_DataPrepare\QDB_DBOperation_Dll\obj\Debug\QDB_DBOperation_Dll.pdb

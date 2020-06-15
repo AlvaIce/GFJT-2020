@@ -1,0 +1,317 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Data;
+using DBEngine;
+
+/// <summary>
+///SQLBaseTool 的摘要说明
+/// </summary>
+public class SQLBaseTool
+{
+    MySqlBaseUtilities MySqlOperator;
+	public SQLBaseTool()
+	{
+		//
+		//TODO: 在此处添加构造函数逻辑
+        //
+        MySqlOperator = new MySqlBaseUtilities();
+	}
+    /// <summary>
+    /// SQL组织(精确查找)
+    /// </summary>
+    /// <param name="tablename"></param>
+    /// <param name="title"></param>
+    /// <param name="author"></param>
+    /// <param name="keyword"></param>
+    /// <param name="abstracts"></param>
+    /// <param name="descriptionn"></param>
+    /// <param name="industryname"></param>
+    /// <param name="projectname"></param>
+    /// <param name="docdate"></param>
+    /// <returns></returns>
+    public string SQLOrgannize(string tablename,string title,string author,string keyword,string abstracts,
+        string descriptionn,string industryname,string projectname,List<DateTime> docdate )
+    {
+        string sql = "";
+        string sql1 = string.Format("select * from {0} where ",tablename);
+        string sql2 = "";
+        if (title != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("title = '{0}'",title);
+            sql2+=") and ";
+        }
+        if (author != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("authors = '{0}'", author);
+            sql2 += ") and ";
+ 
+        }
+        if (keyword != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("keyword = '{0}'", keyword);
+            sql2 += ") and ";
+        }
+        if (abstracts != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("abstracts = '{0}'", abstracts);
+            sql2 += ") and ";
+        }
+        if (descriptionn != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("descriptionn = '{0}'", descriptionn);
+            sql2 += ") and ";
+        }
+        if (industryname != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("industryname = '{0}'", industryname);
+            sql2 += ") and ";
+        }
+        if (projectname != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("projectname = '{0}'", projectname);
+            sql2 += ") and ";
+        }
+        if (docdate.Count != 0)
+        {
+            sql2 += "(";
+            //DateTime dt1 = docdate[0];//起始时间
+            //DateTime dt2 = docdate[1];//结束时间
+            //sql2 += string.Format("Date between {0} and {1}", dt1, dt2);
+            sql2 += this.getTime(docdate[0].ToString(), docdate[1].ToString(), "docdate");
+            sql2 += ") and ";
+ 
+        }
+        sql2 = sql2.TrimEnd(" and ".ToCharArray());
+
+        if (sql2 == "")
+        {
+            sql = sql1.Substring(0, sql1.LastIndexOf("where "));
+
+        }
+        else
+        {
+            sql = sql1 + sql2;
+
+        }
+        return sql;
+    }
+   /// <summary>
+   /// 模糊查找SQL组织
+   /// </summary>
+   /// <param name="tablename"></param>
+   /// <param name="title"></param>
+   /// <param name="author"></param>
+   /// <param name="keyword"></param>
+   /// <param name="abstracts"></param>
+   /// <param name="descriptionn"></param>
+   /// <param name="industryname"></param>
+   /// <param name="projectname"></param>
+   /// <param name="docdate"></param>
+   /// <returns></returns>
+    public string SQLOrgannizeFuzzy(string tablename, string title, string author, string keyword, string abstracts,
+       string descriptionn, string industryname, string projectname, List<DateTime> docdate)
+    {
+        string sql = "";
+        string sql1 = string.Format("select * from {0} where ", tablename);
+        string sql2 = "";
+        if (title != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("title like '%{0}%'", title);
+            sql2 += ") and ";
+        }
+        if (author != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("authors like '%{0}%'", author);
+            sql2 += ") and ";
+
+        }
+        if (keyword != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("keyword like '%{0}%'", keyword);
+            sql2 += ") and ";
+        }
+        if (abstracts != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("abstracts like '%{0}%'", abstracts);
+            sql2 += ") and ";
+        }
+        if (descriptionn != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("descriptionn like '%{0}%'", descriptionn);
+            sql2 += ") and ";
+        }
+        if (industryname != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("industryname like '%{0}%'", industryname);
+            sql2 += ") and ";
+        }
+        if (projectname != null)
+        {
+            sql2 += "(";
+            sql2 += string.Format("projectname like '%{0}%'", projectname);
+            sql2 += ") and ";
+        }
+        if (docdate.Count != 0)
+        {
+            sql2 += "(";
+            //DateTime dt1 = docdate[0];//起始时间
+            //DateTime dt2 = docdate[1];//结束时间
+            //sql2 += string.Format("Date between {0} and {1}", dt1, dt2);
+            sql2 += this.getTime(docdate[0].ToString(), docdate[1].ToString(), "docdate");
+            sql2 += ") and ";
+
+        }
+        sql2 = sql2.TrimEnd(" and ".ToCharArray());
+
+        if (sql2 == "")
+        {
+            sql = sql1.Substring(0, sql1.LastIndexOf("where "));
+
+        }
+        else
+        {
+            sql = sql + sql2;
+
+        }
+        return sql;
+    }
+
+    /// <summary>
+    /// 获取时间的SQL查询信息
+    /// </summary>
+    /// <param name="begintime"></param>
+    /// <param name="endtime"></param>
+    /// <param name="beginColumn"></param>
+    /// <returns></returns>
+    public string getTime(string begintime, string endtime, string beginColumn)
+    {
+        string sqlString = "";
+        DateTime mintime = Convert.ToDateTime(begintime);
+        DateTime maxtime = Convert.ToDateTime(endtime);
+
+        sqlString = string.Format("{2} between to_date('{0}','yyyy/mm/dd hh24:mi:ss') and to_date('{1}','yyyy/mm/dd hh24:mi:ss')", mintime, maxtime, beginColumn);
+        return sqlString;
+    }
+    
+    public DataSet AddDataHostInfo(DataSet ds)
+    {
+        if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+        {
+            ds.Tables[0].Columns.Add("Host");
+            for (int ii = 0; ii < ds.Tables[0].Rows.Count; ii++)
+            {
+                string ip = ds.Tables[0].Rows[ii]["HostIP"].ToString();
+
+                DataSet dsHost = MySqlOperator.GetDataSet(string.Format("SELECT NAME FROM db02.db02_hostsinfo where IPADDRESS like '{0}'",ip));
+
+                ds.Tables[0].Rows[ii]["Host"] = dsHost.Tables[0].Rows[0][0].ToString();
+
+            }
+
+        }
+
+        return ds;
+    }
+
+
+    public string SQLOrgan_Raster(List<DateTime> datetime, string dataName, string dataMark)
+    {
+      
+        string tablename = "db02.db02_userdata_raster";
+        string sql = string.Format("select ORDERCODE from {0} where ", tablename);
+        string sql2 = this.QueryCollection_Vector(tablename, datetime, dataName, dataMark);
+        return sql;
+    }
+    public string QueryCollection_Vector(string tablename, List<DateTime> datetime, string dataname, string usermark)
+    {
+        string QueryStr = "";
+        List<string> str = new List<string>();//位置sql
+        if (datetime.Count != 0)
+        {
+            QueryStr += "(";
+            DateTime dt1 = datetime[0];
+            DateTime dt2 = datetime[1];
+            QueryStr += string.Format("DataTime between '{0}' and '{1}'", dt1, dt2);
+            //QueryStr += searchHJ.getTime(Convert.ToString(dt1), Convert.ToString(dt2), "SCENEDATE");
+            QueryStr += ") and";
+        }
+        if (dataname != null)
+        {
+            QueryStr += " (";
+
+            QueryStr += string.Format(" DateName like '%{0}%'  ", dataname);
+
+            //addQueryStr = addQueryStr.TrimEnd(" or".ToCharArray()) + ")";
+
+            QueryStr += ") and";
+        }
+        if (usermark != null)
+        {
+            QueryStr += " (";
+            QueryStr += string.Format(" UserMark like '%{0}%'  ", usermark);
+            QueryStr += ") and ";
+        }
+        QueryStr = QueryStr.TrimEnd(" and ".ToCharArray());
+        return QueryStr;
+
+
+    }
+
+    public string QueryCollection_Algorithm(List<DateTime> datetime, string keyword)
+    {
+        string QueryStr = "";
+        List<string> str = new List<string>();//位置sql
+
+        if (datetime!=null&&datetime.Count != 0)
+        {
+            QueryStr += "(";
+            DateTime dt1 = datetime[0];
+            DateTime dt2 = datetime[1];
+            QueryStr += string.Format("UPDATE between '{0}' and '{1}'", dt1, dt2);
+            //QueryStr += searchHJ.getTime(Convert.ToString(dt1), Convert.ToString(dt2), "SCENEDATE");
+            QueryStr += ") and";
+        }
+        if (keyword != null)
+        {
+            QueryStr += " (";
+
+            QueryStr += string.Format(" CHALGNAME like '%{0}%'  ", keyword);
+
+            //addQueryStr = addQueryStr.TrimEnd(" or".ToCharArray()) + ")";
+
+            QueryStr += ") or";
+
+            QueryStr += " (";
+
+            QueryStr += string.Format(" ENGALGNAME like '%{0}%'  ", keyword);
+
+            //addQueryStr = addQueryStr.TrimEnd(" or".ToCharArray()) + ")";
+
+            QueryStr += ") or";
+
+            QueryStr += " (";
+            QueryStr += string.Format("ALGDESCRIPTION like '%{0}%'  ", keyword);
+            QueryStr += ") and ";
+        }
+        QueryStr = QueryStr.TrimEnd(" and ".ToCharArray());
+        return QueryStr;
+
+
+    }
+
+}

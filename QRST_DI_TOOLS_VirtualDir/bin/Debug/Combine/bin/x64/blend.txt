@@ -1,0 +1,2 @@
+E:\YaanGISSystem\Lanfang_AppSysWinForm\bin\Debug\tmp\mosaictiff\OriginalTiff
+E:\YaanGISSystem\Lanfang_AppSysWinForm\bin\Debug\tmp\mosaictiff\tiff4classify-4.tif

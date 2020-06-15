@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{450831E4-607C-49E2-BB37-3715803AB676}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QRST_DI_TS_Process</RootNamespace>
+    <AssemblyName>QRST_DI_TS-Process</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotSpatial.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Data.Rasters.GdalExtension">
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Data.Rasters.GdalExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Projections, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Projections.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Topology, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Topology.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\QRST_DI_TS-Basis\bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Orders\EnumDataType.cs" />
+    <Compile Include="Orders\InstalledOrders\IOAlgCmpBatchImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOBCDDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOCbersBatchImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOCbersDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOCopyAssistFiles.cs" />
+    <Compile Include="Orders\InstalledOrders\IODOCDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IODownLoadDOC.cs" />
+    <Compile Include="Orders\InstalledOrders\IODownLoadTiles.cs" />
+    <Compile Include="Orders\InstalledOrders\IODownLoadUserData.cs" />
+    <Compile Include="Orders\InstalledOrders\IOFullBackup.cs" />
+    <Compile Include="Orders\InstalledOrders\IOGF1CorrectedDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOGF1dataBatchImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOGF1DataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOGF3DataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOGF5DataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOGF6DataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOHHALOSDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOHJ1CDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOHJDataImportStandard.cs" />
+    <Compile Include="Orders\InstalledOrders\IOImportStandCmp.cs" />
+    <Compile Include="Orders\InstalledOrders\IOImportStandWfl.cs" />
+    <Compile Include="Orders\InstalledOrders\IOImportUserProduct.cs" />
+    <Compile Include="Orders\InstalledOrders\IOImportZipCmp.cs" />
+    <Compile Include="Orders\InstalledOrders\IOModisBatchImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IONoaaBatchImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IONormalDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IONormalHJBatchImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IONormalHJDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOPushTileFiles.cs" />
+    <Compile Include="Orders\InstalledOrders\IORasterBatchImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IODEMDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOHJdataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOGF1dataPrepare.cs" />
+    <Compile Include="Orders\InstalledOrders\IOModisDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IONoaaDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IORasterDataImportNew.cs" />
+    <Compile Include="Orders\InstalledOrders\IOSJ9ADataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOSortedVectorImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOSZWorldView2DataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOTileImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOTileSynchroneClient.cs" />
+    <Compile Include="Orders\InstalledOrders\IOTJ5MRSImageDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOTJQuickBirdDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOTMDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOUserDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOVectorBatchImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOVectorImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOZJCoastlandALOSDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOZY02cDataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOZY3DataImport.cs" />
+    <Compile Include="Orders\InstalledOrders\IOTileSynchroneServer.cs" />
+    <Compile Include="Orders\InstalledOrders\IODownLoadByP2P.cs" />
+    <Compile Include="Orders\OrderDef.cs" />
+    <Compile Include="Orders\OrderDefManager.cs" />
+    <Compile Include="Service References\JCGXCallBack\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service\TileIndex.cs" />
+    <Compile Include="Service\TileThumbnailViewCreator.cs" />
+    <Compile Include="Service\UserUploaderDataType.cs" />
+    <Compile Include="Site\TServerSiteMoniter.cs" />
+    <Compile Include="Synchron\SynchronType.cs" />
+    <Compile Include="Orders\OrderManager.cs" />
+    <Compile Include="Tasks\EnumTaskStatus.cs" />
+    <Compile Include="Tasks\InstalledTasks\HproseTcpClient.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITBCDDataImport.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITBCDDataQualityInspection.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITCombineTileIntoDir.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITCreateBCDDataWorkspace.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITCreateDataInputWSP.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITCreateGF5DataWorkspace.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITCreateGF6DataWorkspace.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITDataQualityInspection.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITDownLoadDOC.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITDownLoadTiles.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITFullBackup.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITGF3DataImport.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITGF5DataImport.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITGF5DataQualityInspection.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITGF6DataImport.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITGF6DataQualityInspection.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITHJ1CDataImport.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITHJDataImport.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITImportDocFile.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertDocMetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITMoveZipToDestDir.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITNormalDataImport.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITPerpareGF1Data.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITSendGF1Message.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITSJ9ADataImport.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITUnzipGFtargz4XmlJpg.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITCopyFiles.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITCreateCbersImage.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITCreateHJDataInputWSP.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITCreateHJImage.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITCreateNOAABitMap.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITCreateNoProcessWorkspace.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITCreateThumbnail.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITDownLoadData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITGetDataFromJCGX.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITGetMetaDataFile.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITGFDataImport.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITImportRasterFiles.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITImportStandardCmp.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITImportStandWfl.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITImportUserData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITImportUserProduct.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITImportVectorFiles.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITImportZipCmp.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertCbersMetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertDEMMetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertHHAlosMetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertHJMetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertModisMetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertNOAAMetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertNormalHJMetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertRasterMetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertSortedVectorMeta.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertSZWorldView2MetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertTJ5MRSImageMetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertTJQBIRDMetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertTMMetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertTZJCoastlandAlosMetaData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITInsertVectorMeta.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITOutputLoginfo.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITRasterDataImportNew.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITSendMessage.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITSendMessage2Preprocess.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITStoreGFCorData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITStoreHJData.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITStoreTiles.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITStoreTilesNew.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITUnzipHJtargz.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITUnzipHJtargz4XmlJpg.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITUnzipTarFile.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITUnzipTargz4XmlJpg.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITUnzipZipFile.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITUnzipZY3targzXmlJpg.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITFetchAndZipTileFiles.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITZY02cDataImport.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITZY3DataImport.cs" />
+    <Compile Include="Tasks\InstalledTasks\ITDownLoadDataP2P.cs" />
+    <Compile Include="Tasks\RemoteTaskClass.cs" />
+    <Compile Include="Tasks\CustomizedTaskClass.cs" />
+    <Compile Include="Tasks\taskdef.cs" />
+    <Compile Include="TSPCommonReference.cs" />
+    <Compile Include="Orders\EnumOrderPriority.cs" />
+    <Compile Include="Orders\EnumOrderType.cs" />
+    <Compile Include="Orders\OrderClass.cs" />
+    <Compile Include="Orders\EnumOrderStatusType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\ping.cs" />
+    <Compile Include="Site\TServerSiteManager.cs" />
+    <Compile Include="Site\TServerSiteStatus.cs" />
+    <Compile Include="Site\TServerSite.cs" />
+    <Compile Include="Tasks\EnumTaskType.cs" />
+    <Compile Include="Tasks\TaskClass.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\JCGXCallBack\WS_DB_Callback.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="StorageSite\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QRST_DI-Resources\QRST_DI-Resources.csproj">
+      <Project>{2CBD592C-5DC7-4ABE-AF91-E7649CD4908F}</Project>
+      <Name>QRST_DI-Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS-Basis\QRST_DI_DS-Basis.csproj">
+      <Project>{C31DA657-ED54-479E-80C2-8420AAD9532D}</Project>
+      <Name>QRST_DI_DS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS-Metadata\QRST_DI_DS-Metadata.csproj">
+      <Project>{0D696972-922C-4252-898D-4415A260C38D}</Project>
+      <Name>QRST_DI_DS-Metadata</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS_DataTransfer\QRST_DI_DS_DataTransfer.csproj">
+      <Project>{6FFBF245-C003-40AA-8568-29FCAAA0634E}</Project>
+      <Name>QRST_DI_DS_DataTransfer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_MS-Basis\QRST_DI_MS-Basis.csproj">
+      <Project>{FE9E2418-C7EA-4D0B-83CD-B2C70262BF1A}</Project>
+      <Name>QRST_DI_MS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_Basis\QRST_DI_SS_Basis.csproj">
+      <Project>{8ba4280f-807f-4345-a91e-8f42988954b2}</Project>
+      <Name>QRST_DI_SS_Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_DBClient\QRST_DI_SS_DBClient.csproj">
+      <Project>{dfaeeb36-fe07-4113-ba6b-870d62fb6f95}</Project>
+      <Name>QRST_DI_SS_DBClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_DBInterfaces\QRST_DI_SS_DBInterfaces.csproj">
+      <Project>{1495d023-5226-40c0-935f-044b4c72b53b}</Project>
+      <Name>QRST_DI_SS_DBInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_TS-Basis\QRST_DI_TS-Basis.csproj">
+      <Project>{BAA54246-EE88-4BD8-84C8-04D363462285}</Project>
+      <Name>QRST_DI_TS-Basis</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\JCGXCallBack\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\JCGXCallBack\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\JCGXCallBack\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\JCGXCallBack\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

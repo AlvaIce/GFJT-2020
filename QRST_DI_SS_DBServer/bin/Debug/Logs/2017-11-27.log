@@ -1,0 +1,48 @@
+!!!异常2017/11/27 19:37:46:System.Exception: Create:获取元数据异常 ---> System.Exception: create:获取元数据异常 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 202.121.180.89:51112
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 QRST_DI_SS_DBInterfaces.IDBEngine.IDbOperating.GetSubDbUtilities(EnumDBType dbtype)
+   在 QRST_DI_Resources.Constant.create() 位置 F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI-Resources\Constant.cs:行号 818
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.create() 位置 F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI-Resources\Constant.cs:行号 947
+   在 QRST_DI_Resources.Constant.Create() 位置 F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI-Resources\Constant.cs:行号 975
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.Create() 位置 F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI-Resources\Constant.cs:行号 981
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI_SS_DBServer\Program.cs:行号 66
+!!!异常2017/11/27 19:57:39:System.Exception: Create:获取元数据异常 ---> System.Exception: create:获取元数据异常 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 202.121.180.89:51112
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 QRST_DI_SS_DBInterfaces.IDBEngine.IDbOperating.GetSubDbUtilities(EnumDBType dbtype)
+   在 QRST_DI_Resources.Constant.create() 位置 F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI-Resources\Constant.cs:行号 818
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.create() 位置 F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI-Resources\Constant.cs:行号 947
+   在 QRST_DI_Resources.Constant.Create() 位置 F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI-Resources\Constant.cs:行号 975
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.Create() 位置 F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI-Resources\Constant.cs:行号 981
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI_SS_DBServer\Program.cs:行号 66

@@ -1,0 +1,144 @@
+!!!异常2017/7/27 10:13:13:System.Exception: Create:获取元数据异常 ---> System.Exception: create:获取元数据异常 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.10.10.25:51102
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 QRST_DI_SS_DBInterfaces.IDBEngine.IDbOperating.GetSubDbUtilities(EnumDBType dbtype)
+   在 QRST_DI_Resources.Constant.create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 818
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 947
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 975
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 981
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_SS_DBServer\Program.cs:行号 66
+!!!异常2017/7/27 11:18:24:System.Exception: Create:获取元数据异常 ---> System.Exception: create:获取元数据异常 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.10.10.25:51102
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 QRST_DI_SS_DBInterfaces.IDBEngine.IDbOperating.GetSubDbUtilities(EnumDBType dbtype)
+   在 QRST_DI_Resources.Constant.create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 818
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 947
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 975
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 981
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_SS_DBServer\Program.cs:行号 66
+!!!异常2017/7/27 11:21:59:System.Exception: Create:获取元数据异常 ---> System.Exception: create:获取元数据异常 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.10.10.25:51102
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 QRST_DI_SS_DBInterfaces.IDBEngine.IDbOperating.GetSubDbUtilities(EnumDBType dbtype)
+   在 QRST_DI_Resources.Constant.create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 818
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 947
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 975
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 981
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_SS_DBServer\Program.cs:行号 66
+!!!异常2017/7/27 11:35:04:System.Exception: Create:获取元数据异常 ---> System.Exception: create:获取元数据异常 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.10.10.25:51102
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 QRST_DI_SS_DBInterfaces.IDBEngine.IDbOperating.GetSubDbUtilities(EnumDBType dbtype)
+   在 QRST_DI_Resources.Constant.create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 818
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 947
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 975
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 981
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_SS_DBServer\Program.cs:行号 66
+!!!异常2017/7/27 11:37:44:System.Exception: Create:获取元数据异常 ---> System.Exception: create:获取元数据异常 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.10.10.25:51102
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 QRST_DI_SS_DBInterfaces.IDBEngine.IDbOperating.GetSubDbUtilities(EnumDBType dbtype)
+   在 QRST_DI_Resources.Constant.create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 818
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 947
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 975
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 981
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_SS_DBServer\Program.cs:行号 66
+!!!异常2017/7/27 14:01:38:System.Exception: Create:获取元数据异常 ---> System.Exception: create:获取元数据异常 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.10.10.25:51112
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 QRST_DI_SS_DBInterfaces.IDBEngine.IDbOperating.GetSubDbUtilities(EnumDBType dbtype)
+   在 QRST_DI_Resources.Constant.create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 818
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 947
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 975
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 981
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_SS_DBServer\Program.cs:行号 66

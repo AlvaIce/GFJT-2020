@@ -1,0 +1,48 @@
+Version:1.7.0618.1519
+#########数据库服务信息#########
+数据库服务通信端口：51102
+数据库服务器地址：192.168.10.28
+#########服务状态信息#########
+SLOperatingTCPServer服务已启动，开始监听...
+SLUtilitiesTCPServer服务已启动，开始监听...
+Version:1.7.0618.1519
+#########数据库服务信息#########
+数据库服务通信端口：51102
+数据库服务器地址：192.168.10.28
+#########服务状态信息#########
+SLOperatingTCPServer服务已启动，开始监听...
+SLUtilitiesTCPServer服务已启动，开始监听...
+Version:1.7.0618.1519
+#########数据库服务信息#########
+数据库服务通信端口：51102
+数据库服务器地址：192.168.10.28
+#########服务状态信息#########
+SLOperatingTCPServer服务已启动，开始监听...
+SLUtilitiesTCPServer服务已启动，开始监听...
+!!!异常2017/6/22 14:52:25:Create
+!!!异常2017/6/22 14:56:49:System.Exception: Create ---> System.Exception: create ---> System.DivideByZeroException: 尝试除以零。
+   在 QRST_DI_Resources.Constant.create() 位置 E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 773
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.create() 位置 E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 903
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 931
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 937
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_SS_DBServer\Program.cs:行号 58
+!!!异常2017/6/22 14:59:33:System.Exception: Create ---> System.Exception: create ---> System.DivideByZeroException: 尝试除以零。
+
+Server stack trace: 
+   在 QRST_DI_DS_DBEngine.DBSQLiteOperating.GetSubDbUtilities(EnumDBType dbtype) 位置 E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_DS_DBEngine\DBSQLiteOperating.cs:行号 34
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 QRST_DI_SS_DBInterfaces.IDBEngine.IDbOperating.GetSubDbUtilities(EnumDBType dbtype)
+   在 QRST_DI_Resources.Constant.create() 位置 E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 773
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.create() 位置 E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 902
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 930
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 QRST_DI_Resources.Constant.Create() 位置 E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI-Resources\Constant.cs:行号 936
+   在 QRST_DI_SS_DBServer.Program.Main(String[] args) 位置 E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_SS_DBServer\Program.cs:行号 58
