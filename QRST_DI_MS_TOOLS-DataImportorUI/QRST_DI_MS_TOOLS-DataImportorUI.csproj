@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BE8A0007-F811-4169-83A6-EA838F31588A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QRST_DI_MS_TOOLS_DataImportorUI</RootNamespace>
+    <AssemblyName>QRST_DI_MS_TOOLS-DataImportorUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.5.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DotSpatial.Data">
+      <HintPath>..\QRST_DI_MS-Console V2.0\ref\DotSpatial.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Projections">
+      <HintPath>..\QRST_DI_MS-Console V2.0\ref\DotSpatial.Projections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\QRST_DI_MS-Console V2.0\ref\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\QRST_DI_MS-Console V2.0\ref\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="QRST_DI_MS_TOOLS-DataImportorUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\WaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\WaitForm.designer.cs">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MouldDoc\ctrlMouldDocImportor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MouldDoc\ctrlMouldDocImportor.Designer.cs">
+      <DependentUpon>ctrlMouldDocImportor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NormalFile\ctrlNormalFileImportor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NormalFile\ctrlNormalFileImportor.Designer.cs">
+      <DependentUpon>ctrlNormalFileImportor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Raster\ctrlRasterProdImportor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Raster\ctrlRasterProdImportor.Designer.cs">
+      <DependentUpon>ctrlRasterProdImportor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Raster\SingleDataImageProd.cs" />
+    <Compile Include="TAR.GZ\AutomaticTarImport.cs" />
+    <Compile Include="TAR.GZ\UCImportTarGZ.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TAR.GZ\UCImportTarGZ.Designer.cs">
+      <DependentUpon>UCImportTarGZ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TAR.GZ\SourceDataDelete.cs" />
+    <Compile Include="TAR.GZ\XML_Tree.cs" />
+    <Compile Include="Tiles\TileStore.cs" />
+    <Compile Include="Tiles\UCTileImport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tiles\UCTileImport.Designer.cs">
+      <DependentUpon>UCTileImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vector\ctrlVectorBatchImportLst.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vector\ctrlVectorBatchImportLst.designer.cs">
+      <DependentUpon>ctrlVectorBatchImportLst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vector\ctrlVectorDataImport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vector\ctrlVectorDataImport.designer.cs">
+      <DependentUpon>ctrlVectorDataImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vector\ctrlVectorMetaData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vector\ctrlVectorMetaData.designer.cs">
+      <DependentUpon>ctrlVectorMetaData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vector\CtrlVectorUserMetaDataSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vector\CtrlVectorUserMetaDataSetting.Designer.cs">
+      <DependentUpon>CtrlVectorUserMetaDataSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vector\ImportVectorData.cs" />
+    <Compile Include="Vector\SingleDataVector.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="TAR.GZ\FaceTree\TypeTree.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Common\WaitForm.resx">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MouldDoc\ctrlMouldDocImportor.resx">
+      <DependentUpon>ctrlMouldDocImportor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NormalFile\ctrlNormalFileImportor.resx">
+      <DependentUpon>ctrlNormalFileImportor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Raster\ctrlRasterProdImportor.resx">
+      <DependentUpon>ctrlRasterProdImportor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TAR.GZ\UCImportTarGZ.resx">
+      <DependentUpon>UCImportTarGZ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tiles\UCTileImport.resx">
+      <DependentUpon>UCTileImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vector\ctrlVectorBatchImportLst.resx">
+      <DependentUpon>ctrlVectorBatchImportLst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vector\ctrlVectorDataImport.resx">
+      <DependentUpon>ctrlVectorDataImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vector\ctrlVectorMetaData.resx">
+      <DependentUpon>ctrlVectorMetaData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vector\CtrlVectorUserMetaDataSetting.resx">
+      <DependentUpon>CtrlVectorUserMetaDataSetting.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QRST_DI_DS-Basis\QRST_DI_DS-Basis.csproj">
+      <Project>{C31DA657-ED54-479E-80C2-8420AAD9532D}</Project>
+      <Name>QRST_DI_DS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS-Metadata\QRST_DI_DS-Metadata.csproj">
+      <Project>{0D696972-922C-4252-898D-4415A260C38D}</Project>
+      <Name>QRST_DI_DS-Metadata</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_MS-Basis\QRST_DI_MS-Basis.csproj">
+      <Project>{FE9E2418-C7EA-4D0B-83CD-B2C70262BF1A}</Project>
+      <Name>QRST_DI_MS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_TS-Basis\QRST_DI_TS-Basis.csproj">
+      <Project>{BAA54246-EE88-4BD8-84C8-04D363462285}</Project>
+      <Name>QRST_DI_TS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_TS-Process\QRST_DI_TS-Process.csproj">
+      <Project>{450831E4-607C-49E2-BB37-3715803AB676}</Project>
+      <Name>QRST_DI_TS-Process</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

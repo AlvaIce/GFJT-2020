@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://service.bp.zjugis.edu" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://service.bp.zjugis.edu" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>CityObjService</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service.bp.zjugis.edu">
+      <xs:element name="getTypes">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTypesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getQueryCityObjs">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="dts" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dte" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="csmbmc" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="csmblb" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pagenum" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pagesize" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getQueryCityObjsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGPSJ">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="fseq" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGPSJResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getCSMBMC">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getCSMBMCResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getQueryCityObjsRequest">
+    <wsdl:part name="parameters" element="ns:getQueryCityObjs" />
+  </wsdl:message>
+  <wsdl:message name="getQueryCityObjsResponse">
+    <wsdl:part name="parameters" element="ns:getQueryCityObjsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getGPSJRequest">
+    <wsdl:part name="parameters" element="ns:getGPSJ" />
+  </wsdl:message>
+  <wsdl:message name="getGPSJResponse">
+    <wsdl:part name="parameters" element="ns:getGPSJResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTypesRequest">
+    <wsdl:part name="parameters" element="ns:getTypes" />
+  </wsdl:message>
+  <wsdl:message name="getTypesResponse">
+    <wsdl:part name="parameters" element="ns:getTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCSMBMCRequest">
+    <wsdl:part name="parameters" element="ns:getCSMBMC" />
+  </wsdl:message>
+  <wsdl:message name="getCSMBMCResponse">
+    <wsdl:part name="parameters" element="ns:getCSMBMCResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CityObjServicePortType">
+    <wsdl:operation name="getQueryCityObjs">
+      <wsdl:input wsaw:Action="urn:getQueryCityObjs" message="ns:getQueryCityObjsRequest" />
+      <wsdl:output wsaw:Action="urn:getQueryCityObjsResponse" message="ns:getQueryCityObjsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getGPSJ">
+      <wsdl:input wsaw:Action="urn:getGPSJ" message="ns:getGPSJRequest" />
+      <wsdl:output wsaw:Action="urn:getGPSJResponse" message="ns:getGPSJResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <wsdl:input wsaw:Action="urn:getTypes" message="ns:getTypesRequest" />
+      <wsdl:output wsaw:Action="urn:getTypesResponse" message="ns:getTypesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getCSMBMC">
+      <wsdl:input wsaw:Action="urn:getCSMBMC" message="ns:getCSMBMCRequest" />
+      <wsdl:output wsaw:Action="urn:getCSMBMCResponse" message="ns:getCSMBMCResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CityObjServiceSoap11Binding" type="ns:CityObjServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getQueryCityObjs">
+      <soap:operation soapAction="urn:getQueryCityObjs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGPSJ">
+      <soap:operation soapAction="urn:getGPSJ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <soap:operation soapAction="urn:getTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCSMBMC">
+      <soap:operation soapAction="urn:getCSMBMC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CityObjServiceSoap12Binding" type="ns:CityObjServicePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getQueryCityObjs">
+      <soap12:operation soapAction="urn:getQueryCityObjs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGPSJ">
+      <soap12:operation soapAction="urn:getGPSJ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <soap12:operation soapAction="urn:getTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCSMBMC">
+      <soap12:operation soapAction="urn:getCSMBMC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CityObjServiceHttpBinding" type="ns:CityObjServicePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getQueryCityObjs">
+      <http:operation location="getQueryCityObjs" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGPSJ">
+      <http:operation location="getGPSJ" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <http:operation location="getTypes" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCSMBMC">
+      <http:operation location="getCSMBMC" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CityObjService">
+    <wsdl:port name="CityObjServiceHttpSoap11Endpoint" binding="ns:CityObjServiceSoap11Binding">
+      <soap:address location="http://192.168.1.100:8080/bpServ/services/CityObjService.CityObjServiceHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="CityObjServiceHttpSoap12Endpoint" binding="ns:CityObjServiceSoap12Binding">
+      <soap12:address location="http://192.168.1.100:8080/bpServ/services/CityObjService.CityObjServiceHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="CityObjServiceHttpEndpoint" binding="ns:CityObjServiceHttpBinding">
+      <http:address location="http://192.168.1.100:8080/bpServ/services/CityObjService.CityObjServiceHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

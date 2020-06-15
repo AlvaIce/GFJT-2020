@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://service.bp.zjugis.edu" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://service.bp.zjugis.edu" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>AtmosphereService</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service.bp.zjugis.edu">
+      <xs:element name="getZDMC">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getZDMCResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getZDBH">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getZDBHResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getQueryAtmospheres">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="maxLat" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="maxLng" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="minLat" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="minLng" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="zdmc" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="zdbh" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pagenum" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pagesize" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getQueryAtmospheresResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getZDMCRequest">
+    <wsdl:part name="parameters" element="ns:getZDMC" />
+  </wsdl:message>
+  <wsdl:message name="getZDMCResponse">
+    <wsdl:part name="parameters" element="ns:getZDMCResponse" />
+  </wsdl:message>
+  <wsdl:message name="getQueryAtmospheresRequest">
+    <wsdl:part name="parameters" element="ns:getQueryAtmospheres" />
+  </wsdl:message>
+  <wsdl:message name="getQueryAtmospheresResponse">
+    <wsdl:part name="parameters" element="ns:getQueryAtmospheresResponse" />
+  </wsdl:message>
+  <wsdl:message name="getZDBHRequest">
+    <wsdl:part name="parameters" element="ns:getZDBH" />
+  </wsdl:message>
+  <wsdl:message name="getZDBHResponse">
+    <wsdl:part name="parameters" element="ns:getZDBHResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AtmosphereServicePortType">
+    <wsdl:operation name="getZDMC">
+      <wsdl:input wsaw:Action="urn:getZDMC" message="ns:getZDMCRequest" />
+      <wsdl:output wsaw:Action="urn:getZDMCResponse" message="ns:getZDMCResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getQueryAtmospheres">
+      <wsdl:input wsaw:Action="urn:getQueryAtmospheres" message="ns:getQueryAtmospheresRequest" />
+      <wsdl:output wsaw:Action="urn:getQueryAtmospheresResponse" message="ns:getQueryAtmospheresResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getZDBH">
+      <wsdl:input wsaw:Action="urn:getZDBH" message="ns:getZDBHRequest" />
+      <wsdl:output wsaw:Action="urn:getZDBHResponse" message="ns:getZDBHResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AtmosphereServiceSoap11Binding" type="ns:AtmosphereServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getZDMC">
+      <soap:operation soapAction="urn:getZDMC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQueryAtmospheres">
+      <soap:operation soapAction="urn:getQueryAtmospheres" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getZDBH">
+      <soap:operation soapAction="urn:getZDBH" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AtmosphereServiceSoap12Binding" type="ns:AtmosphereServicePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getZDMC">
+      <soap12:operation soapAction="urn:getZDMC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQueryAtmospheres">
+      <soap12:operation soapAction="urn:getQueryAtmospheres" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getZDBH">
+      <soap12:operation soapAction="urn:getZDBH" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AtmosphereServiceHttpBinding" type="ns:AtmosphereServicePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getZDMC">
+      <http:operation location="getZDMC" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQueryAtmospheres">
+      <http:operation location="getQueryAtmospheres" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getZDBH">
+      <http:operation location="getZDBH" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AtmosphereService">
+    <wsdl:port name="AtmosphereServiceHttpSoap11Endpoint" binding="ns:AtmosphereServiceSoap11Binding">
+      <soap:address location="http://192.168.1.100:8080/bpServ/services/AtmosphereService.AtmosphereServiceHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="AtmosphereServiceHttpSoap12Endpoint" binding="ns:AtmosphereServiceSoap12Binding">
+      <soap12:address location="http://192.168.1.100:8080/bpServ/services/AtmosphereService.AtmosphereServiceHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="AtmosphereServiceHttpEndpoint" binding="ns:AtmosphereServiceHttpBinding">
+      <http:address location="http://192.168.1.100:8080/bpServ/services/AtmosphereService.AtmosphereServiceHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

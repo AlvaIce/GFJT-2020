@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+***********************************************************************************************
+website.publishproj
+
+警告: 请勿修改此文件，它将用于 Web 发布过程。
+
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+***********************************************************************************************
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8e5ea604-1bfb-4650-8fb1-8c34efa3ccd4}</ProjectGuid>
+    <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
+    <SourceWebVirtualPath>/WS_QDB_GetData</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebMetabasePath>
+    </SourceWebMetabasePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- for VS2010 we need to use 10.5 but for VS2012+ we should use VisualStudioVersion -->
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)' =='' and '$(VisualStudioVersion)' == 10.0 ">10.5</WebPublishTargetsVersion>
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)'=='' ">$(VisualStudioVersion)</WebPublishTargetsVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(WebPublishTargetsVersion)</VSToolsPath>
+    <_WebPublishTargetsPath Condition=" '$(_WebPublishTargetsPath)'=='' ">$(VSToolsPath)</_WebPublishTargetsPath>
+    <AssemblyFileVersion Condition="'$(AssemblyFileVersion)' == ''">1.0.0.0</AssemblyFileVersion>
+    <AssemblyVersion Condition="'$(AssemblyVersion)' == ''">1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QRST_DI-Resources\QRST_DI-Resources.csproj">
+      <Project>{2CBD592C-5DC7-4ABE-AF91-E7649CD4908F}</Project>
+      <Name>QRST_DI-Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS-Basis\QRST_DI_DS-Basis.csproj">
+      <Project>{C31DA657-ED54-479E-80C2-8420AAD9532D}</Project>
+      <Name>QRST_DI_DS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS-Metadata\QRST_DI_DS-Metadata.csproj">
+      <Project>{0D696972-922C-4252-898D-4415A260C38D}</Project>
+      <Name>QRST_DI_DS-Metadata</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS_DataTransfer\QRST_DI_DS_DataTransfer.csproj">
+      <Project>{6FFBF245-C003-40AA-8568-29FCAAA0634E}</Project>
+      <Name>QRST_DI_DS_DataTransfer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_MS-Basis\QRST_DI_MS-Basis.csproj">
+      <Project>{FE9E2418-C7EA-4D0B-83CD-B2C70262BF1A}</Project>
+      <Name>QRST_DI_MS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_Basis\QRST_DI_SS_Basis.csproj">
+      <Project>{8BA4280F-807F-4345-A91E-8F42988954B2}</Project>
+      <Name>QRST_DI_SS_Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_DBClient\QRST_DI_SS_DBClient.csproj">
+      <Project>{DFAEEB36-FE07-4113-BA6B-870D62FB6F95}</Project>
+      <Name>QRST_DI_SS_DBClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_DBInterfaces\QRST_DI_SS_DBInterfaces.csproj">
+      <Project>{1495D023-5226-40C0-935F-044B4C72B53B}</Project>
+      <Name>QRST_DI_SS_DBInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_TS-Basis\QRST_DI_TS-Basis.csproj">
+      <Project>{BAA54246-EE88-4BD8-84C8-04D363462285}</Project>
+      <Name>QRST_DI_TS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_TS-Process\QRST_DI_TS-Process.csproj">
+      <Project>{450831E4-607C-49E2-BB37-3715803AB676}</Project>
+      <Name>QRST_DI_TS-Process</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(_WebPublishTargetsPath)\Web\Microsoft.WebSite.Publishing.targets" />
+</Project>

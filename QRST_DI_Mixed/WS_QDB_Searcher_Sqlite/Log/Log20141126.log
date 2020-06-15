@@ -1,0 +1,22 @@
+ 时间：2014-11-26 14:52:00,889 线程ID:[5] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 输入:row=9 col=9 tileLevel=12
+  时间：2014-11-26 14:52:03,135 线程ID:[5] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 返回:DataSet为空
+  时间：2014-11-26 17:08:37,725 线程ID:[10] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 输入:row=121 col=121 tileLevel=10
+  时间：2014-11-26 17:09:19,945 线程ID:[10] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 返回:DataSet为空
+  时间：2014-11-26 17:11:01,768 线程ID:[10] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 输入:row=2 col=2 tileLevel=2
+  时间：2014-11-26 17:11:43,988 线程ID:[10] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 返回:DataSet为空
+  时间：2014-11-26 17:26:03,006 线程ID:[28] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：TilePathsList 输入:切片文件名List<string>=你好,ju,
+  时间：2014-11-26 17:26:03,016 线程ID:[28] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：TilePathsList 返回:切片路径List<string>=
+  时间：2014-11-26 17:30:59,121 线程ID:[10] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：TilePathsList 输入:切片文件名List<string>=3,5,
+  时间：2014-11-26 17:30:59,131 线程ID:[10] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：TilePathsList 返回:切片路径List<string>=
+  时间：2014-11-26 17:36:36,059 线程ID:[9] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：TilePathsList 输入:切片文件名List<string>=3,5,
+  时间：2014-11-26 17:37:01,200 线程ID:[9] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：TilePathsList 返回:切片路径List<string>=
+  时间：2014-11-26 17:38:28,856 线程ID:[23] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：TilePathsList 输入:切片文件名List<string>=3,5,
+  时间：2014-11-26 17:38:28,865 线程ID:[23] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：TilePathsList 返回:切片路径List<string>=空
+  时间：2014-11-26 20:58:53,342 线程ID:[8] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 输入:row=13 col=13 tileLevel=3
+  时间：2014-11-26 20:59:35,597 线程ID:[8] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 返回:DataSet为空
+  时间：2014-11-26 22:54:03,802 线程ID:[18] Test:[1,[2,[3,[4,[5,[6,],
+  时间：2014-11-26 22:57:01,696 线程ID:[19] Test:1,2,3,4,5,6,4,5,6,],
+  时间：2014-11-26 23:01:12,542 线程ID:[19] Test:[1,2,3,],[1,2,3,],[4,5,6,],[1,2,3,],[1,2,3,],[4,5,6,],[4,5,6,],
+  时间：2014-11-26 23:05:52,838 线程ID:[15] Test:[1,2,3,],[1,2,3,],[4,5,6,],[1,2,3,],[1,2,3,],[4,5,6,],[4,5,6,],
+  时间：2014-11-26 23:07:32,982 线程ID:[18] Test:[1,2,3,],[4,5,6,],[4,5,6,],
+ 

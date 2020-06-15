@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D696972-922C-4252-898D-4415A260C38D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QRST_DI_DS_Metadata</RootNamespace>
+    <AssemblyName>QRST_DI_DS-Metadata</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DotSpatial.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Data.Rasters.GdalExtension">
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Data.Rasters.GdalExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Mono, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Mono.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Projections, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Projections.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Serialization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Topology, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Topology.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataImportPlugin\IDataImport.cs" />
+    <Compile Include="DataImportPlugin\IOrderInterface.cs" />
+    <Compile Include="DataImportPlugin\SJ9ADataImport.cs" />
+    <Compile Include="EnumDataKind.cs" />
+    <Compile Include="EnumDataTypes.cs" />
+    <Compile Include="MetaDataCls\Atmosphere.cs" />
+    <Compile Include="MetaDataCls\BopuData.cs" />
+    <Compile Include="MetaDataCls\CityObj.cs" />
+    <Compile Include="MetaDataCls\GetClassify.cs" />
+    <Compile Include="MetaDataCls\MetaAlgorithmCmp.cs" />
+    <Compile Include="MetaDataCls\MetaAlogrithmpara.cs" />
+    <Compile Include="MetaDataCls\MetaData.cs" />
+    <Compile Include="MetaDataCls\MetaDataAHSIGF5.cs" />
+    <Compile Include="MetaDataCls\MetaDataAIUSGF5.cs" />
+    <Compile Include="MetaDataCls\MetaDataBCD.cs" />
+    <Compile Include="MetaDataCls\MetaDataCbers.cs" />
+    <Compile Include="MetaDataCls\MetaDataDoc.cs" />
+    <Compile Include="MetaDataCls\MetaDataDocSpecial.cs" />
+    <Compile Include="MetaDataCls\MetaDataDPCGF5.cs" />
+    <Compile Include="MetaDataCls\MetaDataEMIGF5.cs" />
+    <Compile Include="MetaDataCls\MetaDataGF3.cs" />
+    <Compile Include="MetaDataCls\MetaDataGF6.cs" />
+    <Compile Include="MetaDataCls\MetaDataGMIGF5.cs" />
+    <Compile Include="MetaDataCls\MetaDataHJ1C.cs" />
+    <Compile Include="MetaDataCls\MetaDataObject.cs" />
+    <Compile Include="MetaDataCls\MetaDataRasterSpecial.cs" />
+    <Compile Include="MetaDataCls\MetaDataSJ9A.cs" />
+    <Compile Include="MetaDataCls\MetaDataVectorSpecial.cs" />
+    <Compile Include="MetaDataCls\MetaDataVIMSGF5.cs" />
+    <Compile Include="MetaDataCls\MetaDataZY02C.cs" />
+    <Compile Include="MetaDataCls\MetaDataFactory.cs" />
+    <Compile Include="MetaDataCls\MetaDataGF1.cs" />
+    <Compile Include="MetaDataCls\MetaDataHj.cs" />
+    <Compile Include="MetaDataCls\MetaDataModis.cs" />
+    <Compile Include="MetaDataCls\MetaDataNOAA.cs" />
+    <Compile Include="MetaDataCls\MetaDataProWflRelation.cs" />
+    <Compile Include="MetaDataCls\MetaDataPublicInfo.cs" />
+    <Compile Include="MetaDataCls\MetaDataRaster.cs" />
+    <Compile Include="MetaDataCls\MetaDataParaUtility.cs" />
+    <Compile Include="MetaDataCls\MetaDataStandAlgCmp.cs" />
+    <Compile Include="MetaDataCls\MetaDataStandardPublicInfo.cs" />
+    <Compile Include="MetaDataCls\MetaDataStandardToolkit.cs" />
+    <Compile Include="MetaDataCls\MetaDataStandProWfl.cs" />
+    <Compile Include="MetaDataCls\MetaDataUserDocument.cs" />
+    <Compile Include="MetaDataCls\MetaDataUserProduct.cs" />
+    <Compile Include="MetaDataCls\MetaDataUserRaster.cs" />
+    <Compile Include="MetaDataCls\MetaDataUserToolKit.cs" />
+    <Compile Include="MetaDataCls\MetaDataVector.cs" />
+    <Compile Include="MetaDataCls\MetaDataZY3.cs" />
+    <Compile Include="MetaDataCls\RockMineral.cs" />
+    <Compile Include="MetaDataCls\Soil.cs" />
+    <Compile Include="MetaDataCls\TimeConvert.cs" />
+    <Compile Include="MetaDataCls\Vegetation.cs" />
+    <Compile Include="MetaDataCls\Water.cs" />
+    <Compile Include="MetaDataCls\MetaDataImageProd.cs" />
+    <Compile Include="MetaDataCls\MetaDataNormalFile.cs" />
+    <Compile Include="MetaDataCls\MetaDataMouldDoc.cs" />
+    <Compile Include="MetaDataCompression.cs" />
+    <Compile Include="MetaDataDBImporter.cs" />
+    <Compile Include="MetaDataDefiner\Dal\AreaLocationQuery.cs" />
+    <Compile Include="MetaDataDefiner\Dal\metadatacatalognode_Dal.cs" />
+    <Compile Include="MetaDataDefiner\Dal\metadatacatalognode_r_Dal.cs" />
+    <Compile Include="MetaDataDefiner\Dal\tablecode_Dal.cs" />
+    <Compile Include="MetaDataDefiner\Dal\table_view_Dal.cs" />
+    <Compile Include="MetaDataDefiner\Externaldb.cs" />
+    <Compile Include="MetaDataDefiner\Mdl\COLUMNS_Mdl.cs" />
+    <Compile Include="MetaDataDefiner\Mdl\INDEX_Mdl.cs" />
+    <Compile Include="MetaDataDefiner\Mdl\metadatacatalognode_Mdl.cs" />
+    <Compile Include="MetaDataDefiner\Mdl\metadatacatalognode_r_Mdl.cs" />
+    <Compile Include="MetaDataDefiner\Mdl\tablecode_Mdl.cs" />
+    <Compile Include="MetaDataDefiner\Mdl\TABLES_Mdl.cs" />
+    <Compile Include="MetaDataDefiner\Mdl\table_view_Mdl.cs" />
+    <Compile Include="MetaDataDefiner\MySqlDB.cs" />
+    <Compile Include="MetaDataDefiner\Satellite.cs" />
+    <Compile Include="MetaDataDefiner\Sensor.cs" />
+    <Compile Include="MetaDataDefiner\SiteDb.cs" />
+    <Compile Include="MetaDataReader.cs" />
+    <Compile Include="Paths\StoragePath.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\gdal17.dll" />
+    <Content Include="bin\Debug\gdalconst_csharp.dll" />
+    <Content Include="bin\Debug\gdalconst_wrap.dll" />
+    <Content Include="bin\Debug\gdal_csharp.dll" />
+    <Content Include="bin\Debug\gdal_HDF5.dll" />
+    <Content Include="bin\Debug\gdal_wrap.dll" />
+    <Content Include="bin\Debug\hd425m.dll" />
+    <Content Include="bin\Debug\hm425m.dll" />
+    <Content Include="bin\Debug\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="bin\Debug\zlib1.dll" />
+    <None Include="Resources\spectrum.png" />
+    <None Include="Resources\tile.png" />
+    <None Include="Resources\tile.bmp" />
+    <None Include="Resources\vector.png" />
+    <None Include="Resources\table2.png" />
+    <None Include="Resources\table.png" />
+    <None Include="Resources\raster.png" />
+    <None Include="Resources\file.png" />
+    <None Include="Resources\db.png" />
+    <None Include="Resources\dataset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QRST_DI-Resources\QRST_DI-Resources.csproj">
+      <Project>{2CBD592C-5DC7-4ABE-AF91-E7649CD4908F}</Project>
+      <Name>QRST_DI-Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS-Basis\QRST_DI_DS-Basis.csproj">
+      <Project>{c31da657-ed54-479e-80c2-8420aad9532d}</Project>
+      <Name>QRST_DI_DS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_Basis\QRST_DI_SS_Basis.csproj">
+      <Project>{8ba4280f-807f-4345-a91e-8f42988954b2}</Project>
+      <Name>QRST_DI_SS_Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_DBInterfaces\QRST_DI_SS_DBInterfaces.csproj">
+      <Project>{1495d023-5226-40c0-935f-044b4c72b53b}</Project>
+      <Name>QRST_DI_SS_DBInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

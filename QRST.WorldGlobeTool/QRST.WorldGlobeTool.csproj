@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9AC490BC-BABF-404B-8667-91A76FB67D8F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QRST.WorldGlobeTool</RootNamespace>
+    <AssemblyName>QRST.WorldGlobeTool</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotSpatial.Data, Version=1.5.0.0, Culture=neutral, PublicKeyToken=c29dbf30e059ca9d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Data.Rasters.GdalExtension">
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Data.Rasters.GdalExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Mono, Version=1.5.0.0, Culture=neutral, PublicKeyToken=425ba4de41127026, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Mono.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Projections, Version=0.11.9.6, Culture=neutral, PublicKeyToken=272632bddd08a38b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Projections.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Serialization, Version=1.5.0.0, Culture=neutral, PublicKeyToken=441f200f827611e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Topology, Version=0.11.9.6, Culture=neutral, PublicKeyToken=a66b5e9434ca3671, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Topology.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2908.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.JScript" />
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Stores\TiledImageStore.cs" />
+    <Compile Include="Tool\BaseWwTool.cs" />
+    <Compile Include="Camera\CameraBase.cs" />
+    <Compile Include="Camera\MomentumCamera.cs" />
+    <Compile Include="Camera\WorldCamera.cs" />
+    <Compile Include="DrawArgs.cs" />
+    <Compile Include="DrawUtility\DrawBaseLayer.cs" />
+    <Compile Include="DrawUtility\DrawExtentsLayer.cs" />
+    <Compile Include="DrawUtility\DrawPolygenLayer.cs" />
+    <Compile Include="DrawUtility\DrawPolygenTool.cs" />
+    <Compile Include="DrawUtility\DrawPolygons.cs" />
+    <Compile Include="DrawUtility\DrawPolylineLayer.cs" />
+    <Compile Include="DrawUtility\DrawPolyLineTool.cs" />
+    <Compile Include="DrawUtility\DrawRectangleLayer.cs" />
+    <Compile Include="DrawUtility\DrawRectangleTool.cs" />
+    <Compile Include="DrawUtility\DrawShapefileLayer.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Geometries\LinearRing.cs" />
+    <Compile Include="Geometries\Point2d.cs" />
+    <Compile Include="Geometries\Point3d.cs" />
+    <Compile Include="Geometries\Polygon.cs" />
+    <Compile Include="Geometries\Quaternion4d.cs" />
+    <Compile Include="Globe\EarthGlobe.cs" />
+    <Compile Include="Globe\IGlobe.cs" />
+    <Compile Include="Tool\MeasureTool.cs" />
+    <Compile Include="Menu\IMenu.cs" />
+    <Compile Include="Menu\LatLonMenuButton.cs" />
+    <Compile Include="Menu\LayerManagerButton.cs" />
+    <Compile Include="Menu\LayerManagerMenu.cs" />
+    <Compile Include="Menu\LayerMenuItem.cs" />
+    <Compile Include="Menu\LayerShortcutMenuButton.cs" />
+    <Compile Include="Menu\MenuAnchor.cs" />
+    <Compile Include="Menu\MenuBar.cs" />
+    <Compile Include="Menu\MenuButton.cs" />
+    <Compile Include="Menu\MenuCollection.cs" />
+    <Compile Include="Menu\MenuUtils.cs" />
+    <Compile Include="Menu\PositionMenuButton.cs" />
+    <Compile Include="Menu\SideBarMenu.cs" />
+    <Compile Include="Net\DownloadQueue.cs" />
+    <Compile Include="Net\DownloadRequest.cs" />
+    <Compile Include="Net\GeoSpatialDownloadRequest.cs" />
+    <Compile Include="Net\ProxyHelper.cs" />
+    <Compile Include="Net\WebDownload.cs" />
+    <Compile Include="Net\WebDownloadRequest.cs" />
+    <Compile Include="Net\WMS\WMSDownload.cs" />
+    <Compile Include="Net\WMS\WmsDescriptor.cs" />
+    <Compile Include="PluginEngine\NativeMethods.cs" />
+    <Compile Include="PluginEngine\Plugin.cs" />
+    <Compile Include="PluginEngine\PluginCompiler.cs" />
+    <Compile Include="PluginEngine\PluginDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PluginEngine\PluginDialog.Designer.cs">
+      <DependentUpon>PluginDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PluginEngine\PluginInfo.cs" />
+    <Compile Include="PluginEngine\PluginInstallDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PluginEngine\PluginInstallDialog.Designer.cs">
+      <DependentUpon>PluginInstallDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PluginEngine\PluginListItem.cs" />
+    <Compile Include="PluginEngine\PluginListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PluginEngine\PluginListView.Designer.cs">
+      <DependentUpon>PluginListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QRSTWorldGlobeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QRSTWorldGlobeControl.Designer.cs">
+      <DependentUpon>QRSTWorldGlobeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QRSTWorldToolbox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QRSTWorldToolbox.Designer.cs">
+      <DependentUpon>QRSTWorldToolbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Renderable\Annotation.cs" />
+    <Compile Include="Renderable\AtmosphericScatteringSphere.cs" />
+    <Compile Include="Renderable\ColorBar.cs" />
+    <Compile Include="Renderable\Extension.cs" />
+    <Compile Include="Renderable\GCP.cs" />
+    <Compile Include="Renderable\GeoSpatialDownloadRequest.cs" />
+    <Compile Include="Renderable\Icon.cs" />
+    <Compile Include="Renderable\ImageLayer.cs" />
+    <Compile Include="Renderable\IRenderable.cs" />
+    <Compile Include="Renderable\LatLongGrid.cs" />
+    <Compile Include="Renderable\QuadTile.cs" />
+    <Compile Include="Renderable\QuadTileSet.cs" />
+    <Compile Include="Renderable\RenderableObject.cs" />
+    <Compile Include="Renderable\RenderableObjectList.cs" />
+    <Compile Include="Renderable\SkyLayer.cs" />
+    <Compile Include="Renderable\Stars3DLayer.cs" />
+    <Compile Include="Renderable\SurfaceImage.cs" />
+    <Compile Include="Utility\ColorBlend.cs" />
+    <Compile Include="Utility\DrawUtils.cs" />
+    <Compile Include="VisualForms\AddImagesLayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualForms\AddImagesLayer.Designer.cs">
+      <DependentUpon>AddImagesLayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualForms\AddShapeLayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualForms\AddShapeLayer.Designer.cs">
+      <DependentUpon>AddShapeLayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualForms\ColorbarLegend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualForms\ColorbarLegend.designer.cs">
+      <DependentUpon>ColorbarLegend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualForms\GotoPlace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualForms\GotoPlace.Designer.cs">
+      <DependentUpon>GotoPlace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualForms\ShapeFileInfoDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualForms\ShapeFileInfoDlg.Designer.cs">
+      <DependentUpon>ShapeFileInfoDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualForms\UCGeoBoundingBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VisualForms\UCGeoBoundingBox.Designer.cs">
+      <DependentUpon>UCGeoBoundingBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stores\GeotiffLayerStore.cs" />
+    <Compile Include="Stores\ImageStore.cs" />
+    <Compile Include="Stores\NltImageStore.cs" />
+    <Compile Include="Stores\ShapeLayerStore.cs" />
+    <Compile Include="Stores\WmsImageStore.cs" />
+    <Compile Include="Structs.cs" />
+    <Compile Include="Terrain\NltTerrainAccessor.cs" />
+    <Compile Include="Terrain\TerrainAccessor.cs" />
+    <Compile Include="Terrain\TerrainDownloadRequest.cs" />
+    <Compile Include="Terrain\TerrainTile.cs" />
+    <Compile Include="Terrain\TerrainTileService.cs" />
+    <Compile Include="Geometries\BoundingBox.cs" />
+    <Compile Include="Geometries\BoundingSphere.cs" />
+    <Compile Include="Utility\Cache.cs" />
+    <Compile Include="Geometries\Frustum.cs" />
+    <Compile Include="Geometries\GeographicBoundingBox.cs" />
+    <Compile Include="Utility\ImageHelper.cs" />
+    <Compile Include="Utility\Log.cs" />
+    <Compile Include="Utility\LogEventArgs.cs" />
+    <Compile Include="Utility\MathEngine.cs" />
+    <Compile Include="Utility\NativeMethods.cs" />
+    <Compile Include="Utility\OnScreenMessage.cs" />
+    <Compile Include="Utility\PerformanceTimer.cs" />
+    <Compile Include="Utility\SunCalculator.cs" />
+    <Compile Include="Utility\TimeKeeper.cs" />
+    <Compile Include="VisualForms\FormSaveGCPs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualForms\FormSaveGCPs.Designer.cs">
+      <DependentUpon>FormSaveGCPs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Renderable\ProgressBar.cs" />
+    <Compile Include="World.cs" />
+    <Compile Include="WorldSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PluginEngine\PluginDialog.resx">
+      <DependentUpon>PluginDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PluginEngine\PluginInstallDialog.resx">
+      <DependentUpon>PluginInstallDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QRSTWorldGlobeControl.resx">
+      <DependentUpon>QRSTWorldGlobeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QRSTWorldToolbox.resx">
+      <DependentUpon>QRSTWorldToolbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualForms\AddImagesLayer.resx">
+      <DependentUpon>AddImagesLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualForms\AddShapeLayer.resx">
+      <DependentUpon>AddShapeLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualForms\ColorbarLegend.resx">
+      <DependentUpon>ColorbarLegend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualForms\FormSaveGCPs.resx">
+      <DependentUpon>FormSaveGCPs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualForms\GotoPlace.resx">
+      <DependentUpon>GotoPlace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualForms\ShapeFileInfoDlg.resx">
+      <DependentUpon>ShapeFileInfoDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualForms\UCGeoBoundingBox.resx">
+      <DependentUpon>UCGeoBoundingBox.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Shaders\flag.fx" />
+    <EmbeddedResource Include="Shaders\grayscale.fx" />
+    <EmbeddedResource Include="Shaders\SkyFromAtmosphere.fx" />
+    <EmbeddedResource Include="Shaders\SkyFromSpace.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QRST.WorldGlobeTool.dll.config" />
+    <None Include="Resources\Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ICSharpCode.SharpZipLib.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

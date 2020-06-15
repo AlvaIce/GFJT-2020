@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRalativeAddByDataCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dataCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRalativeAddByDataCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRalativeAddByDataCodeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAddressFields">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dataCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAddressFieldsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAddressFieldsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetCorrectedDataAddress">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCorrectedDataAddressResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCorrectedDataAddressResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTilesList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tileNames" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTilesListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTilesListResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSourceDataPath">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSourceDataPathResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSourceDataPathResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="datacode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteDataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="QRST_CODE" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="ArrayOfString" nillable="true" type="tns:ArrayOfString" />
+      <s:element name="int" type="s:int" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRalativeAddByDataCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRalativeAddByDataCode" />
+  </wsdl:message>
+  <wsdl:message name="GetRalativeAddByDataCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRalativeAddByDataCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAddressFieldsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAddressFields" />
+  </wsdl:message>
+  <wsdl:message name="GetAddressFieldsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAddressFieldsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCorrectedDataAddressSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCorrectedDataAddress" />
+  </wsdl:message>
+  <wsdl:message name="GetCorrectedDataAddressSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCorrectedDataAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTilesListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTilesList" />
+  </wsdl:message>
+  <wsdl:message name="GetTilesListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTilesListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSourceDataPathSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSourceDataPath" />
+  </wsdl:message>
+  <wsdl:message name="GetSourceDataPathSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSourceDataPathResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDataSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteData" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDataSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpGetIn" />
+  <wsdl:message name="HelloWorldHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetRalativeAddByDataCodeHttpGetIn">
+    <wsdl:part name="dataCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetRalativeAddByDataCodeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAddressFieldsHttpGetIn">
+    <wsdl:part name="dataCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAddressFieldsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetCorrectedDataAddressHttpGetIn">
+    <wsdl:part name="DataName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCorrectedDataAddressHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSourceDataPathHttpGetIn">
+    <wsdl:part name="DataCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSourceDataPathHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDataHttpGetIn">
+    <wsdl:part name="datacode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetDataHttpGetIn">
+    <wsdl:part name="DataType" type="s:string" />
+    <wsdl:part name="QRST_CODE" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpPostIn" />
+  <wsdl:message name="HelloWorldHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetRalativeAddByDataCodeHttpPostIn">
+    <wsdl:part name="dataCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetRalativeAddByDataCodeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAddressFieldsHttpPostIn">
+    <wsdl:part name="dataCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAddressFieldsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetCorrectedDataAddressHttpPostIn">
+    <wsdl:part name="DataName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCorrectedDataAddressHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSourceDataPathHttpPostIn">
+    <wsdl:part name="DataCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSourceDataPathHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDataHttpPostIn">
+    <wsdl:part name="datacode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetDataHttpPostIn">
+    <wsdl:part name="DataType" type="s:string" />
+    <wsdl:part name="QRST_CODE" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRalativeAddByDataCode">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据数据类型编码获得数据存放相对路径1</wsdl:documentation>
+      <wsdl:input message="tns:GetRalativeAddByDataCodeSoapIn" />
+      <wsdl:output message="tns:GetRalativeAddByDataCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressFields">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据数据类型编码获得构成数据存放相对路径2的字段</wsdl:documentation>
+      <wsdl:input message="tns:GetAddressFieldsSoapIn" />
+      <wsdl:output message="tns:GetAddressFieldsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCorrectedDataAddress">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据查询得到的数据名称，获得纠正后未切片数据的存储路径</wsdl:documentation>
+      <wsdl:input message="tns:GetCorrectedDataAddressSoapIn" />
+      <wsdl:output message="tns:GetCorrectedDataAddressSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTilesList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取切片数据路径</wsdl:documentation>
+      <wsdl:input message="tns:GetTilesListSoapIn" />
+      <wsdl:output message="tns:GetTilesListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSourceDataPath">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据查询得到的原数据编码，获得数据所在文件夹的存储路径</wsdl:documentation>
+      <wsdl:input message="tns:GetSourceDataPathSoapIn" />
+      <wsdl:output message="tns:GetSourceDataPathSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">生产线接口：根据数据的datacode删除对应的元数据记录与文件</wsdl:documentation>
+      <wsdl:input message="tns:DeleteDataSoapIn" />
+      <wsdl:output message="tns:DeleteDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">生产线接口：根据查询数据名称以及数据编码获取数据存放路径,目前支持AlgorithmCmp和ProductWFL查询</wsdl:documentation>
+      <wsdl:input message="tns:GetDataSoapIn" />
+      <wsdl:output message="tns:GetDataSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ServiceHttpGet">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldHttpGetIn" />
+      <wsdl:output message="tns:HelloWorldHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRalativeAddByDataCode">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据数据类型编码获得数据存放相对路径1</wsdl:documentation>
+      <wsdl:input message="tns:GetRalativeAddByDataCodeHttpGetIn" />
+      <wsdl:output message="tns:GetRalativeAddByDataCodeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressFields">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据数据类型编码获得构成数据存放相对路径2的字段</wsdl:documentation>
+      <wsdl:input message="tns:GetAddressFieldsHttpGetIn" />
+      <wsdl:output message="tns:GetAddressFieldsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCorrectedDataAddress">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据查询得到的数据名称，获得纠正后未切片数据的存储路径</wsdl:documentation>
+      <wsdl:input message="tns:GetCorrectedDataAddressHttpGetIn" />
+      <wsdl:output message="tns:GetCorrectedDataAddressHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSourceDataPath">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据查询得到的原数据编码，获得数据所在文件夹的存储路径</wsdl:documentation>
+      <wsdl:input message="tns:GetSourceDataPathHttpGetIn" />
+      <wsdl:output message="tns:GetSourceDataPathHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">生产线接口：根据数据的datacode删除对应的元数据记录与文件</wsdl:documentation>
+      <wsdl:input message="tns:DeleteDataHttpGetIn" />
+      <wsdl:output message="tns:DeleteDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">生产线接口：根据查询数据名称以及数据编码获取数据存放路径,目前支持AlgorithmCmp和ProductWFL查询</wsdl:documentation>
+      <wsdl:input message="tns:GetDataHttpGetIn" />
+      <wsdl:output message="tns:GetDataHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ServiceHttpPost">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldHttpPostIn" />
+      <wsdl:output message="tns:HelloWorldHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRalativeAddByDataCode">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据数据类型编码获得数据存放相对路径1</wsdl:documentation>
+      <wsdl:input message="tns:GetRalativeAddByDataCodeHttpPostIn" />
+      <wsdl:output message="tns:GetRalativeAddByDataCodeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressFields">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据数据类型编码获得构成数据存放相对路径2的字段</wsdl:documentation>
+      <wsdl:input message="tns:GetAddressFieldsHttpPostIn" />
+      <wsdl:output message="tns:GetAddressFieldsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCorrectedDataAddress">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据查询得到的数据名称，获得纠正后未切片数据的存储路径</wsdl:documentation>
+      <wsdl:input message="tns:GetCorrectedDataAddressHttpPostIn" />
+      <wsdl:output message="tns:GetCorrectedDataAddressHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSourceDataPath">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据查询得到的原数据编码，获得数据所在文件夹的存储路径</wsdl:documentation>
+      <wsdl:input message="tns:GetSourceDataPathHttpPostIn" />
+      <wsdl:output message="tns:GetSourceDataPathHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">生产线接口：根据数据的datacode删除对应的元数据记录与文件</wsdl:documentation>
+      <wsdl:input message="tns:DeleteDataHttpPostIn" />
+      <wsdl:output message="tns:DeleteDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">生产线接口：根据查询数据名称以及数据编码获取数据存放路径,目前支持AlgorithmCmp和ProductWFL查询</wsdl:documentation>
+      <wsdl:input message="tns:GetDataHttpPostIn" />
+      <wsdl:output message="tns:GetDataHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRalativeAddByDataCode">
+      <soap:operation soapAction="http://tempuri.org/GetRalativeAddByDataCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressFields">
+      <soap:operation soapAction="http://tempuri.org/GetAddressFields" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCorrectedDataAddress">
+      <soap:operation soapAction="http://tempuri.org/GetCorrectedDataAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTilesList">
+      <soap:operation soapAction="http://tempuri.org/GetTilesList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSourceDataPath">
+      <soap:operation soapAction="http://tempuri.org/GetSourceDataPath" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteData">
+      <soap:operation soapAction="http://tempuri.org/DeleteData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRalativeAddByDataCode">
+      <soap12:operation soapAction="http://tempuri.org/GetRalativeAddByDataCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressFields">
+      <soap12:operation soapAction="http://tempuri.org/GetAddressFields" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCorrectedDataAddress">
+      <soap12:operation soapAction="http://tempuri.org/GetCorrectedDataAddress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTilesList">
+      <soap12:operation soapAction="http://tempuri.org/GetTilesList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSourceDataPath">
+      <soap12:operation soapAction="http://tempuri.org/GetSourceDataPath" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteData">
+      <soap12:operation soapAction="http://tempuri.org/DeleteData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <soap12:operation soapAction="http://tempuri.org/GetData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceHttpGet" type="tns:ServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRalativeAddByDataCode">
+      <http:operation location="/GetRalativeAddByDataCode" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressFields">
+      <http:operation location="/GetAddressFields" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCorrectedDataAddress">
+      <http:operation location="/GetCorrectedDataAddress" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSourceDataPath">
+      <http:operation location="/GetSourceDataPath" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteData">
+      <http:operation location="/DeleteData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <http:operation location="/GetData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceHttpPost" type="tns:ServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRalativeAddByDataCode">
+      <http:operation location="/GetRalativeAddByDataCode" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressFields">
+      <http:operation location="/GetAddressFields" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCorrectedDataAddress">
+      <http:operation location="/GetCorrectedDataAddress" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSourceDataPath">
+      <http:operation location="/GetSourceDataPath" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteData">
+      <http:operation location="/DeleteData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <http:operation location="/GetData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://192.168.2.231/WS_QDB_GetData/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://192.168.2.231/WS_QDB_GetData/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceHttpGet" binding="tns:ServiceHttpGet">
+      <http:address location="http://192.168.2.231/WS_QDB_GetData/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceHttpPost" binding="tns:ServiceHttpPost">
+      <http:address location="http://192.168.2.231/WS_QDB_GetData/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

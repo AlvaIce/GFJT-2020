@@ -1,0 +1,10 @@
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\bin\Release\QRST_DI_DS_DataTransfer.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\bin\Release\QRST_DI_DS_DataTransfer.pdb
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\obj\Release\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\obj\Release\QRST_DI_DS_DataTransfer.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\obj\Release\QRST_DI_DS_DataTransfer.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_DS_DataTransfer\bin\Release\QRST_DI_DS_DataTransfer.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_DS_DataTransfer\bin\Release\QRST_DI_DS_DataTransfer.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_DS_DataTransfer\obj\Release\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_DS_DataTransfer\obj\Release\QRST_DI_DS_DataTransfer.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_DS_DataTransfer\obj\Release\QRST_DI_DS_DataTransfer.pdb

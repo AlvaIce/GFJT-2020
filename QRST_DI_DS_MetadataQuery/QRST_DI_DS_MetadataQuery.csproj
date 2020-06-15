@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F95AFE51-F517-438D-B21C-5120C899CF8C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QRST_DI_DS_MetadataQuery</RootNamespace>
+    <AssemblyName>QRST_DI_DS_MetadataQuery</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotSpatial.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Data.Rasters.GdalExtension">
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Data.Rasters.GdalExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Mono, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Mono.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Projections, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Projections.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Serialization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Topology, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Topology.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractQuery.cs" />
+    <Compile Include="FieldElement.cs" />
+    <Compile Include="FieldViewBasedQuerySchema.cs" />
+    <Compile Include="IGetQuerySchema.cs" />
+    <Compile Include="IQuery.cs" />
+    <Compile Include="JSONutilty\JSON.cs" />
+    <Compile Include="JSONutilty\namenodeinfo.cs" />
+    <Compile Include="JSONutilty\Utilties.cs" />
+    <Compile Include="MySqlMetadataQurey.cs" />
+    <Compile Include="PagingQuery\DatatablePagingQuery.cs" />
+    <Compile Include="PagingQuery\IPagingQuery.cs" />
+    <Compile Include="PagingQuery\MetaDataPagingQuery.cs" />
+    <Compile Include="PagingQuery\NormalPagingQuery.cs" />
+    <Compile Include="QueryConditionParameter\DataTilePara.cs" />
+    <Compile Include="QueryConditionParameter\DocQueryPara.cs" />
+    <Compile Include="QueryConditionParameter\ProductTilePara.cs" />
+    <Compile Include="QueryConditionParameter\QueryPara.cs" />
+    <Compile Include="QueryConditionParameter\RasterQueryPara.cs" />
+    <Compile Include="QueryConditionParameter\TVMapping.cs" />
+    <Compile Include="QueryConditionParameter\VectorQueryPara.cs" />
+    <Compile Include="QueryConditionParameter\NormalFileQueryPara.cs" />
+    <Compile Include="TableBasedQuery.cs" />
+    <Compile Include="TableBasedQuerySchema.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewBasedQuery.cs" />
+    <Compile Include="ViewBasedQuerySchema.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QRST_DI-Resources\QRST_DI-Resources.csproj">
+      <Project>{2cbd592c-5dc7-4abe-af91-e7649cd4908f}</Project>
+      <Name>QRST_DI-Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS-Basis\QRST_DI_DS-Basis.csproj">
+      <Project>{C31DA657-ED54-479E-80C2-8420AAD9532D}</Project>
+      <Name>QRST_DI_DS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS-Metadata\QRST_DI_DS-Metadata.csproj">
+      <Project>{0D696972-922C-4252-898D-4415A260C38D}</Project>
+      <Name>QRST_DI_DS-Metadata</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_Basis\QRST_DI_SS_Basis.csproj">
+      <Project>{8ba4280f-807f-4345-a91e-8f42988954b2}</Project>
+      <Name>QRST_DI_SS_Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_DBInterfaces\QRST_DI_SS_DBInterfaces.csproj">
+      <Project>{1495d023-5226-40c0-935f-044b4c72b53b}</Project>
+      <Name>QRST_DI_SS_DBInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_TS_SiteServer_Console\QRST_DI_TS_SiteServer_Console.csproj">
+      <Project>{82cf7db8-e8f2-4637-b4dd-b6c7d31ec120}</Project>
+      <Name>QRST_DI_TS_SiteServer_Console</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TVMapping.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

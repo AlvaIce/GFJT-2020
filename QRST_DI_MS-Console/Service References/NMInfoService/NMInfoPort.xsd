@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://gis.zju/" targetNamespace="http://gis.zju/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Exception" type="tns:Exception" />
+  <xs:element name="getDiskUsage" type="tns:getDiskUsage" />
+  <xs:element name="getDiskUsageResponse" type="tns:getDiskUsageResponse" />
+  <xs:element name="getPhysicalMemory" type="tns:getPhysicalMemory" />
+  <xs:element name="getPhysicalMemoryResponse" type="tns:getPhysicalMemoryResponse" />
+  <xs:element name="getcpuPerc" type="tns:getcpuPerc" />
+  <xs:element name="getcpuPercResponse" type="tns:getcpuPercResponse" />
+  <xs:complexType name="getcpuPerc">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getcpuPercResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDiskUsage">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getDiskUsageResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Exception">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPhysicalMemory">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getPhysicalMemoryResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,637 @@
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csprojResolveAssemblyReference.cache
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csprojResolveAssemblyReference.cache
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csprojResolveAssemblyReference.cache
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csprojResolveAssemblyReference.cache
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csprojResolveAssemblyReference.cache
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csprojResolveAssemblyReference.cache
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csprojResolveAssemblyReference.cache
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csprojResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+F:\QRST_DI_Mixed_2017.12.17\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\ResolveAssemblyReference.cache
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\GenerateResource.read.1.tlog
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\GenerateResource.write.1.tlog
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.Cache
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll.config
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\QRST.WorldGlobeTool.pdb
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\Microsoft.DirectX.Direct3D.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\Microsoft.DirectX.Direct3DX.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\Microsoft.DirectX.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.pdb
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Data.Rasters.GdalExtension.pdb
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Mono.pdb
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Projections.pdb
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Serialization.pdb
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\DotSpatial.Topology.pdb
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\Microsoft.DirectX.xml
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\Microsoft.DirectX.Direct3D.xml
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\bin\Debug\Microsoft.DirectX.Direct3DX.xml
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csprojAssemblyReference.cache
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginDialog.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.PluginEngine.PluginInstallDialog.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.Properties.Resources.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldGlobeControl.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.QRSTWorldToolbox.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddImagesLayer.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.AddShapeLayer.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ColorbarLegend.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.FormSaveGCPs.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.GotoPlace.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.ShapeFileInfoDlg.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.VisualForms.UCGeoBoundingBox.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.GenerateResource.cache
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.CoreCompileInputs.cache
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.csproj.CopyComplete
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST.WorldGlobeTool\obj\Debug\QRST.WorldGlobeTool.pdb

@@ -1,0 +1,172 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Web;
+using System.Web.Services;
+using QRST_DI_TS_Process.Service;
+using QRST_DI_DS_Metadata.Paths;
+using QRST_DI_DS_Basis.DBEngine;
+using System.Data;
+using QRST_DI_DS_Metadata.MetaDataCls;
+using System.IO;
+using QRST_DI_TS_Basis.DirectlyAddress;
+
+[WebService(Namespace = "http://tempuri.org/")]
+[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
+
+public class Service : System.Web.Services.WebService
+{
+    DBMySqlOperating mySQLOperator;
+
+    MySqlBaseUtilities MySqlBaseUti;
+
+    public static ConsoleServer_IPCService ipcServ = null;
+    public Service () {
+
+        //如果使用设计的组件，请取消注释以下行 
+        //InitializeComponent(); 
+        if (ipcServ == null)
+        {
+            ipcServ = ConsoleServer_IPCService.InitIPCWebServiceClient_ConsoleChl();
+        }
+    }
+
+    [WebMethod]
+    public string HelloWorld() {
+        return "Hello World";
+    }
+    [WebMethod(Description = "根据数据类型编码获得数据存放相对路径1")]
+    public string GetRalativeAddByDataCode(string dataCode)
+    {
+        StoragePath storagePath = new StoragePath(dataCode);
+
+        string RalativeFilePath = storagePath.getRalativeAddress();
+
+        return RalativeFilePath;
+    }
+    [WebMethod(Description = "根据数据类型编码获得构成数据存放相对路径2的字段")]
+    public string[] GetAddressFields(string dataCode)
+    {
+        StoragePath storagePath = new StoragePath(dataCode);
+
+        return storagePath.DataStorePath();
+    }
+    [WebMethod(Description = "获得纠正后未切片数据的构成存放相对路径的字段")]
+    private string[] GetCorrectedDataAddressFields()
+    {
+        StoragePath storagePath = new StoragePath("EVDB-16");
+
+        return storagePath.DataStorePath();
+    }
+    [WebMethod(Description = "根据查询得到的数据名称，获得纠正后未切片数据的存储路径")]
+    public string GetCorrectedDataAddress(string DataName)
+    {
+        //根据数据库名称获取库访问实例
+        mySQLOperator = new DBMySqlOperating();
+        MySqlBaseUti = mySQLOperator.EVDB;
+        //DataName = DataName.ToUpper();
+        //DataName.TrimEnd(".TAR.GZ".ToCharArray());
+        string ralativePath = GetRalativeAddByDataCode("EVDB-16");
+
+        string[] strArr = GetAddressFields("EVDB-16");
+
+        string sql = string.Format("select {0} from prod_hj_view where 数据名称 ='{1}'",string.Join(",",strArr),DataName);
+
+        DataTable dt = MySqlBaseUti.GetDataSet(sql).Tables[0];
+
+        string AbsolutePath=string.Empty;
+        if (dt.Rows.Count == 0)
+        {
+            return "-1";
+
+        }
+        else
+        {
+            List<string> subDictionaryValue = new List<string>();
+            subDictionaryValue.Add(dt.Rows[0]["卫星"].ToString());
+            subDictionaryValue.Add(dt.Rows[0]["传感器"].ToString());
+
+            DateTime date = Convert.ToDateTime(dt.Rows[0]["日期"]);
+            subDictionaryValue.Add(string.Format("{0:0000}", date.Year));
+            subDictionaryValue.Add(string.Format("{0:00}", date.Month));
+            subDictionaryValue.Add(string.Format("{0:00}", date.Day));
+
+            subDictionaryValue.Add(dt.Rows[0]["数据名称"].ToString().ToUpper().TrimEnd(".TAR.GZ".ToCharArray()));
+
+            AbsolutePath = string.Join(@"\", subDictionaryValue);
+            return ralativePath + AbsolutePath;
+        }
+    }
+
+    /// <summary>
+    /// 1)	HJ纠正数据（切片）、2)	HJ产品（切片）、3)	HJ分类（切片）
+    /// </summary>
+    /// <param name="qrst_code">数据标识</param>
+    /// <returns>数据所在路径</returns>
+    [WebMethod(Description="获取切片数据路径")]
+    public List<string> GetTilesList(List<string> tileNames)
+    {
+        DirectlyAddressing da = new DirectlyAddressing(DirectlyAddressingIPMod.IPModDataSet);
+        List<string> tilesPath = new List<string>();
+        foreach (string tilename in tileNames)
+        {
+            string tilepath = da.GetPathByFileName(tilename);
+            tilesPath.Add(tilepath);
+        }
+
+        return tilesPath;
+    }
+
+    [WebMethod(Description = "根据查询得到的原数据编码，获得数据所在文件夹的存储路径")]
+    public string GetSourceDataPath(string DataCode)
+    {
+        string tableCode = StoragePath.GetTableCodeByQrstCode(DataCode);
+        StoragePath storePath = new StoragePath(tableCode);
+        return  storePath.GetDataPath(DataCode);
+    }
+    #region 生产线接口
+    [WebMethod(Description = "生产线接口：根据数据的datacode删除对应的元数据记录与文件")]
+    public int DeleteData(string datacode)
+    {
+        return MetaData.DeleteData(datacode);
+    }
+
+    [WebMethod(Description = "生产线接口：根据查询数据名称以及数据编码获取数据存放路径,目前支持AlgorithmCmp和ProductWFL查询")]
+    public string GetData(string DataType,string QRST_CODE)
+    {
+        //如果是HJCorrectedData，则
+        if (DataType == "AlgorithmCmp" || DataType == "ProductWFL"||DataType =="HJCorrectedData")
+        {
+            return MetaData.GetDataAddress(QRST_CODE);
+        }
+        else
+        {
+            return "-1";
+        }
+    }
+
+    //  [WebMethod(Description = "生产线接口：根据数据类型与数据编码下载数据，destPath为目的地址，必须为网络共享文件夹,目前支持AlgorithmCmp和ProductWFL下载")]
+    //public string DownLoadData(string DataType, string QRST_CODE,string destPath)
+    //{
+    //    //如果是HJCorrectedData，则
+    //    if (Directory.Exists(destPath))
+    //    {
+    //        if (DataType == "AlgorithmCmp" || DataType == "ProductWFL")
+    //        {
+    //            string srcPath = MetaData.GetDataAddress(QRST_CODE);
+    //            if (srcPath != "-1" && srcPath != "0")
+    //            {
+                    
+    //            }
+    //        }
+    //        else
+    //        {
+    //            return "-1";
+    //        }
+    //    }
+    //    else
+    //    {
+    //        return "网络路径未找到！";
+    //    }
+    //}
+    #endregion
+}

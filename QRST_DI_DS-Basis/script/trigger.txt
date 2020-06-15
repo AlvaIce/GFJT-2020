@@ -1,0 +1,93 @@
+﻿
+use evdb;
+drop trigger if exists delPublicinfo_prod_hj_tril;
+create trigger delPublicinfo_prod_hj_tril 
+after delete on prod_hj
+for each row
+delete from publicinfo where  publicinfo.DataCode = OLD.QRST_CODE;
+
+drop trigger if exists delPublicinfo_prod_modis_tril;
+create trigger delPublicinfo_prod_modis_tril 
+after delete on prod_modis
+for each row
+delete from publicinfo where  publicinfo.DataCode = OLD.QRST_CODE;
+
+drop trigger if exists delPublicinfo_prod_noaa_tril;
+create trigger delPublicinfo_prod_noaa_tril 
+after delete on prod_noaa
+for each row
+delete from publicinfo where  publicinfo.DataCode = OLD.QRST_CODE;
+
+drop trigger if exists delPublicinfo_prod_cbers_tril;
+create trigger delPublicinfo_prod_cbers_tril 
+after delete on prod_cbers
+for each row
+delete from publicinfo where  publicinfo.DataCode = OLD.QRST_CODE;
+
+
+use isdb;
+drop trigger if exists delPublicinfo_isdb_document_tril;
+create trigger delPublicinfo_isdb_document_tril 
+after delete on isdb_document
+for each row
+delete from isdb_publicinfo where  isdb_publicinfo.DataID = OLD.QRST_CODE;
+
+drop trigger if exists delPublicinfo_isdb_toolkit_tril;
+create trigger delPublicinfo_isdb_toolkit_tril 
+after delete on isdb_toolkit
+for each row
+delete from isdb_publicinfo where  isdb_publicinfo.DataID = OLD.QRST_CODE;
+
+drop trigger if exists delPublicinfo_isdb_useralgorithm_tril;
+create trigger delPublicinfo_isdb_useralgorithm_tril 
+after delete on isdb_useralgorithm
+for each row
+delete from isdb_publicinfo where  isdb_publicinfo.DataID = OLD.QRST_CODE;
+
+drop trigger if exists delPublicinfo_isdb_userprod_hj_tril;
+create trigger delPublicinfo_isdb_userprod_hj_tril 
+after delete on isdb_userprod_hj
+for each row
+delete from isdb_publicinfo where  isdb_publicinfo.DataID = OLD.QRST_CODE;
+
+drop trigger if exists delPublicinfo_isdb_userraster_tril;
+create trigger delPublicinfo_isdb_userraster_tril 
+after delete on isdb_userraster
+for each row
+delete from isdb_publicinfo where  isdb_publicinfo.DataID = OLD.QRST_CODE;
+
+
+use madb;
+drop trigger if exists delPublicinfo_madb_algorithmcmp_tril;
+create trigger delPublicinfo_madb_algorithmcmp_tril 
+after delete on madb_algorithmcmp
+for each row
+delete from publicinfo where publicinfo.DataCode = OLD.QRST_CODE;
+
+drop trigger if exists delPublicinfo_madb_document_tril;
+create trigger delPublicinfo_madb_document_tril 
+after delete on madb_document
+for each row
+delete from publicinfo where publicinfo.DataCode = OLD.QRST_CODE;
+
+drop trigger if exists delPublicinfo_madb_proworkflow_tril;
+create trigger delPublicinfo_madb_proworkflow_tril 
+after delete on madb_proworkflow
+for each row
+delete from publicinfo where publicinfo.DataCode = OLD.QRST_CODE;
+
+drop trigger if exists delPublicinfo_madb_toolkit_tril;
+create trigger delPublicinfo_madb_toolkit_tril 
+after delete on madb_toolkit
+for each row
+delete from publicinfo where publicinfo.DataCode = OLD.QRST_CODE;
+
+
+/*监听数据入库触发器，当有数据记录入库时，将该记录的QRST_CODE插入到表metadataflag表中,主要为了同步缩略图  20131026*/
+drop trigger if exists metadataflaginsert_tril;
+create trigger metadataflaginsert_tril 
+after insert on prod_gf1
+for each row
+insert into metadataflag ('DATACODE','IsThumbnailSynced')values(OLD.QRST_CODE,'0');
+
+

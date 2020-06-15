@@ -1,0 +1,3263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSetFromSQLite">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sql" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataSourcePath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSetFromSQLiteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataSetFromSQLiteResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataDistinct">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="distinctSql" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataDistinctResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataDistinctResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SearTileSatellites">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearTileSatellitesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileSatellitesResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileSensors">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearTileSensorsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileSensorsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearProdType">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearProdTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearProdTypeResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileLevels">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearTileLevelsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileLevelsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileAllAttr">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearTileAllAttrResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileAllAttrResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteNonQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sql" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteNonQueryResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearProTileAllAttr">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearProTileAllAttrResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearProTileAllAttrResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearProTileLevels">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearProTileLevelsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearProTileLevelsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTilePagedBaseColAndRowTest">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearTilePagedBaseColAndRowTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SearTilePagedBaseColAndRowTestResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTilePagedBaseColAndRow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ColAndRow" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="tns:ArrayOfInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="satellite" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="OtherQuery" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="startIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="offset" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfInt">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="int" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SearTilePagedBaseColAndRowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTilePagedBaseColAndRowResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="allRecordCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTilePaged">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="position" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="tns:ArrayOfInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="satellite" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="startIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="offset" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTilePagedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTilePagedResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="allRecordCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTilePaged1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="position" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="tns:ArrayOfInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="satellite" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="OtherQuery" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="startIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="offset" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTilePaged1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTilePaged1Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="allRecordCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearFliterTilePaged1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="coords" type="tns:ArrayOfArrayOfDouble" />
+            <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="position" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="tns:ArrayOfInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="satellite" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="OtherQuery" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="startIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="offset" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfArrayOfDouble">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfDouble" nillable="true" type="tns:ArrayOfDouble" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfDouble">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="double" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SearFliterTilePaged1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearFliterTilePaged1Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="allRecordCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TilePathsList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tileNames" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TilePathsListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TilePathsListResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileYaan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="row" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="col" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileYaanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileYaanResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearImgTileSingle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="row" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="col" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="startdate" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="enddate" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearImgTileSingleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearImgTileSingleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearProdTileSingle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prodType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="row" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="col" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lv" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="startdate" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="enddate" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearProdTileSingleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearProdTileSingleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestSearTileSingleAllType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tablename" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestSearTileSingleAllTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestSearTileSingleAllTypeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileSingleAllType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tablename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="row" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="col" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="otherCondition" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileSingleAllTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileSingleAllTypeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="searTileByColAndRowBatch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tileInfos" type="tns:ArrayOfArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfString" nillable="true" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="searTileByColAndRowBatchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="searTileByColAndRowBatchResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileYaanBatch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="row" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="col" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileYaanBatchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileYaanBatchResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileBatch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="row" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="col" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileBatchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileBatchResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearImgTileBatch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="row" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="col" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="startdate" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="enddate" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearImgTileBatchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearImgTileBatchResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearProdTileBatch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prodType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="rows" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="cols" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="lv" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="startdate" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="enddate" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearProdTileBatchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearProdTileBatchResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileBatchAllType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tablename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="row" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="col" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="othercondition" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileBatchAllTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileBatchAllTypeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileYaanBatchTest">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearTileYaanBatchTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileYaanBatchTestResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileGlobe">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="position" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="satellite" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileGlobeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileGlobeResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileForSimulation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RowCols" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="tns:ArrayOfInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="satellite" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileForSimulationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileForSimulationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileForSimulation1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RowCol" type="tns:ArrayOfArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="tns:ArrayOfInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="satellite" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileForSimulation1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileForSimulation1Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTilePaged2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="position" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="tns:ArrayOfInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="satellite" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="startIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="offset" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTilePaged2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTilePaged2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTilePaged3">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="position" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="tns:ArrayOfInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="satellite" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="startIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="offset" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTilePaged3Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTilePaged3Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearPRODTileTest">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearPRODTileTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearPRODTileTestResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearPRODTilePaged">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="position" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="tns:ArrayOfInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="startIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="offset" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearPRODTilePagedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearPRODTilePagedResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="allRecordCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearSpaceDistinctTiles">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="position" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="tns:ArrayOfInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="satellite" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearSpaceDistinctTilesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearSpaceDistinctTilesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileForKSH">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="satellite" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="row" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="col" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileForKSHResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileForKSHResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileForKSHByRowAndCol">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="minRow" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="maxRow" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="minCol" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="maxCol" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileForKSHByRowAndColResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileForKSHByRowAndColResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileByRegion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="regionName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="category" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="tns:ArrayOfInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="satellite" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="OtherQuery" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="startIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="offset" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileByRegionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileByRegionResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="allRecordCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchTileJPG">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dateTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="row" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="col" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchTileJPGResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchTileJPGResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchTileJPGForGloble">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dateTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="row" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="col" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchTileJPGForGlobleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchTileJPGForGlobleResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearPRODTileForJCGX">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="position" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="tns:ArrayOfInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProdType" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="startIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="offset" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearPRODTileForJCGXResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearPRODTileForJCGXResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="allRecordCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileForJCGX">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="position" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="tns:ArrayOfInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="satellite" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sensor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatype" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="tileLevel" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="startIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="offset" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileForJCGXResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearTileForJCGXResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="allRecordCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearTileForJCGXtest">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearTileForJCGXtestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SearTileForJCGXtestResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArrayOfString" nillable="true" type="tns:ArrayOfString" />
+      <s:element name="int" type="s:int" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSetFromSQLiteSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataSetFromSQLite" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSetFromSQLiteSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataSetFromSQLiteResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataDistinctSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataDistinct" />
+  </wsdl:message>
+  <wsdl:message name="GetDataDistinctSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataDistinctResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSatellitesSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileSatellites" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSatellitesSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileSatellitesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSensorsSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileSensors" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSensorsSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileSensorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearProdTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:SearProdType" />
+  </wsdl:message>
+  <wsdl:message name="SearProdTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:SearProdTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileLevelsSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileLevels" />
+  </wsdl:message>
+  <wsdl:message name="SearTileLevelsSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileLevelsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileAllAttrSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileAllAttr" />
+  </wsdl:message>
+  <wsdl:message name="SearTileAllAttrSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileAllAttrResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteNonQuerySoapIn">
+    <wsdl:part name="parameters" element="tns:ExecuteNonQuery" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteNonQuerySoapOut">
+    <wsdl:part name="parameters" element="tns:ExecuteNonQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearProTileAllAttrSoapIn">
+    <wsdl:part name="parameters" element="tns:SearProTileAllAttr" />
+  </wsdl:message>
+  <wsdl:message name="SearProTileAllAttrSoapOut">
+    <wsdl:part name="parameters" element="tns:SearProTileAllAttrResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearProTileLevelsSoapIn">
+    <wsdl:part name="parameters" element="tns:SearProTileLevels" />
+  </wsdl:message>
+  <wsdl:message name="SearProTileLevelsSoapOut">
+    <wsdl:part name="parameters" element="tns:SearProTileLevelsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePagedBaseColAndRowTestSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTilePagedBaseColAndRowTest" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePagedBaseColAndRowTestSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTilePagedBaseColAndRowTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePagedBaseColAndRowSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTilePagedBaseColAndRow" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePagedBaseColAndRowSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTilePagedBaseColAndRowResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePagedSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTilePaged" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePagedSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTilePagedResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePaged1SoapIn">
+    <wsdl:part name="parameters" element="tns:SearTilePaged1" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePaged1SoapOut">
+    <wsdl:part name="parameters" element="tns:SearTilePaged1Response" />
+  </wsdl:message>
+  <wsdl:message name="SearFliterTilePaged1SoapIn">
+    <wsdl:part name="parameters" element="tns:SearFliterTilePaged1" />
+  </wsdl:message>
+  <wsdl:message name="SearFliterTilePaged1SoapOut">
+    <wsdl:part name="parameters" element="tns:SearFliterTilePaged1Response" />
+  </wsdl:message>
+  <wsdl:message name="TilePathsListSoapIn">
+    <wsdl:part name="parameters" element="tns:TilePathsList" />
+  </wsdl:message>
+  <wsdl:message name="TilePathsListSoapOut">
+    <wsdl:part name="parameters" element="tns:TilePathsListResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileYaanSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileYaan" />
+  </wsdl:message>
+  <wsdl:message name="SearTileYaanSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileYaanResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearImgTileSingleSoapIn">
+    <wsdl:part name="parameters" element="tns:SearImgTileSingle" />
+  </wsdl:message>
+  <wsdl:message name="SearImgTileSingleSoapOut">
+    <wsdl:part name="parameters" element="tns:SearImgTileSingleResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearProdTileSingleSoapIn">
+    <wsdl:part name="parameters" element="tns:SearProdTileSingle" />
+  </wsdl:message>
+  <wsdl:message name="SearProdTileSingleSoapOut">
+    <wsdl:part name="parameters" element="tns:SearProdTileSingleResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestSearTileSingleAllTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:TestSearTileSingleAllType" />
+  </wsdl:message>
+  <wsdl:message name="TestSearTileSingleAllTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:TestSearTileSingleAllTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSingleAllTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileSingleAllType" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSingleAllTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileSingleAllTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="searTileByColAndRowBatchSoapIn">
+    <wsdl:part name="parameters" element="tns:searTileByColAndRowBatch" />
+  </wsdl:message>
+  <wsdl:message name="searTileByColAndRowBatchSoapOut">
+    <wsdl:part name="parameters" element="tns:searTileByColAndRowBatchResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileYaanBatchSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileYaanBatch" />
+  </wsdl:message>
+  <wsdl:message name="SearTileYaanBatchSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileYaanBatchResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileBatchSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileBatch" />
+  </wsdl:message>
+  <wsdl:message name="SearTileBatchSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileBatchResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearImgTileBatchSoapIn">
+    <wsdl:part name="parameters" element="tns:SearImgTileBatch" />
+  </wsdl:message>
+  <wsdl:message name="SearImgTileBatchSoapOut">
+    <wsdl:part name="parameters" element="tns:SearImgTileBatchResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearProdTileBatchSoapIn">
+    <wsdl:part name="parameters" element="tns:SearProdTileBatch" />
+  </wsdl:message>
+  <wsdl:message name="SearProdTileBatchSoapOut">
+    <wsdl:part name="parameters" element="tns:SearProdTileBatchResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileBatchAllTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileBatchAllType" />
+  </wsdl:message>
+  <wsdl:message name="SearTileBatchAllTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileBatchAllTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileYaanBatchTestSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileYaanBatchTest" />
+  </wsdl:message>
+  <wsdl:message name="SearTileYaanBatchTestSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileYaanBatchTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileGlobeSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileGlobe" />
+  </wsdl:message>
+  <wsdl:message name="SearTileGlobeSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileGlobeResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForSimulationSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileForSimulation" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForSimulationSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileForSimulationResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForSimulation1SoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileForSimulation1" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForSimulation1SoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileForSimulation1Response" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePaged2SoapIn">
+    <wsdl:part name="parameters" element="tns:SearTilePaged2" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePaged2SoapOut">
+    <wsdl:part name="parameters" element="tns:SearTilePaged2Response" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePaged3SoapIn">
+    <wsdl:part name="parameters" element="tns:SearTilePaged3" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePaged3SoapOut">
+    <wsdl:part name="parameters" element="tns:SearTilePaged3Response" />
+  </wsdl:message>
+  <wsdl:message name="SearPRODTileTestSoapIn">
+    <wsdl:part name="parameters" element="tns:SearPRODTileTest" />
+  </wsdl:message>
+  <wsdl:message name="SearPRODTileTestSoapOut">
+    <wsdl:part name="parameters" element="tns:SearPRODTileTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearPRODTilePagedSoapIn">
+    <wsdl:part name="parameters" element="tns:SearPRODTilePaged" />
+  </wsdl:message>
+  <wsdl:message name="SearPRODTilePagedSoapOut">
+    <wsdl:part name="parameters" element="tns:SearPRODTilePagedResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearSpaceDistinctTilesSoapIn">
+    <wsdl:part name="parameters" element="tns:SearSpaceDistinctTiles" />
+  </wsdl:message>
+  <wsdl:message name="SearSpaceDistinctTilesSoapOut">
+    <wsdl:part name="parameters" element="tns:SearSpaceDistinctTilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForKSHSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileForKSH" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForKSHSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileForKSHResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForKSHByRowAndColSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileForKSHByRowAndCol" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForKSHByRowAndColSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileForKSHByRowAndColResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileByRegionSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileByRegion" />
+  </wsdl:message>
+  <wsdl:message name="SearTileByRegionSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileByRegionResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchTileJPGSoapIn">
+    <wsdl:part name="parameters" element="tns:SearchTileJPG" />
+  </wsdl:message>
+  <wsdl:message name="SearchTileJPGSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchTileJPGResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchTileJPGForGlobleSoapIn">
+    <wsdl:part name="parameters" element="tns:SearchTileJPGForGloble" />
+  </wsdl:message>
+  <wsdl:message name="SearchTileJPGForGlobleSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchTileJPGForGlobleResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearPRODTileForJCGXSoapIn">
+    <wsdl:part name="parameters" element="tns:SearPRODTileForJCGX" />
+  </wsdl:message>
+  <wsdl:message name="SearPRODTileForJCGXSoapOut">
+    <wsdl:part name="parameters" element="tns:SearPRODTileForJCGXResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForJCGXSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileForJCGX" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForJCGXSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileForJCGXResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForJCGXtestSoapIn">
+    <wsdl:part name="parameters" element="tns:SearTileForJCGXtest" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForJCGXtestSoapOut">
+    <wsdl:part name="parameters" element="tns:SearTileForJCGXtestResponse" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpGetIn" />
+  <wsdl:message name="HelloWorldHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSetFromSQLiteHttpGetIn">
+    <wsdl:part name="sql" type="s:string" />
+    <wsdl:part name="DataSourcePath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSetFromSQLiteHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetDataDistinctHttpGetIn">
+    <wsdl:part name="distinctSql" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataDistinctHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSatellitesHttpGetIn" />
+  <wsdl:message name="SearTileSatellitesHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSensorsHttpGetIn" />
+  <wsdl:message name="SearTileSensorsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearProdTypeHttpGetIn" />
+  <wsdl:message name="SearProdTypeHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearTileLevelsHttpGetIn" />
+  <wsdl:message name="SearTileLevelsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearTileAllAttrHttpGetIn" />
+  <wsdl:message name="SearTileAllAttrHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteNonQueryHttpGetIn">
+    <wsdl:part name="sql" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteNonQueryHttpGetOut" />
+  <wsdl:message name="SearProTileAllAttrHttpGetIn" />
+  <wsdl:message name="SearProTileAllAttrHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearProTileLevelsHttpGetIn" />
+  <wsdl:message name="SearProTileLevelsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePagedBaseColAndRowTestHttpGetIn" />
+  <wsdl:message name="SearTilePagedBaseColAndRowTestHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="SearTileYaanHttpGetIn">
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+    <wsdl:part name="tileLevel" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearTileYaanHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearImgTileSingleHttpGetIn">
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+    <wsdl:part name="tileLevel" type="s:string" />
+    <wsdl:part name="startdate" type="s:string" />
+    <wsdl:part name="enddate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearImgTileSingleHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearProdTileSingleHttpGetIn">
+    <wsdl:part name="prodType" type="s:string" />
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+    <wsdl:part name="lv" type="s:string" />
+    <wsdl:part name="startdate" type="s:string" />
+    <wsdl:part name="enddate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearProdTileSingleHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="TestSearTileSingleAllTypeHttpGetIn">
+    <wsdl:part name="tablename" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TestSearTileSingleAllTypeHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSingleAllTypeHttpGetIn">
+    <wsdl:part name="tablename" type="s:string" />
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+    <wsdl:part name="tileLevel" type="s:string" />
+    <wsdl:part name="otherCondition" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSingleAllTypeHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearTileYaanBatchTestHttpGetIn" />
+  <wsdl:message name="SearTileYaanBatchTestHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearPRODTileTestHttpGetIn" />
+  <wsdl:message name="SearPRODTileTestHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForKSHHttpGetIn">
+    <wsdl:part name="satellite" type="s:string" />
+    <wsdl:part name="sensor" type="s:string" />
+    <wsdl:part name="datetime" type="s:string" />
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+    <wsdl:part name="tileLevel" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForKSHHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForKSHByRowAndColHttpGetIn">
+    <wsdl:part name="tileLevel" type="s:string" />
+    <wsdl:part name="minRow" type="s:string" />
+    <wsdl:part name="maxRow" type="s:string" />
+    <wsdl:part name="minCol" type="s:string" />
+    <wsdl:part name="maxCol" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForKSHByRowAndColHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearchTileJPGHttpGetIn">
+    <wsdl:part name="dateTime" type="s:string" />
+    <wsdl:part name="tileLevel" type="s:string" />
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearchTileJPGHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SearchTileJPGForGlobleHttpGetIn">
+    <wsdl:part name="dateTime" type="s:string" />
+    <wsdl:part name="tileLevel" type="s:string" />
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearchTileJPGForGlobleHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForJCGXtestHttpGetIn" />
+  <wsdl:message name="SearTileForJCGXtestHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpPostIn" />
+  <wsdl:message name="HelloWorldHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSetFromSQLiteHttpPostIn">
+    <wsdl:part name="sql" type="s:string" />
+    <wsdl:part name="DataSourcePath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSetFromSQLiteHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetDataDistinctHttpPostIn">
+    <wsdl:part name="distinctSql" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataDistinctHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSatellitesHttpPostIn" />
+  <wsdl:message name="SearTileSatellitesHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSensorsHttpPostIn" />
+  <wsdl:message name="SearTileSensorsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearProdTypeHttpPostIn" />
+  <wsdl:message name="SearProdTypeHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearTileLevelsHttpPostIn" />
+  <wsdl:message name="SearTileLevelsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearTileAllAttrHttpPostIn" />
+  <wsdl:message name="SearTileAllAttrHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteNonQueryHttpPostIn">
+    <wsdl:part name="sql" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteNonQueryHttpPostOut" />
+  <wsdl:message name="SearProTileAllAttrHttpPostIn" />
+  <wsdl:message name="SearProTileAllAttrHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearProTileLevelsHttpPostIn" />
+  <wsdl:message name="SearProTileLevelsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearTilePagedBaseColAndRowTestHttpPostIn" />
+  <wsdl:message name="SearTilePagedBaseColAndRowTestHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="SearTileYaanHttpPostIn">
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+    <wsdl:part name="tileLevel" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearTileYaanHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearImgTileSingleHttpPostIn">
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+    <wsdl:part name="tileLevel" type="s:string" />
+    <wsdl:part name="startdate" type="s:string" />
+    <wsdl:part name="enddate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearImgTileSingleHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearProdTileSingleHttpPostIn">
+    <wsdl:part name="prodType" type="s:string" />
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+    <wsdl:part name="lv" type="s:string" />
+    <wsdl:part name="startdate" type="s:string" />
+    <wsdl:part name="enddate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearProdTileSingleHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="TestSearTileSingleAllTypeHttpPostIn">
+    <wsdl:part name="tablename" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TestSearTileSingleAllTypeHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSingleAllTypeHttpPostIn">
+    <wsdl:part name="tablename" type="s:string" />
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+    <wsdl:part name="tileLevel" type="s:string" />
+    <wsdl:part name="otherCondition" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearTileSingleAllTypeHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearTileYaanBatchTestHttpPostIn" />
+  <wsdl:message name="SearTileYaanBatchTestHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearPRODTileTestHttpPostIn" />
+  <wsdl:message name="SearPRODTileTestHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForKSHHttpPostIn">
+    <wsdl:part name="satellite" type="s:string" />
+    <wsdl:part name="sensor" type="s:string" />
+    <wsdl:part name="datetime" type="s:string" />
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+    <wsdl:part name="tileLevel" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForKSHHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForKSHByRowAndColHttpPostIn">
+    <wsdl:part name="tileLevel" type="s:string" />
+    <wsdl:part name="minRow" type="s:string" />
+    <wsdl:part name="maxRow" type="s:string" />
+    <wsdl:part name="minCol" type="s:string" />
+    <wsdl:part name="maxCol" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForKSHByRowAndColHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SearchTileJPGHttpPostIn">
+    <wsdl:part name="dateTime" type="s:string" />
+    <wsdl:part name="tileLevel" type="s:string" />
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearchTileJPGHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SearchTileJPGForGlobleHttpPostIn">
+    <wsdl:part name="dateTime" type="s:string" />
+    <wsdl:part name="tileLevel" type="s:string" />
+    <wsdl:part name="row" type="s:string" />
+    <wsdl:part name="col" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearchTileJPGForGlobleHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="SearTileForJCGXtestHttpPostIn" />
+  <wsdl:message name="SearTileForJCGXtestHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSetFromSQLite">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">通用方法，未测试。 </wsdl:documentation>
+      <wsdl:input message="tns:GetDataSetFromSQLiteSoapIn" />
+      <wsdl:output message="tns:GetDataSetFromSQLiteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataDistinct">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">通用方法，查询数据库去重字段取值，一般用于查询之前查找字段取值可能性。或者类似功能。</wsdl:documentation>
+      <wsdl:input message="tns:GetDataDistinctSoapIn" />
+      <wsdl:output message="tns:GetDataDistinctSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSatellites">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">1)可作测试用2)获取数据切片中的所有卫星类型取值</wsdl:documentation>
+      <wsdl:input message="tns:SearTileSatellitesSoapIn" />
+      <wsdl:output message="tns:SearTileSatellitesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSensors">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">1)可作测试用2)获取数据切片中的所有传感器类型取值</wsdl:documentation>
+      <wsdl:input message="tns:SearTileSensorsSoapIn" />
+      <wsdl:output message="tns:SearTileSensorsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearProdType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">1)可作测试用2)获取所有产品的类型</wsdl:documentation>
+      <wsdl:input message="tns:SearProdTypeSoapIn" />
+      <wsdl:output message="tns:SearProdTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileLevels">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">1)可作测试用2)查询数据库中已有数据切片等级的列表，可提供给客户端作为查询条件</wsdl:documentation>
+      <wsdl:input message="tns:SearTileLevelsSoapIn" />
+      <wsdl:output message="tns:SearTileLevelsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileAllAttr">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提供给客户端切片高级查询条件</wsdl:documentation>
+      <wsdl:input message="tns:SearTileAllAttrSoapIn" />
+      <wsdl:output message="tns:SearTileAllAttrSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQuery">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提供给客户端执行Sql语句</wsdl:documentation>
+      <wsdl:input message="tns:ExecuteNonQuerySoapIn" />
+      <wsdl:output message="tns:ExecuteNonQuerySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileAllAttr">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提供给客户端高级产品切片查询条件</wsdl:documentation>
+      <wsdl:input message="tns:SearProTileAllAttrSoapIn" />
+      <wsdl:output message="tns:SearProTileAllAttrSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileLevels">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询数据库中已有产品切片等级的列表，可提供给客户端作为查询条件</wsdl:documentation>
+      <wsdl:input message="tns:SearProTileLevelsSoapIn" />
+      <wsdl:output message="tns:SearProTileLevelsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePagedBaseColAndRowTest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">运管查询瓦片测试</wsdl:documentation>
+      <wsdl:input message="tns:SearTilePagedBaseColAndRowTestSoapIn" />
+      <wsdl:output message="tns:SearTilePagedBaseColAndRowTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePagedBaseColAndRow">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">数据切片,返回结果分页，可指定页大小。所有参数须实例化不能为null</wsdl:documentation>
+      <wsdl:input message="tns:SearTilePagedBaseColAndRowSoapIn" />
+      <wsdl:output message="tns:SearTilePagedBaseColAndRowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePaged">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">数据切片,返回结果分页，可指定页大小。所有参数须实例化不能为null</wsdl:documentation>
+      <wsdl:input message="tns:SearTilePagedSoapIn" />
+      <wsdl:output message="tns:SearTilePagedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePaged1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">数据切片,返回结果分页，可指定页大小。所有参数须实例化不能为null</wsdl:documentation>
+      <wsdl:input message="tns:SearTilePaged1SoapIn" />
+      <wsdl:output message="tns:SearTilePaged1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearFliterTilePaged1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">数据切片,返回结果分页，可指定页大小。所有参数须实例化不能为null</wsdl:documentation>
+      <wsdl:input message="tns:SearFliterTilePaged1SoapIn" />
+      <wsdl:output message="tns:SearFliterTilePaged1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TilePathsList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据切片文件名，返回切片路径</wsdl:documentation>
+      <wsdl:input message="tns:TilePathsListSoapIn" />
+      <wsdl:output message="tns:TilePathsListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaan">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为雅安提供，数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearTileYaanSoapIn" />
+      <wsdl:output message="tns:SearTileYaanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearImgTileSingle">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为雅安提供，数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearImgTileSingleSoapIn" />
+      <wsdl:output message="tns:SearImgTileSingleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearProdTileSingle">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为雅安提供，数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearProdTileSingleSoapIn" />
+      <wsdl:output message="tns:SearProdTileSingleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestSearTileSingleAllType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为GIAS提供，查询指定瓦块位置上的数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:TestSearTileSingleAllTypeSoapIn" />
+      <wsdl:output message="tns:TestSearTileSingleAllTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSingleAllType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为GIAS提供，查询指定瓦块位置上的数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearTileSingleAllTypeSoapIn" />
+      <wsdl:output message="tns:SearTileSingleAllTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="searTileByColAndRowBatch">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">通过批量的瓦片的层级行列号信息查询到这些行列号信息的瓦片元数据信息</wsdl:documentation>
+      <wsdl:input message="tns:searTileByColAndRowBatchSoapIn" />
+      <wsdl:output message="tns:searTileByColAndRowBatchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaanBatch">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为雅安提供，批量数据切片,相同行列号、层级，只返回时间最近的结果。所有参数须实例化不能为null。参数说明：行号，列号分别为一维数组，并且行列号一一对应。</wsdl:documentation>
+      <wsdl:input message="tns:SearTileYaanBatchSoapIn" />
+      <wsdl:output message="tns:SearTileYaanBatchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileBatch">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">批量数据切片,相同行列号、层级，只返回时间最近的结果。所有参数须实例化不能为null。参数说明：行号，列号分别为一维数组，并且行列号一一对应。</wsdl:documentation>
+      <wsdl:input message="tns:SearTileBatchSoapIn" />
+      <wsdl:output message="tns:SearTileBatchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearImgTileBatch">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">批量数据切片,相同行列号、层级，只返回时间最近的结果。所有参数须实例化不能为null。参数说明：行号，列号分别为一维数组，并且行列号一一对应。</wsdl:documentation>
+      <wsdl:input message="tns:SearImgTileBatchSoapIn" />
+      <wsdl:output message="tns:SearImgTileBatchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearProdTileBatch">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">批量数据切片,相同行列号、层级，只返回时间最近的结果。所有参数须实例化不能为null。参数说明：行号，列号分别为一维数组，并且行列号一一对应。</wsdl:documentation>
+      <wsdl:input message="tns:SearProdTileBatchSoapIn" />
+      <wsdl:output message="tns:SearProdTileBatchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileBatchAllType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">批量数据切片,相同行列号、层级，只返回时间最近的结果。所有参数须实例化不能为null。参数说明：行号，列号分别为一维数组，并且行列号一一对应。</wsdl:documentation>
+      <wsdl:input message="tns:SearTileBatchAllTypeSoapIn" />
+      <wsdl:output message="tns:SearTileBatchAllTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaanBatchTest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">测试</wsdl:documentation>
+      <wsdl:input message="tns:SearTileYaanBatchTestSoapIn" />
+      <wsdl:output message="tns:SearTileYaanBatchTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileGlobe">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">数据切片,返回结果。所有参数须实例化不能为null</wsdl:documentation>
+      <wsdl:input message="tns:SearTileGlobeSoapIn" />
+      <wsdl:output message="tns:SearTileGlobeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForSimulation">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">数据切片,返回结果。为仿真组提供,参数RowClos示例{'54,237,322','55,227,312'}，表示第54行号，列号开始位置237，列号结束位置322</wsdl:documentation>
+      <wsdl:input message="tns:SearTileForSimulationSoapIn" />
+      <wsdl:output message="tns:SearTileForSimulationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForSimulation1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">数据切片,返回结果。为仿真组提供。数组为二维三列，第一列为要查询的行号，第二列为要查询的列号开始位置，第三列为要查询的列号结束位置</wsdl:documentation>
+      <wsdl:input message="tns:SearTileForSimulation1SoapIn" />
+      <wsdl:output message="tns:SearTileForSimulation1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePaged2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">数据切片,返回结果分页，可指定页大小。所有参数须实例化不能为null</wsdl:documentation>
+      <wsdl:input message="tns:SearTilePaged2SoapIn" />
+      <wsdl:output message="tns:SearTilePaged2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePaged3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">数据切片,返回结果分页，可指定页大小。所有参数须实例化不能为null</wsdl:documentation>
+      <wsdl:input message="tns:SearTilePaged3SoapIn" />
+      <wsdl:output message="tns:SearTilePaged3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearPRODTileTest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">产品（切片）。测试</wsdl:documentation>
+      <wsdl:input message="tns:SearPRODTileTestSoapIn" />
+      <wsdl:output message="tns:SearPRODTileTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearPRODTilePaged">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">HJ产品（切片）,实现了分页检索（QRST内部）。所有参数须实例化不能为null</wsdl:documentation>
+      <wsdl:input message="tns:SearPRODTilePagedSoapIn" />
+      <wsdl:output message="tns:SearPRODTilePagedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearSpaceDistinctTiles">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询所有不同区域的切片种类，并统计个数，用于在球上绘制数据图形</wsdl:documentation>
+      <wsdl:input message="tns:SearSpaceDistinctTilesSoapIn" />
+      <wsdl:output message="tns:SearSpaceDistinctTilesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSH">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为可视化组提供，数据切片,返回查询到的瓦片jpg的路径。所有参数须实例化不能为null。参数依次为：卫星，传感器，时间，行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearTileForKSHSoapIn" />
+      <wsdl:output message="tns:SearTileForKSHSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSHByRowAndCol">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为可视化组提供，数据切片,查询到的DataSet。所有参数须实例化不能为null。参数依次为：层级，最小行号，最大行号，最小列号，最大列号</wsdl:documentation>
+      <wsdl:input message="tns:SearTileForKSHByRowAndColSoapIn" />
+      <wsdl:output message="tns:SearTileForKSHByRowAndColSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileByRegion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">数据切片,返回结果。所有参数须实例化不能为null</wsdl:documentation>
+      <wsdl:input message="tns:SearTileByRegionSoapIn" />
+      <wsdl:output message="tns:SearTileByRegionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPG">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询切片缩略图，为JCGX提供。若不存在，则返回-1</wsdl:documentation>
+      <wsdl:input message="tns:SearchTileJPGSoapIn" />
+      <wsdl:output message="tns:SearchTileJPGSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPGForGloble">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询切片缩略图，为JCGX提供。若不存在，则返回-1</wsdl:documentation>
+      <wsdl:input message="tns:SearchTileJPGForGlobleSoapIn" />
+      <wsdl:output message="tns:SearchTileJPGForGlobleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearPRODTileForJCGX">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询产品数据，为JCGX提供。若datatype为空，则只查询缩略图</wsdl:documentation>
+      <wsdl:input message="tns:SearPRODTileForJCGXSoapIn" />
+      <wsdl:output message="tns:SearPRODTileForJCGXSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForJCGX">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询切片，为JCGX提供。若datatype为空，则只查询缩略图</wsdl:documentation>
+      <wsdl:input message="tns:SearTileForJCGXSoapIn" />
+      <wsdl:output message="tns:SearTileForJCGXSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForJCGXtest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询切片，为JCGX提供。若datatype为空，则只查询缩略图</wsdl:documentation>
+      <wsdl:input message="tns:SearTileForJCGXtestSoapIn" />
+      <wsdl:output message="tns:SearTileForJCGXtestSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ServiceHttpGet">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldHttpGetIn" />
+      <wsdl:output message="tns:HelloWorldHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSetFromSQLite">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">通用方法，未测试。 </wsdl:documentation>
+      <wsdl:input message="tns:GetDataSetFromSQLiteHttpGetIn" />
+      <wsdl:output message="tns:GetDataSetFromSQLiteHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataDistinct">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">通用方法，查询数据库去重字段取值，一般用于查询之前查找字段取值可能性。或者类似功能。</wsdl:documentation>
+      <wsdl:input message="tns:GetDataDistinctHttpGetIn" />
+      <wsdl:output message="tns:GetDataDistinctHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSatellites">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">1)可作测试用2)获取数据切片中的所有卫星类型取值</wsdl:documentation>
+      <wsdl:input message="tns:SearTileSatellitesHttpGetIn" />
+      <wsdl:output message="tns:SearTileSatellitesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSensors">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">1)可作测试用2)获取数据切片中的所有传感器类型取值</wsdl:documentation>
+      <wsdl:input message="tns:SearTileSensorsHttpGetIn" />
+      <wsdl:output message="tns:SearTileSensorsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearProdType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">1)可作测试用2)获取所有产品的类型</wsdl:documentation>
+      <wsdl:input message="tns:SearProdTypeHttpGetIn" />
+      <wsdl:output message="tns:SearProdTypeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileLevels">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">1)可作测试用2)查询数据库中已有数据切片等级的列表，可提供给客户端作为查询条件</wsdl:documentation>
+      <wsdl:input message="tns:SearTileLevelsHttpGetIn" />
+      <wsdl:output message="tns:SearTileLevelsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileAllAttr">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提供给客户端切片高级查询条件</wsdl:documentation>
+      <wsdl:input message="tns:SearTileAllAttrHttpGetIn" />
+      <wsdl:output message="tns:SearTileAllAttrHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQuery">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提供给客户端执行Sql语句</wsdl:documentation>
+      <wsdl:input message="tns:ExecuteNonQueryHttpGetIn" />
+      <wsdl:output message="tns:ExecuteNonQueryHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileAllAttr">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提供给客户端高级产品切片查询条件</wsdl:documentation>
+      <wsdl:input message="tns:SearProTileAllAttrHttpGetIn" />
+      <wsdl:output message="tns:SearProTileAllAttrHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileLevels">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询数据库中已有产品切片等级的列表，可提供给客户端作为查询条件</wsdl:documentation>
+      <wsdl:input message="tns:SearProTileLevelsHttpGetIn" />
+      <wsdl:output message="tns:SearProTileLevelsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePagedBaseColAndRowTest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">运管查询瓦片测试</wsdl:documentation>
+      <wsdl:input message="tns:SearTilePagedBaseColAndRowTestHttpGetIn" />
+      <wsdl:output message="tns:SearTilePagedBaseColAndRowTestHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaan">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为雅安提供，数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearTileYaanHttpGetIn" />
+      <wsdl:output message="tns:SearTileYaanHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearImgTileSingle">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为雅安提供，数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearImgTileSingleHttpGetIn" />
+      <wsdl:output message="tns:SearImgTileSingleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearProdTileSingle">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为雅安提供，数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearProdTileSingleHttpGetIn" />
+      <wsdl:output message="tns:SearProdTileSingleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestSearTileSingleAllType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为GIAS提供，查询指定瓦块位置上的数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:TestSearTileSingleAllTypeHttpGetIn" />
+      <wsdl:output message="tns:TestSearTileSingleAllTypeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSingleAllType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为GIAS提供，查询指定瓦块位置上的数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearTileSingleAllTypeHttpGetIn" />
+      <wsdl:output message="tns:SearTileSingleAllTypeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaanBatchTest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">测试</wsdl:documentation>
+      <wsdl:input message="tns:SearTileYaanBatchTestHttpGetIn" />
+      <wsdl:output message="tns:SearTileYaanBatchTestHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearPRODTileTest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">产品（切片）。测试</wsdl:documentation>
+      <wsdl:input message="tns:SearPRODTileTestHttpGetIn" />
+      <wsdl:output message="tns:SearPRODTileTestHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSH">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为可视化组提供，数据切片,返回查询到的瓦片jpg的路径。所有参数须实例化不能为null。参数依次为：卫星，传感器，时间，行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearTileForKSHHttpGetIn" />
+      <wsdl:output message="tns:SearTileForKSHHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSHByRowAndCol">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为可视化组提供，数据切片,查询到的DataSet。所有参数须实例化不能为null。参数依次为：层级，最小行号，最大行号，最小列号，最大列号</wsdl:documentation>
+      <wsdl:input message="tns:SearTileForKSHByRowAndColHttpGetIn" />
+      <wsdl:output message="tns:SearTileForKSHByRowAndColHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPG">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询切片缩略图，为JCGX提供。若不存在，则返回-1</wsdl:documentation>
+      <wsdl:input message="tns:SearchTileJPGHttpGetIn" />
+      <wsdl:output message="tns:SearchTileJPGHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPGForGloble">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询切片缩略图，为JCGX提供。若不存在，则返回-1</wsdl:documentation>
+      <wsdl:input message="tns:SearchTileJPGForGlobleHttpGetIn" />
+      <wsdl:output message="tns:SearchTileJPGForGlobleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForJCGXtest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询切片，为JCGX提供。若datatype为空，则只查询缩略图</wsdl:documentation>
+      <wsdl:input message="tns:SearTileForJCGXtestHttpGetIn" />
+      <wsdl:output message="tns:SearTileForJCGXtestHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ServiceHttpPost">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldHttpPostIn" />
+      <wsdl:output message="tns:HelloWorldHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSetFromSQLite">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">通用方法，未测试。 </wsdl:documentation>
+      <wsdl:input message="tns:GetDataSetFromSQLiteHttpPostIn" />
+      <wsdl:output message="tns:GetDataSetFromSQLiteHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataDistinct">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">通用方法，查询数据库去重字段取值，一般用于查询之前查找字段取值可能性。或者类似功能。</wsdl:documentation>
+      <wsdl:input message="tns:GetDataDistinctHttpPostIn" />
+      <wsdl:output message="tns:GetDataDistinctHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSatellites">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">1)可作测试用2)获取数据切片中的所有卫星类型取值</wsdl:documentation>
+      <wsdl:input message="tns:SearTileSatellitesHttpPostIn" />
+      <wsdl:output message="tns:SearTileSatellitesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSensors">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">1)可作测试用2)获取数据切片中的所有传感器类型取值</wsdl:documentation>
+      <wsdl:input message="tns:SearTileSensorsHttpPostIn" />
+      <wsdl:output message="tns:SearTileSensorsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearProdType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">1)可作测试用2)获取所有产品的类型</wsdl:documentation>
+      <wsdl:input message="tns:SearProdTypeHttpPostIn" />
+      <wsdl:output message="tns:SearProdTypeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileLevels">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">1)可作测试用2)查询数据库中已有数据切片等级的列表，可提供给客户端作为查询条件</wsdl:documentation>
+      <wsdl:input message="tns:SearTileLevelsHttpPostIn" />
+      <wsdl:output message="tns:SearTileLevelsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileAllAttr">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提供给客户端切片高级查询条件</wsdl:documentation>
+      <wsdl:input message="tns:SearTileAllAttrHttpPostIn" />
+      <wsdl:output message="tns:SearTileAllAttrHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQuery">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提供给客户端执行Sql语句</wsdl:documentation>
+      <wsdl:input message="tns:ExecuteNonQueryHttpPostIn" />
+      <wsdl:output message="tns:ExecuteNonQueryHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileAllAttr">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提供给客户端高级产品切片查询条件</wsdl:documentation>
+      <wsdl:input message="tns:SearProTileAllAttrHttpPostIn" />
+      <wsdl:output message="tns:SearProTileAllAttrHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileLevels">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询数据库中已有产品切片等级的列表，可提供给客户端作为查询条件</wsdl:documentation>
+      <wsdl:input message="tns:SearProTileLevelsHttpPostIn" />
+      <wsdl:output message="tns:SearProTileLevelsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePagedBaseColAndRowTest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">运管查询瓦片测试</wsdl:documentation>
+      <wsdl:input message="tns:SearTilePagedBaseColAndRowTestHttpPostIn" />
+      <wsdl:output message="tns:SearTilePagedBaseColAndRowTestHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaan">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为雅安提供，数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearTileYaanHttpPostIn" />
+      <wsdl:output message="tns:SearTileYaanHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearImgTileSingle">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为雅安提供，数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearImgTileSingleHttpPostIn" />
+      <wsdl:output message="tns:SearImgTileSingleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearProdTileSingle">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为雅安提供，数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearProdTileSingleHttpPostIn" />
+      <wsdl:output message="tns:SearProdTileSingleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestSearTileSingleAllType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为GIAS提供，查询指定瓦块位置上的数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:TestSearTileSingleAllTypeHttpPostIn" />
+      <wsdl:output message="tns:TestSearTileSingleAllTypeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSingleAllType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为GIAS提供，查询指定瓦块位置上的数据切片,返回结果。所有参数须实例化不能为null。参数依次为：行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearTileSingleAllTypeHttpPostIn" />
+      <wsdl:output message="tns:SearTileSingleAllTypeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaanBatchTest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">测试</wsdl:documentation>
+      <wsdl:input message="tns:SearTileYaanBatchTestHttpPostIn" />
+      <wsdl:output message="tns:SearTileYaanBatchTestHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearPRODTileTest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">产品（切片）。测试</wsdl:documentation>
+      <wsdl:input message="tns:SearPRODTileTestHttpPostIn" />
+      <wsdl:output message="tns:SearPRODTileTestHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSH">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为可视化组提供，数据切片,返回查询到的瓦片jpg的路径。所有参数须实例化不能为null。参数依次为：卫星，传感器，时间，行号，列号，层级号</wsdl:documentation>
+      <wsdl:input message="tns:SearTileForKSHHttpPostIn" />
+      <wsdl:output message="tns:SearTileForKSHHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSHByRowAndCol">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">为可视化组提供，数据切片,查询到的DataSet。所有参数须实例化不能为null。参数依次为：层级，最小行号，最大行号，最小列号，最大列号</wsdl:documentation>
+      <wsdl:input message="tns:SearTileForKSHByRowAndColHttpPostIn" />
+      <wsdl:output message="tns:SearTileForKSHByRowAndColHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPG">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询切片缩略图，为JCGX提供。若不存在，则返回-1</wsdl:documentation>
+      <wsdl:input message="tns:SearchTileJPGHttpPostIn" />
+      <wsdl:output message="tns:SearchTileJPGHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPGForGloble">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询切片缩略图，为JCGX提供。若不存在，则返回-1</wsdl:documentation>
+      <wsdl:input message="tns:SearchTileJPGForGlobleHttpPostIn" />
+      <wsdl:output message="tns:SearchTileJPGForGlobleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForJCGXtest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询切片，为JCGX提供。若datatype为空，则只查询缩略图</wsdl:documentation>
+      <wsdl:input message="tns:SearTileForJCGXtestHttpPostIn" />
+      <wsdl:output message="tns:SearTileForJCGXtestHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSetFromSQLite">
+      <soap:operation soapAction="http://tempuri.org/GetDataSetFromSQLite" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataDistinct">
+      <soap:operation soapAction="http://tempuri.org/GetDataDistinct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSatellites">
+      <soap:operation soapAction="http://tempuri.org/SearTileSatellites" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSensors">
+      <soap:operation soapAction="http://tempuri.org/SearTileSensors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProdType">
+      <soap:operation soapAction="http://tempuri.org/SearProdType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileLevels">
+      <soap:operation soapAction="http://tempuri.org/SearTileLevels" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileAllAttr">
+      <soap:operation soapAction="http://tempuri.org/SearTileAllAttr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQuery">
+      <soap:operation soapAction="http://tempuri.org/ExecuteNonQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileAllAttr">
+      <soap:operation soapAction="http://tempuri.org/SearProTileAllAttr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileLevels">
+      <soap:operation soapAction="http://tempuri.org/SearProTileLevels" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePagedBaseColAndRowTest">
+      <soap:operation soapAction="http://tempuri.org/SearTilePagedBaseColAndRowTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePagedBaseColAndRow">
+      <soap:operation soapAction="http://tempuri.org/SearTilePagedBaseColAndRow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePaged">
+      <soap:operation soapAction="http://tempuri.org/SearTilePaged" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePaged1">
+      <soap:operation soapAction="http://tempuri.org/SearTilePaged1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearFliterTilePaged1">
+      <soap:operation soapAction="http://tempuri.org/SearFliterTilePaged1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TilePathsList">
+      <soap:operation soapAction="http://tempuri.org/TilePathsList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaan">
+      <soap:operation soapAction="http://tempuri.org/SearTileYaan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearImgTileSingle">
+      <soap:operation soapAction="http://tempuri.org/SearImgTileSingle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProdTileSingle">
+      <soap:operation soapAction="http://tempuri.org/SearProdTileSingle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestSearTileSingleAllType">
+      <soap:operation soapAction="http://tempuri.org/TestSearTileSingleAllType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSingleAllType">
+      <soap:operation soapAction="http://tempuri.org/SearTileSingleAllType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="searTileByColAndRowBatch">
+      <soap:operation soapAction="http://tempuri.org/searTileByColAndRowBatch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaanBatch">
+      <soap:operation soapAction="http://tempuri.org/SearTileYaanBatch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileBatch">
+      <soap:operation soapAction="http://tempuri.org/SearTileBatch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearImgTileBatch">
+      <soap:operation soapAction="http://tempuri.org/SearImgTileBatch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProdTileBatch">
+      <soap:operation soapAction="http://tempuri.org/SearProdTileBatch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileBatchAllType">
+      <soap:operation soapAction="http://tempuri.org/SearTileBatchAllType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaanBatchTest">
+      <soap:operation soapAction="http://tempuri.org/SearTileYaanBatchTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileGlobe">
+      <soap:operation soapAction="http://tempuri.org/SearTileGlobe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForSimulation">
+      <soap:operation soapAction="http://tempuri.org/SearTileForSimulation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForSimulation1">
+      <soap:operation soapAction="http://tempuri.org/SearTileForSimulation1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePaged2">
+      <soap:operation soapAction="http://tempuri.org/SearTilePaged2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePaged3">
+      <soap:operation soapAction="http://tempuri.org/SearTilePaged3" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearPRODTileTest">
+      <soap:operation soapAction="http://tempuri.org/SearPRODTileTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearPRODTilePaged">
+      <soap:operation soapAction="http://tempuri.org/SearPRODTilePaged" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearSpaceDistinctTiles">
+      <soap:operation soapAction="http://tempuri.org/SearSpaceDistinctTiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSH">
+      <soap:operation soapAction="http://tempuri.org/SearTileForKSH" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSHByRowAndCol">
+      <soap:operation soapAction="http://tempuri.org/SearTileForKSHByRowAndCol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileByRegion">
+      <soap:operation soapAction="http://tempuri.org/SearTileByRegion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPG">
+      <soap:operation soapAction="http://tempuri.org/SearchTileJPG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPGForGloble">
+      <soap:operation soapAction="http://tempuri.org/SearchTileJPGForGloble" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearPRODTileForJCGX">
+      <soap:operation soapAction="http://tempuri.org/SearPRODTileForJCGX" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForJCGX">
+      <soap:operation soapAction="http://tempuri.org/SearTileForJCGX" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForJCGXtest">
+      <soap:operation soapAction="http://tempuri.org/SearTileForJCGXtest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSetFromSQLite">
+      <soap12:operation soapAction="http://tempuri.org/GetDataSetFromSQLite" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataDistinct">
+      <soap12:operation soapAction="http://tempuri.org/GetDataDistinct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSatellites">
+      <soap12:operation soapAction="http://tempuri.org/SearTileSatellites" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSensors">
+      <soap12:operation soapAction="http://tempuri.org/SearTileSensors" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProdType">
+      <soap12:operation soapAction="http://tempuri.org/SearProdType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileLevels">
+      <soap12:operation soapAction="http://tempuri.org/SearTileLevels" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileAllAttr">
+      <soap12:operation soapAction="http://tempuri.org/SearTileAllAttr" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQuery">
+      <soap12:operation soapAction="http://tempuri.org/ExecuteNonQuery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileAllAttr">
+      <soap12:operation soapAction="http://tempuri.org/SearProTileAllAttr" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileLevels">
+      <soap12:operation soapAction="http://tempuri.org/SearProTileLevels" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePagedBaseColAndRowTest">
+      <soap12:operation soapAction="http://tempuri.org/SearTilePagedBaseColAndRowTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePagedBaseColAndRow">
+      <soap12:operation soapAction="http://tempuri.org/SearTilePagedBaseColAndRow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePaged">
+      <soap12:operation soapAction="http://tempuri.org/SearTilePaged" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePaged1">
+      <soap12:operation soapAction="http://tempuri.org/SearTilePaged1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearFliterTilePaged1">
+      <soap12:operation soapAction="http://tempuri.org/SearFliterTilePaged1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TilePathsList">
+      <soap12:operation soapAction="http://tempuri.org/TilePathsList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaan">
+      <soap12:operation soapAction="http://tempuri.org/SearTileYaan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearImgTileSingle">
+      <soap12:operation soapAction="http://tempuri.org/SearImgTileSingle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProdTileSingle">
+      <soap12:operation soapAction="http://tempuri.org/SearProdTileSingle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestSearTileSingleAllType">
+      <soap12:operation soapAction="http://tempuri.org/TestSearTileSingleAllType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSingleAllType">
+      <soap12:operation soapAction="http://tempuri.org/SearTileSingleAllType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="searTileByColAndRowBatch">
+      <soap12:operation soapAction="http://tempuri.org/searTileByColAndRowBatch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaanBatch">
+      <soap12:operation soapAction="http://tempuri.org/SearTileYaanBatch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileBatch">
+      <soap12:operation soapAction="http://tempuri.org/SearTileBatch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearImgTileBatch">
+      <soap12:operation soapAction="http://tempuri.org/SearImgTileBatch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProdTileBatch">
+      <soap12:operation soapAction="http://tempuri.org/SearProdTileBatch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileBatchAllType">
+      <soap12:operation soapAction="http://tempuri.org/SearTileBatchAllType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaanBatchTest">
+      <soap12:operation soapAction="http://tempuri.org/SearTileYaanBatchTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileGlobe">
+      <soap12:operation soapAction="http://tempuri.org/SearTileGlobe" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForSimulation">
+      <soap12:operation soapAction="http://tempuri.org/SearTileForSimulation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForSimulation1">
+      <soap12:operation soapAction="http://tempuri.org/SearTileForSimulation1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePaged2">
+      <soap12:operation soapAction="http://tempuri.org/SearTilePaged2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePaged3">
+      <soap12:operation soapAction="http://tempuri.org/SearTilePaged3" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearPRODTileTest">
+      <soap12:operation soapAction="http://tempuri.org/SearPRODTileTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearPRODTilePaged">
+      <soap12:operation soapAction="http://tempuri.org/SearPRODTilePaged" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearSpaceDistinctTiles">
+      <soap12:operation soapAction="http://tempuri.org/SearSpaceDistinctTiles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSH">
+      <soap12:operation soapAction="http://tempuri.org/SearTileForKSH" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSHByRowAndCol">
+      <soap12:operation soapAction="http://tempuri.org/SearTileForKSHByRowAndCol" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileByRegion">
+      <soap12:operation soapAction="http://tempuri.org/SearTileByRegion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPG">
+      <soap12:operation soapAction="http://tempuri.org/SearchTileJPG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPGForGloble">
+      <soap12:operation soapAction="http://tempuri.org/SearchTileJPGForGloble" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearPRODTileForJCGX">
+      <soap12:operation soapAction="http://tempuri.org/SearPRODTileForJCGX" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForJCGX">
+      <soap12:operation soapAction="http://tempuri.org/SearTileForJCGX" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForJCGXtest">
+      <soap12:operation soapAction="http://tempuri.org/SearTileForJCGXtest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceHttpGet" type="tns:ServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSetFromSQLite">
+      <http:operation location="/GetDataSetFromSQLite" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataDistinct">
+      <http:operation location="/GetDataDistinct" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSatellites">
+      <http:operation location="/SearTileSatellites" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSensors">
+      <http:operation location="/SearTileSensors" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProdType">
+      <http:operation location="/SearProdType" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileLevels">
+      <http:operation location="/SearTileLevels" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileAllAttr">
+      <http:operation location="/SearTileAllAttr" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQuery">
+      <http:operation location="/ExecuteNonQuery" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileAllAttr">
+      <http:operation location="/SearProTileAllAttr" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileLevels">
+      <http:operation location="/SearProTileLevels" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePagedBaseColAndRowTest">
+      <http:operation location="/SearTilePagedBaseColAndRowTest" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaan">
+      <http:operation location="/SearTileYaan" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearImgTileSingle">
+      <http:operation location="/SearImgTileSingle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProdTileSingle">
+      <http:operation location="/SearProdTileSingle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestSearTileSingleAllType">
+      <http:operation location="/TestSearTileSingleAllType" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSingleAllType">
+      <http:operation location="/SearTileSingleAllType" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaanBatchTest">
+      <http:operation location="/SearTileYaanBatchTest" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearPRODTileTest">
+      <http:operation location="/SearPRODTileTest" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSH">
+      <http:operation location="/SearTileForKSH" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSHByRowAndCol">
+      <http:operation location="/SearTileForKSHByRowAndCol" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPG">
+      <http:operation location="/SearchTileJPG" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPGForGloble">
+      <http:operation location="/SearchTileJPGForGloble" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForJCGXtest">
+      <http:operation location="/SearTileForJCGXtest" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceHttpPost" type="tns:ServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSetFromSQLite">
+      <http:operation location="/GetDataSetFromSQLite" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataDistinct">
+      <http:operation location="/GetDataDistinct" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSatellites">
+      <http:operation location="/SearTileSatellites" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSensors">
+      <http:operation location="/SearTileSensors" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProdType">
+      <http:operation location="/SearProdType" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileLevels">
+      <http:operation location="/SearTileLevels" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileAllAttr">
+      <http:operation location="/SearTileAllAttr" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQuery">
+      <http:operation location="/ExecuteNonQuery" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileAllAttr">
+      <http:operation location="/SearProTileAllAttr" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProTileLevels">
+      <http:operation location="/SearProTileLevels" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTilePagedBaseColAndRowTest">
+      <http:operation location="/SearTilePagedBaseColAndRowTest" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaan">
+      <http:operation location="/SearTileYaan" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearImgTileSingle">
+      <http:operation location="/SearImgTileSingle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearProdTileSingle">
+      <http:operation location="/SearProdTileSingle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestSearTileSingleAllType">
+      <http:operation location="/TestSearTileSingleAllType" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileSingleAllType">
+      <http:operation location="/SearTileSingleAllType" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileYaanBatchTest">
+      <http:operation location="/SearTileYaanBatchTest" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearPRODTileTest">
+      <http:operation location="/SearPRODTileTest" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSH">
+      <http:operation location="/SearTileForKSH" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForKSHByRowAndCol">
+      <http:operation location="/SearTileForKSHByRowAndCol" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPG">
+      <http:operation location="/SearchTileJPG" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchTileJPGForGloble">
+      <http:operation location="/SearchTileJPGForGloble" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearTileForJCGXtest">
+      <http:operation location="/SearTileForJCGXtest" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://localhost:50155/WS_QDB_Searcher_Sqlite/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://localhost:50155/WS_QDB_Searcher_Sqlite/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceHttpGet" binding="tns:ServiceHttpGet">
+      <http:address location="http://localhost:50155/WS_QDB_Searcher_Sqlite/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceHttpPost" binding="tns:ServiceHttpPost">
+      <http:address location="http://localhost:50155/WS_QDB_Searcher_Sqlite/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

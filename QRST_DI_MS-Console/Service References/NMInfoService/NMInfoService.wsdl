@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://gis.zju/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="NMInfoService" targetNamespace="http://gis.zju/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://192.168.1.100:8080/nmInfoService/NMInfoPort?xsd=1" namespace="http://gis.zju/" />
+    </xsd:schema>
+  </types>
+  <message name="getcpuPerc">
+    <part name="parameters" element="tns:getcpuPerc" />
+  </message>
+  <message name="getcpuPercResponse">
+    <part name="parameters" element="tns:getcpuPercResponse" />
+  </message>
+  <message name="getPhysicalMemory">
+    <part name="parameters" element="tns:getPhysicalMemory" />
+  </message>
+  <message name="getPhysicalMemoryResponse">
+    <part name="parameters" element="tns:getPhysicalMemoryResponse" />
+  </message>
+  <message name="getDiskUsage">
+    <part name="parameters" element="tns:getDiskUsage" />
+  </message>
+  <message name="getDiskUsageResponse">
+    <part name="parameters" element="tns:getDiskUsageResponse" />
+  </message>
+  <message name="Exception">
+    <part name="fault" element="tns:Exception" />
+  </message>
+  <portType name="NMInfoDelegate">
+    <operation name="getcpuPerc">
+      <input message="tns:getcpuPerc" />
+      <output message="tns:getcpuPercResponse" />
+    </operation>
+    <operation name="getPhysicalMemory">
+      <input message="tns:getPhysicalMemory" />
+      <output message="tns:getPhysicalMemoryResponse" />
+    </operation>
+    <operation name="getDiskUsage">
+      <input message="tns:getDiskUsage" />
+      <output message="tns:getDiskUsageResponse" />
+      <fault name="Exception" message="tns:Exception" />
+    </operation>
+  </portType>
+  <binding name="NMInfoPortBinding" type="tns:NMInfoDelegate">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="getcpuPerc">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPhysicalMemory">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getDiskUsage">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="NMInfoService">
+    <port name="NMInfoPort" binding="tns:NMInfoPortBinding">
+      <soap:address location="http://192.168.1.100:8080/nmInfoService/NMInfoPort" />
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,5 @@
+ 时间：2014-12-01 14:20:48,176 线程ID:[24] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：GetQueryResultInfo 输入:sqlString=select * from correctedTiles 
+  时间：2014-12-01 14:21:44,570 线程ID:[24] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：GetIPFromQRST_ModsList 输出:ipList=192.168.10.105,
+  时间：2014-12-01 14:21:44,571 线程ID:[24] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：getSiteQueryInfo 输入:ipAddress='192.168.10.105' queryResult.SQLString='select * from correctedTiles ' queryResult.ObjectTime='2014/12/1 14:21:44'
+  时间：2014-12-01 14:21:48,800 线程ID:[24] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileForJCGXtest 输出:returnDs不为空
+ 

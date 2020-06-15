@@ -1,0 +1,11 @@
+ 时间：2014-12-11 10:03:03,964 线程ID:[11] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileForJCGX 输入:position='-180,-90,180,90,' datetime='NULL' satellite='NULL' sensor='NULL' datatype='NULL' tileLevel='NULL' startIndex='0' offset='100'
+  时间：2014-12-11 10:03:03,971 线程ID:[11] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：GetQueryResultInfo 输入:sqlString=select * from correctedTiles where  ( type = 'Preview')
+  时间：2014-12-11 10:03:04,184 线程ID:[11] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：GetIPFromQRST_ModsList 输出:ipList=192.168.10.104,
+  时间：2014-12-11 10:03:04,201 线程ID:[11] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：getSiteQueryInfo 输入:ipAddress='192.168.10.104' queryResult.SQLString='select * from correctedTiles where  ( type = 'Preview')' queryResult.ObjectTime='2014/12/11 10:03:04'
+  时间：2014-12-11 10:03:04,435 线程ID:[11] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileForJCGX 输出:returnDs不为空
+  时间：2014-12-11 10:27:40,063 线程ID:[46] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTilePaged1 输入:position='-180,-90,180,90,' datetime='NULL' satellite='NULL' sensor='NULL' datatype='NULL' tileLevel='NULL' OtherQuery='' startIndex='0' offset='100'
+  时间：2014-12-11 10:27:40,071 线程ID:[46] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：GetQueryResultInfo 输入:sqlString=select * from correctedTiles where (( Level='8' and Row>=-360 and Row<=1079 and Col>=360 and Col<=1079 ))
+  时间：2014-12-11 10:27:40,282 线程ID:[46] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：GetIPFromQRST_ModsList 输出:ipList=192.168.10.104,
+  时间：2014-12-11 10:27:40,283 线程ID:[46] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：getSiteQueryInfo 输入:ipAddress='192.168.10.104' queryResult.SQLString='select * from correctedTiles where (( Level='8' and Row>=-360 and Row<=1079 and Col>=360 and Col<=1079 ))' queryResult.ObjectTime='2014/12/11 10:27:40'
+  时间：2014-12-11 10:27:40,487 线程ID:[46] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTilePaged1 输出:returnDs 不为空
+ 

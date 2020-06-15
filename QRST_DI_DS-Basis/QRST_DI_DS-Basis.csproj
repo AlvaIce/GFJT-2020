@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C31DA657-ED54-479E-80C2-8420AAD9532D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QRST_DI_DS_Basis</RootNamespace>
+    <AssemblyName>QRST_DI_DS-Basis</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataDownLoad\DownLoadDataObj.cs" />
+    <Compile Include="DataPacking.cs" />
+    <Compile Include="DirectoryUtil.cs" />
+    <Compile Include="EnumDataType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerializerUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reference\gdal19.dll" />
+    <Content Include="Reference\gdalconst_csharp.dll" />
+    <Content Include="Reference\gdalconst_wrap.dll" />
+    <Content Include="Reference\gdal_csharp.dll" />
+    <Content Include="Reference\gdal_wrap.dll" />
+    <Content Include="Reference\GeoAPI.dll" />
+    <Content Include="Reference\geos_c.dll" />
+    <Content Include="Reference\hd426m.dll" />
+    <Content Include="Reference\hdf5dll.dll" />
+    <Content Include="Reference\hdf5_hldll.dll" />
+    <Content Include="Reference\hm426m.dll" />
+    <Content Include="Reference\MySql.Data.dll" />
+    <Content Include="Reference\ogr_csharp.dll" />
+    <Content Include="Reference\osr_csharp.dll" />
+    <Content Include="refVision\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="refVision\MySql.Data.dll" />
+    <Content Include="refVision\SharpZipLib.dll" />
+    <Content Include="script\sqlscript.txt" />
+    <Content Include="script\trigger.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QRST_DI-Resources\QRST_DI-Resources.csproj">
+      <Project>{2CBD592C-5DC7-4ABE-AF91-E7649CD4908F}</Project>
+      <Name>QRST_DI-Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

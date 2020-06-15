@@ -1,0 +1,5 @@
+ 时间：2014-11-27 11:33:14,268 线程ID:[24] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 输入:row=1 col=1 tileLevel=1
+  时间：2014-11-27 11:33:14,276 线程ID:[24] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：GetQueryResultInfo 输入:sqlString=select * from correctedTiles where Row='1' and Col='1' and Level='1' and type='Preview'
+  时间：2014-11-27 11:33:56,804 线程ID:[24] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：GetIPFromQRST_ModsList 输出:ipList=NULL
+  时间：2014-11-27 11:33:56,809 线程ID:[24] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 返回:DataSet为空
+ 

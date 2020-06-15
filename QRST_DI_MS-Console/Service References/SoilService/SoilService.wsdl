@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://service.bp.zjugis.edu" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://service.bp.zjugis.edu" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>SoilService</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service.bp.zjugis.edu">
+      <xs:element name="getTypes">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTypesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getQuerySoils">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="dts" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dte" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="maxLat" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="maxLng" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="minLat" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="minLng" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="trmc" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="trzl" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="fgwmc" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pagenum" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pagesize" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getQuerySoilsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGPSJ">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="fseq" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGPSJResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFGW">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFGWResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getGPSJRequest">
+    <wsdl:part name="parameters" element="ns:getGPSJ" />
+  </wsdl:message>
+  <wsdl:message name="getGPSJResponse">
+    <wsdl:part name="parameters" element="ns:getGPSJResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTypesRequest">
+    <wsdl:part name="parameters" element="ns:getTypes" />
+  </wsdl:message>
+  <wsdl:message name="getTypesResponse">
+    <wsdl:part name="parameters" element="ns:getTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="getQuerySoilsRequest">
+    <wsdl:part name="parameters" element="ns:getQuerySoils" />
+  </wsdl:message>
+  <wsdl:message name="getQuerySoilsResponse">
+    <wsdl:part name="parameters" element="ns:getQuerySoilsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFGWRequest">
+    <wsdl:part name="parameters" element="ns:getFGW" />
+  </wsdl:message>
+  <wsdl:message name="getFGWResponse">
+    <wsdl:part name="parameters" element="ns:getFGWResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SoilServicePortType">
+    <wsdl:operation name="getGPSJ">
+      <wsdl:input wsaw:Action="urn:getGPSJ" message="ns:getGPSJRequest" />
+      <wsdl:output wsaw:Action="urn:getGPSJResponse" message="ns:getGPSJResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <wsdl:input wsaw:Action="urn:getTypes" message="ns:getTypesRequest" />
+      <wsdl:output wsaw:Action="urn:getTypesResponse" message="ns:getTypesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getQuerySoils">
+      <wsdl:input wsaw:Action="urn:getQuerySoils" message="ns:getQuerySoilsRequest" />
+      <wsdl:output wsaw:Action="urn:getQuerySoilsResponse" message="ns:getQuerySoilsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getFGW">
+      <wsdl:input wsaw:Action="urn:getFGW" message="ns:getFGWRequest" />
+      <wsdl:output wsaw:Action="urn:getFGWResponse" message="ns:getFGWResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SoilServiceSoap11Binding" type="ns:SoilServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getGPSJ">
+      <soap:operation soapAction="urn:getGPSJ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <soap:operation soapAction="urn:getTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQuerySoils">
+      <soap:operation soapAction="urn:getQuerySoils" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFGW">
+      <soap:operation soapAction="urn:getFGW" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SoilServiceSoap12Binding" type="ns:SoilServicePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getGPSJ">
+      <soap12:operation soapAction="urn:getGPSJ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <soap12:operation soapAction="urn:getTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQuerySoils">
+      <soap12:operation soapAction="urn:getQuerySoils" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFGW">
+      <soap12:operation soapAction="urn:getFGW" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SoilServiceHttpBinding" type="ns:SoilServicePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getGPSJ">
+      <http:operation location="getGPSJ" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <http:operation location="getTypes" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQuerySoils">
+      <http:operation location="getQuerySoils" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFGW">
+      <http:operation location="getFGW" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SoilService">
+    <wsdl:port name="SoilServiceHttpSoap11Endpoint" binding="ns:SoilServiceSoap11Binding">
+      <soap:address location="http://192.168.1.100:8080/bpServ/services/SoilService.SoilServiceHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="SoilServiceHttpSoap12Endpoint" binding="ns:SoilServiceSoap12Binding">
+      <soap12:address location="http://192.168.1.100:8080/bpServ/services/SoilService.SoilServiceHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="SoilServiceHttpEndpoint" binding="ns:SoilServiceHttpBinding">
+      <http:address location="http://192.168.1.100:8080/bpServ/services/SoilService.SoilServiceHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

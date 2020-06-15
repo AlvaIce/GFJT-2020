@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://service.bp.zjugis.edu" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://service.bp.zjugis.edu" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>VegetationSouthService</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service.bp.zjugis.edu">
+      <xs:element name="getWHQ">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getWHQResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTypes">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTypesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getQueryVegetations">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="dts" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dte" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="maxLat" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="maxLng" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="minLat" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="minLng" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="zbmc" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="zblb" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="clbw" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="whq" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pagenum" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pagesize" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getQueryVegetationsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGPSJ">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="fseq" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGPSJResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getCLBW">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getCLBWResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getGPSJRequest">
+    <wsdl:part name="parameters" element="ns:getGPSJ" />
+  </wsdl:message>
+  <wsdl:message name="getGPSJResponse">
+    <wsdl:part name="parameters" element="ns:getGPSJResponse" />
+  </wsdl:message>
+  <wsdl:message name="getWHQRequest">
+    <wsdl:part name="parameters" element="ns:getWHQ" />
+  </wsdl:message>
+  <wsdl:message name="getWHQResponse">
+    <wsdl:part name="parameters" element="ns:getWHQResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCLBWRequest">
+    <wsdl:part name="parameters" element="ns:getCLBW" />
+  </wsdl:message>
+  <wsdl:message name="getCLBWResponse">
+    <wsdl:part name="parameters" element="ns:getCLBWResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTypesRequest">
+    <wsdl:part name="parameters" element="ns:getTypes" />
+  </wsdl:message>
+  <wsdl:message name="getTypesResponse">
+    <wsdl:part name="parameters" element="ns:getTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="getQueryVegetationsRequest">
+    <wsdl:part name="parameters" element="ns:getQueryVegetations" />
+  </wsdl:message>
+  <wsdl:message name="getQueryVegetationsResponse">
+    <wsdl:part name="parameters" element="ns:getQueryVegetationsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="VegetationSouthServicePortType">
+    <wsdl:operation name="getGPSJ">
+      <wsdl:input wsaw:Action="urn:getGPSJ" message="ns:getGPSJRequest" />
+      <wsdl:output wsaw:Action="urn:getGPSJResponse" message="ns:getGPSJResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getWHQ">
+      <wsdl:input wsaw:Action="urn:getWHQ" message="ns:getWHQRequest" />
+      <wsdl:output wsaw:Action="urn:getWHQResponse" message="ns:getWHQResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getCLBW">
+      <wsdl:input wsaw:Action="urn:getCLBW" message="ns:getCLBWRequest" />
+      <wsdl:output wsaw:Action="urn:getCLBWResponse" message="ns:getCLBWResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <wsdl:input wsaw:Action="urn:getTypes" message="ns:getTypesRequest" />
+      <wsdl:output wsaw:Action="urn:getTypesResponse" message="ns:getTypesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getQueryVegetations">
+      <wsdl:input wsaw:Action="urn:getQueryVegetations" message="ns:getQueryVegetationsRequest" />
+      <wsdl:output wsaw:Action="urn:getQueryVegetationsResponse" message="ns:getQueryVegetationsResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="VegetationSouthServiceSoap11Binding" type="ns:VegetationSouthServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getGPSJ">
+      <soap:operation soapAction="urn:getGPSJ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getWHQ">
+      <soap:operation soapAction="urn:getWHQ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCLBW">
+      <soap:operation soapAction="urn:getCLBW" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <soap:operation soapAction="urn:getTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQueryVegetations">
+      <soap:operation soapAction="urn:getQueryVegetations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="VegetationSouthServiceSoap12Binding" type="ns:VegetationSouthServicePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getGPSJ">
+      <soap12:operation soapAction="urn:getGPSJ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getWHQ">
+      <soap12:operation soapAction="urn:getWHQ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCLBW">
+      <soap12:operation soapAction="urn:getCLBW" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <soap12:operation soapAction="urn:getTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQueryVegetations">
+      <soap12:operation soapAction="urn:getQueryVegetations" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="VegetationSouthServiceHttpBinding" type="ns:VegetationSouthServicePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getGPSJ">
+      <http:operation location="getGPSJ" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getWHQ">
+      <http:operation location="getWHQ" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCLBW">
+      <http:operation location="getCLBW" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <http:operation location="getTypes" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQueryVegetations">
+      <http:operation location="getQueryVegetations" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="VegetationSouthService">
+    <wsdl:port name="VegetationSouthServiceHttpSoap11Endpoint" binding="ns:VegetationSouthServiceSoap11Binding">
+      <soap:address location="http://192.168.1.100:8080/bpServ/services/VegetationSouthService.VegetationSouthServiceHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="VegetationSouthServiceHttpSoap12Endpoint" binding="ns:VegetationSouthServiceSoap12Binding">
+      <soap12:address location="http://192.168.1.100:8080/bpServ/services/VegetationSouthService.VegetationSouthServiceHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="VegetationSouthServiceHttpEndpoint" binding="ns:VegetationSouthServiceHttpBinding">
+      <http:address location="http://192.168.1.100:8080/bpServ/services/VegetationSouthService.VegetationSouthServiceHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

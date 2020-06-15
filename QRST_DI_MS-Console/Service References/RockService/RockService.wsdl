@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://service.bp.zjugis.edu" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://service.bp.zjugis.edu" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>RockService</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service.bp.zjugis.edu">
+      <xs:element name="getTypes">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTypesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getSubTypes">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getSubTypesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getSSLB">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getSSLBResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getQueryRocks">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="dts" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dte" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="maxLat" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="maxLng" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="minLat" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="minLng" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ykmc" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="yklb" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ykzl" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="sslb" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pagenum" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pagesize" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getQueryRocksResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGPSJ">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="fseq" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGPSJResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getSSLBRequest">
+    <wsdl:part name="parameters" element="ns:getSSLB" />
+  </wsdl:message>
+  <wsdl:message name="getSSLBResponse">
+    <wsdl:part name="parameters" element="ns:getSSLBResponse" />
+  </wsdl:message>
+  <wsdl:message name="getGPSJRequest">
+    <wsdl:part name="parameters" element="ns:getGPSJ" />
+  </wsdl:message>
+  <wsdl:message name="getGPSJResponse">
+    <wsdl:part name="parameters" element="ns:getGPSJResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTypesRequest">
+    <wsdl:part name="parameters" element="ns:getTypes" />
+  </wsdl:message>
+  <wsdl:message name="getTypesResponse">
+    <wsdl:part name="parameters" element="ns:getTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="getQueryRocksRequest">
+    <wsdl:part name="parameters" element="ns:getQueryRocks" />
+  </wsdl:message>
+  <wsdl:message name="getQueryRocksResponse">
+    <wsdl:part name="parameters" element="ns:getQueryRocksResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSubTypesRequest">
+    <wsdl:part name="parameters" element="ns:getSubTypes" />
+  </wsdl:message>
+  <wsdl:message name="getSubTypesResponse">
+    <wsdl:part name="parameters" element="ns:getSubTypesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RockServicePortType">
+    <wsdl:operation name="getSSLB">
+      <wsdl:input wsaw:Action="urn:getSSLB" message="ns:getSSLBRequest" />
+      <wsdl:output wsaw:Action="urn:getSSLBResponse" message="ns:getSSLBResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getGPSJ">
+      <wsdl:input wsaw:Action="urn:getGPSJ" message="ns:getGPSJRequest" />
+      <wsdl:output wsaw:Action="urn:getGPSJResponse" message="ns:getGPSJResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <wsdl:input wsaw:Action="urn:getTypes" message="ns:getTypesRequest" />
+      <wsdl:output wsaw:Action="urn:getTypesResponse" message="ns:getTypesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getQueryRocks">
+      <wsdl:input wsaw:Action="urn:getQueryRocks" message="ns:getQueryRocksRequest" />
+      <wsdl:output wsaw:Action="urn:getQueryRocksResponse" message="ns:getQueryRocksResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubTypes">
+      <wsdl:input wsaw:Action="urn:getSubTypes" message="ns:getSubTypesRequest" />
+      <wsdl:output wsaw:Action="urn:getSubTypesResponse" message="ns:getSubTypesResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RockServiceSoap11Binding" type="ns:RockServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getSSLB">
+      <soap:operation soapAction="urn:getSSLB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGPSJ">
+      <soap:operation soapAction="urn:getGPSJ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQueryRocks">
+      <soap:operation soapAction="urn:getQueryRocks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <soap:operation soapAction="urn:getTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubTypes">
+      <soap:operation soapAction="urn:getSubTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RockServiceSoap12Binding" type="ns:RockServicePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getSSLB">
+      <soap12:operation soapAction="urn:getSSLB" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGPSJ">
+      <soap12:operation soapAction="urn:getGPSJ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQueryRocks">
+      <soap12:operation soapAction="urn:getQueryRocks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <soap12:operation soapAction="urn:getTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubTypes">
+      <soap12:operation soapAction="urn:getSubTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RockServiceHttpBinding" type="ns:RockServicePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getSSLB">
+      <http:operation location="getSSLB" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGPSJ">
+      <http:operation location="getGPSJ" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQueryRocks">
+      <http:operation location="getQueryRocks" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTypes">
+      <http:operation location="getTypes" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubTypes">
+      <http:operation location="getSubTypes" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RockService">
+    <wsdl:port name="RockServiceHttpSoap11Endpoint" binding="ns:RockServiceSoap11Binding">
+      <soap:address location="http://192.168.1.100:8080/bpServ/services/RockService.RockServiceHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="RockServiceHttpSoap12Endpoint" binding="ns:RockServiceSoap12Binding">
+      <soap12:address location="http://192.168.1.100:8080/bpServ/services/RockService.RockServiceHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="RockServiceHttpEndpoint" binding="ns:RockServiceHttpBinding">
+      <http:address location="http://192.168.1.100:8080/bpServ/services/RockService.RockServiceHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

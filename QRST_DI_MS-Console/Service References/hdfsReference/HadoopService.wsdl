@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap11="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc12="http://www.w3.org/2003/05/soap-encoding" xmlns:soapenc11="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope" xmlns:tns="http://services.zju.edu.cn" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://lang.java" xmlns:ns1="http://io.java" xmlns:ns3="http://json.org" targetNamespace="http://services.zju.edu.cn" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://services.zju.edu.cn">
+      <xsd:element name="getLiveNodes">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="getLiveNodesResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="IOException" type="ns1:IOException" />
+      <xsd:element name="JSONException" type="ns3:JSONException" />
+      <xsd:element name="getDFSHealthReport">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="getDFSHealthReportResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getDFSTotalInfo">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="getDFSTotalInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://io.java">
+      <xsd:complexType name="IOException" />
+    </xsd:schema>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://json.org">
+      <xsd:complexType name="JSONException">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="cause" nillable="true" type="ns2:Throwable" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://lang.java">
+      <xsd:complexType name="Throwable" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getLiveNodesRequest">
+    <wsdl:part name="parameters" element="tns:getLiveNodes" />
+  </wsdl:message>
+  <wsdl:message name="getDFSTotalInfoResponse">
+    <wsdl:part name="parameters" element="tns:getDFSTotalInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="JSONException">
+    <wsdl:part name="JSONException" element="tns:JSONException" />
+  </wsdl:message>
+  <wsdl:message name="getDFSTotalInfoRequest">
+    <wsdl:part name="parameters" element="tns:getDFSTotalInfo" />
+  </wsdl:message>
+  <wsdl:message name="getDFSHealthReportResponse">
+    <wsdl:part name="parameters" element="tns:getDFSHealthReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOException">
+    <wsdl:part name="IOException" element="tns:IOException" />
+  </wsdl:message>
+  <wsdl:message name="getDFSHealthReportRequest">
+    <wsdl:part name="parameters" element="tns:getDFSHealthReport" />
+  </wsdl:message>
+  <wsdl:message name="getLiveNodesResponse">
+    <wsdl:part name="parameters" element="tns:getLiveNodesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="HadoopServicePortType">
+    <wsdl:operation name="getLiveNodes">
+      <wsdl:input name="getLiveNodesRequest" message="tns:getLiveNodesRequest" />
+      <wsdl:output name="getLiveNodesResponse" message="tns:getLiveNodesResponse" />
+      <wsdl:fault name="IOException" message="tns:IOException" />
+      <wsdl:fault name="JSONException" message="tns:JSONException" />
+    </wsdl:operation>
+    <wsdl:operation name="getDFSHealthReport">
+      <wsdl:input name="getDFSHealthReportRequest" message="tns:getDFSHealthReportRequest" />
+      <wsdl:output name="getDFSHealthReportResponse" message="tns:getDFSHealthReportResponse" />
+      <wsdl:fault name="IOException" message="tns:IOException" />
+    </wsdl:operation>
+    <wsdl:operation name="getDFSTotalInfo">
+      <wsdl:input name="getDFSTotalInfoRequest" message="tns:getDFSTotalInfoRequest" />
+      <wsdl:output name="getDFSTotalInfoResponse" message="tns:getDFSTotalInfoResponse" />
+      <wsdl:fault name="IOException" message="tns:IOException" />
+      <wsdl:fault name="JSONException" message="tns:JSONException" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HadoopServiceHttpBinding" type="tns:HadoopServicePortType">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getLiveNodes">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getLiveNodesRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getLiveNodesResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="IOException">
+        <wsdlsoap:fault use="literal" name="IOException" namespace="" />
+      </wsdl:fault>
+      <wsdl:fault name="JSONException">
+        <wsdlsoap:fault use="literal" name="JSONException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDFSHealthReport">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getDFSHealthReportRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDFSHealthReportResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="IOException">
+        <wsdlsoap:fault use="literal" name="IOException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDFSTotalInfo">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getDFSTotalInfoRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDFSTotalInfoResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="IOException">
+        <wsdlsoap:fault use="literal" name="IOException" namespace="" />
+      </wsdl:fault>
+      <wsdl:fault name="JSONException">
+        <wsdlsoap:fault use="literal" name="JSONException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HadoopService">
+    <wsdl:port name="HadoopServiceHttpPort" binding="tns:HadoopServiceHttpBinding">
+      <wsdlsoap:address location="http://172.16.0.61:8888/MapReduceService/services/HadoopService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

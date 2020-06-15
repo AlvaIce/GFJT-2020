@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="QRST_DI_MS_Console.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="QRST_DI_MS_Console_WS_QDB_Searcher_MySQL_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.10.104/WS_QDB_Searcher_MySQL/Service.asmx</Value>
+    </Setting>
+    <Setting Name="QRST_DI_MS_Console_WS_QDB_GetDataService_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.10.104/WS_QDB_GetData/Service.asmx</Value>
+    </Setting>
+    <Setting Name="QRST_DI_MS_Console_localhostSqlite_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:50155/WS_QDB_Searcher_Sqlite/Service.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

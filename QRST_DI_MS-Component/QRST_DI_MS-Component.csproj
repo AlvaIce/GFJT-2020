@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E347A309-6D11-4CE9-9B51-AEDDC8DD1676}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QRST_DI_MS_Component</RootNamespace>
+    <AssemblyName>QRST_DI_MS-Component</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.5.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\ref\DevComponents.DotNetBar2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=11.5.0.0, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\ref\DevComponents.Instrumentation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.TreeGX, Version=11.5.0.0, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\ref\DevComponents.TreeGX.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotSpatial.Data, Version=1.5.0.0, Culture=neutral, PublicKeyToken=c29dbf30e059ca9d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Data.Rasters.GdalExtension, Version=1.9.0.0, Culture=neutral, PublicKeyToken=a8023d70ef7a76f8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Data.Rasters.GdalExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Mono, Version=1.5.0.0, Culture=neutral, PublicKeyToken=425ba4de41127026, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Mono.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Projections, Version=0.11.9.6, Culture=neutral, PublicKeyToken=272632bddd08a38b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Projections.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Serialization, Version=1.5.0.0, Culture=neutral, PublicKeyToken=441f200f827611e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Topology, Version=0.11.9.6, Culture=neutral, PublicKeyToken=a66b5e9434ca3671, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\DotSpatial\x86\DotSpatial.Topology.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2908.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.JScript" />
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="QRST.WorldGlobeTool">
+      <HintPath>..\QRST_DI_MS-Console V2.0\bin\Runtime_DI\QRST.WorldGlobeTool.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\CtrlDownloadInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\CtrlDownloadInfo.Designer.cs">
+      <DependentUpon>CtrlDownloadInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FrmDownLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\FrmDownLoad.Designer.cs">
+      <DependentUpon>FrmDownLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FrmDownLoadLst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\FrmDownLoadLst.Designer.cs">
+      <DependentUpon>FrmDownLoadLst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\WaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\WaitForm.designer.cs">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataImportUI\MouldDoc\ctrlMouldDocImportor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataImportUI\MouldDoc\ctrlMouldDocImportor.Designer.cs">
+      <DependentUpon>ctrlMouldDocImportor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataImportUI\NormalFile\ctrlNormalFileImportor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataImportUI\NormalFile\ctrlNormalFileImportor.Designer.cs">
+      <DependentUpon>ctrlNormalFileImportor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataImportUI\Raster\ctrlRasterProdImportor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataImportUI\Raster\ctrlRasterProdImportor.Designer.cs">
+      <DependentUpon>ctrlRasterProdImportor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataImportUI\Raster\SingleDataImageProd.cs" />
+    <Compile Include="DataImportUI\TAR.GZ\AutomaticTarImport.cs" />
+    <Compile Include="DataImportUI\TAR.GZ\SourceDataDelete.cs" />
+    <Compile Include="DataImportUI\TAR.GZ\UCImportTarGZ.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataImportUI\TAR.GZ\UCImportTarGZ.Designer.cs">
+      <DependentUpon>UCImportTarGZ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataImportUI\TAR.GZ\XML_Tree.cs" />
+    <Compile Include="DataImportUI\Tiles\TileStoreWithUI.cs" />
+    <Compile Include="DataImportUI\Tiles\UCTileImport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataImportUI\Tiles\UCTileImport.Designer.cs">
+      <DependentUpon>UCTileImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataImportUI\Vector\ctrlVectorBatchImportLst.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataImportUI\Vector\ctrlVectorBatchImportLst.designer.cs">
+      <DependentUpon>ctrlVectorBatchImportLst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataImportUI\Vector\ctrlVectorDataImport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataImportUI\Vector\ctrlVectorDataImport.designer.cs">
+      <DependentUpon>ctrlVectorDataImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataImportUI\Vector\ctrlVectorMetaData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataImportUI\Vector\ctrlVectorMetaData.designer.cs">
+      <DependentUpon>ctrlVectorMetaData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataImportUI\Vector\CtrlVectorUserMetaDataSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataImportUI\Vector\CtrlVectorUserMetaDataSetting.Designer.cs">
+      <DependentUpon>CtrlVectorUserMetaDataSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataImportUI\Vector\ImportVectorData.cs" />
+    <Compile Include="DataImportUI\Vector\SingleDataVector.cs" />
+    <Compile Include="DataImportUI\ctrlVirtualDirSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataImportUI\ctrlVirtualDirSetting.Designer.cs">
+      <DependentUpon>ctrlVirtualDirSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="VirtualDirUI\FileReName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VirtualDirUI\FileReName.Designer.cs">
+      <DependentUpon>FileReName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VirtualDirUI\InputDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VirtualDirUI\InputDataForm.Designer.cs">
+      <DependentUpon>InputDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VirtualDirUI\InputDataService.cs" />
+    <Compile Include="VirtualDirUI\NewFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VirtualDirUI\NewFile.Designer.cs">
+      <DependentUpon>NewFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VirtualDirUI\ctrlVirtualDir.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VirtualDirUI\ctrlVirtualDir.Designer.cs">
+      <DependentUpon>ctrlVirtualDir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VirtualDirUI\Preview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VirtualDirUI\Preview.Designer.cs">
+      <DependentUpon>Preview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VirtualDirUI\VirtualDirSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VirtualDirUI\VirtualDirSelector.Designer.cs">
+      <DependentUpon>VirtualDirSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VirtualDirUI\VirtualDirUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VirtualDirUI\VirtualDirUC.Designer.cs">
+      <DependentUpon>VirtualDirUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VirtualDirUI\UserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VirtualDirUI\UserLogin.Designer.cs">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VirtualDirUI\Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VirtualDirUI\Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Common\CtrlDownloadInfo.resx">
+      <DependentUpon>CtrlDownloadInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FrmDownLoad.resx">
+      <DependentUpon>FrmDownLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FrmDownLoadLst.resx">
+      <DependentUpon>FrmDownLoadLst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\WaitForm.resx">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataImportUI\ctrlVirtualDirSetting.resx">
+      <DependentUpon>ctrlVirtualDirSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataImportUI\MouldDoc\ctrlMouldDocImportor.resx">
+      <DependentUpon>ctrlMouldDocImportor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataImportUI\NormalFile\ctrlNormalFileImportor.resx">
+      <DependentUpon>ctrlNormalFileImportor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataImportUI\Raster\ctrlRasterProdImportor.resx">
+      <DependentUpon>ctrlRasterProdImportor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataImportUI\TAR.GZ\UCImportTarGZ.resx">
+      <DependentUpon>UCImportTarGZ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataImportUI\Tiles\UCTileImport.resx">
+      <DependentUpon>UCTileImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataImportUI\Vector\ctrlVectorBatchImportLst.resx">
+      <DependentUpon>ctrlVectorBatchImportLst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataImportUI\Vector\ctrlVectorDataImport.resx">
+      <DependentUpon>ctrlVectorDataImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataImportUI\Vector\ctrlVectorMetaData.resx">
+      <DependentUpon>ctrlVectorMetaData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataImportUI\Vector\CtrlVectorUserMetaDataSetting.resx">
+      <DependentUpon>CtrlVectorUserMetaDataSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VirtualDirUI\FileReName.resx">
+      <DependentUpon>FileReName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VirtualDirUI\InputDataForm.resx">
+      <DependentUpon>InputDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VirtualDirUI\NewFile.resx">
+      <DependentUpon>NewFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VirtualDirUI\ctrlVirtualDir.resx">
+      <DependentUpon>ctrlVirtualDir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VirtualDirUI\Preview.resx">
+      <DependentUpon>Preview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VirtualDirUI\VirtualDirSelector.resx">
+      <DependentUpon>VirtualDirSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VirtualDirUI\VirtualDirUC.resx">
+      <DependentUpon>VirtualDirUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VirtualDirUI\UserLogin.resx">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VirtualDirUI\Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataImportUI\TAR.GZ\FaceTree\TypeTree.xml" />
+    <None Include="Resources\search16px.png" />
+    <Content Include="Resources\Preview_16px.png" />
+    <Content Include="Resources\undo1.png" />
+    <None Include="Resources\系统部署包.gif" />
+    <None Include="Resources\算法模型.png" />
+    <None Include="Resources\专题产品.png" />
+    <None Include="Resources\示范区.png" />
+    <None Include="Resources\实测数据.png" />
+    <None Include="Resources\专题产品发布.png" />
+    <None Include="Resources\一般文件.png" />
+    <None Include="Resources\文档资料.png" />
+    <None Include="Resources\矢量数据 .png" />
+    <None Include="Resources\规格化数据.png" />
+    <None Include="Resources\非规数据.png" />
+    <None Include="Resources\原始数据.png" />
+    <None Include="Resources\订单管理16.png" />
+    <None Include="Resources\下载此数据16.png" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\文件夹.png" />
+    <None Include="Resources\Rename_48.ico" />
+    <None Include="Resources\add_uer.ico" />
+    <None Include="Resources\big-refresh.png" />
+    <Content Include="Resources\closed file.bmp" />
+    <Content Include="Resources\copy-small.png" />
+    <None Include="Resources\copy_file.ico" />
+    <Content Include="Resources\delete-small.png" />
+    <None Include="Resources\delete_file.ico" />
+    <Content Include="Resources\Document1.png" />
+    <Content Include="Resources\FolderClosed1.png" />
+    <Content Include="Resources\FolderOpen1.png" />
+    <None Include="Resources\move-file.ico" />
+    <Content Include="Resources\move-small.png" />
+    <Content Include="Resources\newfile-small.png" />
+    <Content Include="Resources\newfile.png" />
+    <Content Include="Resources\new_file .png" />
+    <None Include="Resources\new_file_48.ico" />
+    <Content Include="Resources\new_file_48px_1187338_easyicon.net.ico" />
+    <None Include="Resources\paste-48.ico" />
+    <Content Include="Resources\paste-small.png" />
+    <None Include="Resources\refresh.png" />
+    <Content Include="Resources\Rename_16.png" />
+    <None Include="Properties\Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QRST_DI-Resources\QRST_DI-Resources.csproj">
+      <Project>{2CBD592C-5DC7-4ABE-AF91-E7649CD4908F}</Project>
+      <Name>QRST_DI-Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS-Basis\QRST_DI_DS-Basis.csproj">
+      <Project>{C31DA657-ED54-479E-80C2-8420AAD9532D}</Project>
+      <Name>QRST_DI_DS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS-Metadata\QRST_DI_DS-Metadata.csproj">
+      <Project>{0D696972-922C-4252-898D-4415A260C38D}</Project>
+      <Name>QRST_DI_DS-Metadata</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS_DataTransfer\QRST_DI_DS_DataTransfer.csproj">
+      <Project>{6FFBF245-C003-40AA-8568-29FCAAA0634E}</Project>
+      <Name>QRST_DI_DS_DataTransfer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_MS-Basis\QRST_DI_MS-Basis.csproj">
+      <Project>{FE9E2418-C7EA-4D0B-83CD-B2C70262BF1A}</Project>
+      <Name>QRST_DI_MS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_Basis\QRST_DI_SS_Basis.csproj">
+      <Project>{8ba4280f-807f-4345-a91e-8f42988954b2}</Project>
+      <Name>QRST_DI_SS_Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_DBClient\QRST_DI_SS_DBClient.csproj">
+      <Project>{dfaeeb36-fe07-4113-ba6b-870d62fb6f95}</Project>
+      <Name>QRST_DI_SS_DBClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_DBInterfaces\QRST_DI_SS_DBInterfaces.csproj">
+      <Project>{1495d023-5226-40c0-935f-044b4c72b53b}</Project>
+      <Name>QRST_DI_SS_DBInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_TS-Basis\QRST_DI_TS-Basis.csproj">
+      <Project>{BAA54246-EE88-4BD8-84C8-04D363462285}</Project>
+      <Name>QRST_DI_TS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_TS-Process\QRST_DI_TS-Process.csproj">
+      <Project>{450831E4-607C-49E2-BB37-3715803AB676}</Project>
+      <Name>QRST_DI_TS-Process</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

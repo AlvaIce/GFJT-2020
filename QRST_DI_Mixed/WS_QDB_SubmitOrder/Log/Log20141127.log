@@ -1,0 +1,3 @@
+ 时间：2014-11-27 16:59:08,377 线程ID:[6] 文件:WS_QDB_SubmitOrder/App_Code/Service.cs 方法：GetOrderStatus 输入:ordercode='11'
+  时间：2014-11-27 16:59:08,519 线程ID:[6] 文件:WS_QDB_SubmitOrder/App_Code/Service.cs 方法：GetOrderStatus 输出:Missing
+ 

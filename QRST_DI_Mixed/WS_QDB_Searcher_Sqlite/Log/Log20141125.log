@@ -1,0 +1,7 @@
+ 时间：2014-11-25 14:20:15,626 线程ID:[54] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 输入:row=12 col=12 tileLevel=3
+  时间：2014-11-25 14:20:17,846 线程ID:[54] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 返回:DataSet为空
+  时间：2014-11-25 14:20:42,297 线程ID:[56] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 输入:row=14 col=14 tileLevel=3
+  时间：2014-11-25 14:20:44,500 线程ID:[56] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 返回:DataSet为空
+  时间：2014-11-25 14:27:47,051 线程ID:[56] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 输入:row=18 col=18 tileLevel=12
+  时间：2014-11-25 14:27:49,265 线程ID:[56] 文件:WS_QDB_Searcher_Sqlite/App_Code/Service.cs 方法：SearTileYaan 返回:DataSet为空
+ 

@@ -1,0 +1,235 @@
+﻿namespace QRST_DI_MS_Console.UserInterfaces
+{
+    partial class ctrlCommonDataImport
+    {
+        /// <summary> 
+        /// 必需的设计器变量。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// 清理所有正在使用的资源。
+        /// </summary>
+        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region 组件设计器生成的代码
+
+        /// <summary> 
+        /// 设计器支持所需的方法 - 不要
+        /// 使用代码编辑器修改此方法的内容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnChooseSingleFile = new System.Windows.Forms.Button();
+            this.textSingleFilePath = new System.Windows.Forms.TextBox();
+            this.radioSingleImport = new System.Windows.Forms.RadioButton();
+            this.radioBatchImport = new System.Windows.Forms.RadioButton();
+            this.btnChooseFolder = new System.Windows.Forms.Button();
+            this.textFolderPath = new System.Windows.Forms.TextBox();
+            this.panelMain = new System.Windows.Forms.Panel();
+            this.btnFinish = new System.Windows.Forms.Button();
+            this.btnCancle = new System.Windows.Forms.Button();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip();
+            this.添加ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.删除ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.取消ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
+            this.groupControl2.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // btnChooseSingleFile
+            // 
+            this.btnChooseSingleFile.Location = new System.Drawing.Point(1021, 14);
+            this.btnChooseSingleFile.Name = "btnChooseSingleFile";
+            this.btnChooseSingleFile.Size = new System.Drawing.Size(85, 27);
+            this.btnChooseSingleFile.TabIndex = 12;
+            this.btnChooseSingleFile.Text = "选择...";
+            this.btnChooseSingleFile.UseVisualStyleBackColor = true;
+            this.btnChooseSingleFile.Click += new System.EventHandler(this.btnChooseSingleFile_Click);
+            // 
+            // textSingleFilePath
+            // 
+            this.textSingleFilePath.Location = new System.Drawing.Point(155, 17);
+            this.textSingleFilePath.Name = "textSingleFilePath";
+            this.textSingleFilePath.ReadOnly = true;
+            this.textSingleFilePath.Size = new System.Drawing.Size(797, 22);
+            this.textSingleFilePath.TabIndex = 11;
+            // 
+            // radioSingleImport
+            // 
+            this.radioSingleImport.AutoSize = true;
+            this.radioSingleImport.Checked = true;
+            this.radioSingleImport.Location = new System.Drawing.Point(20, 18);
+            this.radioSingleImport.Name = "radioSingleImport";
+            this.radioSingleImport.Size = new System.Drawing.Size(85, 18);
+            this.radioSingleImport.TabIndex = 10;
+            this.radioSingleImport.TabStop = true;
+            this.radioSingleImport.Text = "单数据导入";
+            this.radioSingleImport.UseVisualStyleBackColor = true;
+            this.radioSingleImport.CheckedChanged += new System.EventHandler(this.radioSingleImport_CheckedChanged);
+            // 
+            // radioBatchImport
+            // 
+            this.radioBatchImport.AutoSize = true;
+            this.radioBatchImport.Location = new System.Drawing.Point(20, 56);
+            this.radioBatchImport.Name = "radioBatchImport";
+            this.radioBatchImport.Size = new System.Drawing.Size(97, 18);
+            this.radioBatchImport.TabIndex = 9;
+            this.radioBatchImport.Text = "批量数据导入";
+            this.radioBatchImport.UseVisualStyleBackColor = true;
+            this.radioBatchImport.CheckedChanged += new System.EventHandler(this.radioBatchImport_CheckedChanged);
+            // 
+            // btnChooseFolder
+            // 
+            this.btnChooseFolder.Enabled = false;
+            this.btnChooseFolder.Location = new System.Drawing.Point(1021, 56);
+            this.btnChooseFolder.Name = "btnChooseFolder";
+            this.btnChooseFolder.Size = new System.Drawing.Size(85, 27);
+            this.btnChooseFolder.TabIndex = 8;
+            this.btnChooseFolder.Text = "选择...";
+            this.btnChooseFolder.UseVisualStyleBackColor = true;
+            this.btnChooseFolder.Click += new System.EventHandler(this.btnChooseFolder_Click);
+            // 
+            // textFolderPath
+            // 
+            this.textFolderPath.Location = new System.Drawing.Point(155, 59);
+            this.textFolderPath.Name = "textFolderPath";
+            this.textFolderPath.ReadOnly = true;
+            this.textFolderPath.Size = new System.Drawing.Size(797, 22);
+            this.textFolderPath.TabIndex = 7;
+            // 
+            // panelMain
+            // 
+            this.panelMain.BackColor = System.Drawing.Color.White;
+            this.panelMain.Location = new System.Drawing.Point(30, 54);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(838, 419);
+            this.panelMain.TabIndex = 14;
+            // 
+            // btnFinish
+            // 
+            this.btnFinish.Enabled = false;
+            this.btnFinish.Location = new System.Drawing.Point(623, 490);
+            this.btnFinish.Name = "btnFinish";
+            this.btnFinish.Size = new System.Drawing.Size(85, 27);
+            this.btnFinish.TabIndex = 13;
+            this.btnFinish.Text = "完成";
+            this.btnFinish.UseVisualStyleBackColor = true;
+            this.btnFinish.Click += new System.EventHandler(this.btnFinish_Click);
+            // 
+            // btnCancle
+            // 
+            this.btnCancle.Location = new System.Drawing.Point(735, 490);
+            this.btnCancle.Name = "btnCancle";
+            this.btnCancle.Size = new System.Drawing.Size(85, 27);
+            this.btnCancle.TabIndex = 14;
+            this.btnCancle.Text = "取消";
+            this.btnCancle.UseVisualStyleBackColor = true;
+            this.btnCancle.Click += new System.EventHandler(this.btnCancle_Click);
+            // 
+            // groupControl1
+            // 
+            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupControl1.Location = new System.Drawing.Point(3, 126);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.Size = new System.Drawing.Size(349, 549);
+            this.groupControl1.TabIndex = 16;
+            this.groupControl1.Text = "元数据节点管理";
+            // 
+            // groupControl2
+            // 
+            this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupControl2.Controls.Add(this.btnCancle);
+            this.groupControl2.Controls.Add(this.btnFinish);
+            this.groupControl2.Controls.Add(this.panelMain);
+            this.groupControl2.Location = new System.Drawing.Point(350, 126);
+            this.groupControl2.Name = "groupControl2";
+            this.groupControl2.Size = new System.Drawing.Size(893, 549);
+            this.groupControl2.TabIndex = 17;
+            this.groupControl2.Text = "数据详情";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.添加ToolStripMenuItem,
+            this.删除ToolStripMenuItem,
+            this.取消ToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 92);
+            // 
+            // 添加ToolStripMenuItem
+            // 
+            this.添加ToolStripMenuItem.Name = "添加ToolStripMenuItem";
+            this.添加ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.添加ToolStripMenuItem.Text = "添加";
+            this.添加ToolStripMenuItem.Click += new System.EventHandler(this.添加ToolStripMenuItem_Click);
+            // 
+            // 删除ToolStripMenuItem
+            // 
+            this.删除ToolStripMenuItem.Name = "删除ToolStripMenuItem";
+            this.删除ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.删除ToolStripMenuItem.Text = "删除";
+            this.删除ToolStripMenuItem.Click += new System.EventHandler(this.删除ToolStripMenuItem_Click);
+            // 
+            // 取消ToolStripMenuItem
+            // 
+            this.取消ToolStripMenuItem.Name = "取消ToolStripMenuItem";
+            this.取消ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.取消ToolStripMenuItem.Text = "取消";
+            // 
+            // ctrlCommonDataImport
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.groupControl2);
+            this.Controls.Add(this.groupControl1);
+            this.Controls.Add(this.textSingleFilePath);
+            this.Controls.Add(this.btnChooseSingleFile);
+            this.Controls.Add(this.radioSingleImport);
+            this.Controls.Add(this.radioBatchImport);
+            this.Controls.Add(this.btnChooseFolder);
+            this.Controls.Add(this.textFolderPath);
+            this.Name = "ctrlCommonDataImport";
+            this.Size = new System.Drawing.Size(1246, 717);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
+            this.groupControl2.ResumeLayout(false);
+            this.contextMenuStrip1.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnChooseSingleFile;
+        private System.Windows.Forms.TextBox textSingleFilePath;
+        private System.Windows.Forms.RadioButton radioSingleImport;
+        private System.Windows.Forms.RadioButton radioBatchImport;
+        private System.Windows.Forms.Button btnChooseFolder;
+        private System.Windows.Forms.TextBox textFolderPath;
+        private System.Windows.Forms.Panel panelMain;
+        private System.Windows.Forms.Button btnFinish;
+        private System.Windows.Forms.Button btnCancle;
+        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraEditors.GroupControl groupControl2;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem 添加ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 删除ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 取消ToolStripMenuItem;
+    }
+}

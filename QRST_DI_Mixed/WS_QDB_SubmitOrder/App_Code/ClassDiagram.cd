@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TileInfo">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAgAAAACAAAAAACAIA=</HashCode>
+      <FileName>App_Code\SubmitOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubmitOrder">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAARIAAAEAAAAAAAAAAAAAAQAQQIAAAARAgAiQAEKAA=</HashCode>
+      <FileName>App_Code\SubmitOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Expression">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\SubmitOrder.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

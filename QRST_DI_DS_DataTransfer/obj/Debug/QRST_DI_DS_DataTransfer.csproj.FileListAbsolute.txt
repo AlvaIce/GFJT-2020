@@ -1,0 +1,96 @@
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.csprojResolveAssemblyReference.cache
+D:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+D:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+D:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+E:\运管数据库部署\QRST_DI_Mixed\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+E:\运管数据库部署\QRST_DI_Mixed_Share\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_DS_DataTransfer\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST_DI_DS_DataTransfer\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+F:\QRST_DI_Mixed_2017.12.17\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+F:\QRST_DI_Mixed_2017.12.17\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+F:\QRST_DI_Mixed_2017.12.17\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+F:\QRST_DI_Mixed_2017.12.17\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_DS_DataTransfer\obj\Debug\ResolveAssemblyReference.cache
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_DS_DataTransfer\obj\Debug\ResolveAssemblyReference.cache
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DataTransfer\bin\Debug\QRST_DI_DS_DataTransfer.pdb
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.csprojAssemblyReference.cache
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.csproj.CoreCompileInputs.cache
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.dll
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\QRST_DI_DS_DataTransfer\obj\Debug\QRST_DI_DS_DataTransfer.pdb

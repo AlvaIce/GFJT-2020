@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://service.bp.zjugis.edu" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://service.bp.zjugis.edu" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>WaterService</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service.bp.zjugis.edu">
+      <xs:element name="getSYMC">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getSYMCResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getSSLB">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getSSLBResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getQueryWaters">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="dts" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dte" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="maxLat" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="maxLng" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="minLat" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="minLng" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="symc" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="gpyq" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="sslb" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pagenum" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pagesize" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getQueryWatersResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGPYQ">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGPYQResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGPSJ">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="fseq" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGPSJResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getSSLBRequest">
+    <wsdl:part name="parameters" element="ns:getSSLB" />
+  </wsdl:message>
+  <wsdl:message name="getSSLBResponse">
+    <wsdl:part name="parameters" element="ns:getSSLBResponse" />
+  </wsdl:message>
+  <wsdl:message name="getGPSJRequest">
+    <wsdl:part name="parameters" element="ns:getGPSJ" />
+  </wsdl:message>
+  <wsdl:message name="getGPSJResponse">
+    <wsdl:part name="parameters" element="ns:getGPSJResponse" />
+  </wsdl:message>
+  <wsdl:message name="getQueryWatersRequest">
+    <wsdl:part name="parameters" element="ns:getQueryWaters" />
+  </wsdl:message>
+  <wsdl:message name="getQueryWatersResponse">
+    <wsdl:part name="parameters" element="ns:getQueryWatersResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSYMCRequest">
+    <wsdl:part name="parameters" element="ns:getSYMC" />
+  </wsdl:message>
+  <wsdl:message name="getSYMCResponse">
+    <wsdl:part name="parameters" element="ns:getSYMCResponse" />
+  </wsdl:message>
+  <wsdl:message name="getGPYQRequest">
+    <wsdl:part name="parameters" element="ns:getGPYQ" />
+  </wsdl:message>
+  <wsdl:message name="getGPYQResponse">
+    <wsdl:part name="parameters" element="ns:getGPYQResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WaterServicePortType">
+    <wsdl:operation name="getSSLB">
+      <wsdl:input wsaw:Action="urn:getSSLB" message="ns:getSSLBRequest" />
+      <wsdl:output wsaw:Action="urn:getSSLBResponse" message="ns:getSSLBResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getGPSJ">
+      <wsdl:input wsaw:Action="urn:getGPSJ" message="ns:getGPSJRequest" />
+      <wsdl:output wsaw:Action="urn:getGPSJResponse" message="ns:getGPSJResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getQueryWaters">
+      <wsdl:input wsaw:Action="urn:getQueryWaters" message="ns:getQueryWatersRequest" />
+      <wsdl:output wsaw:Action="urn:getQueryWatersResponse" message="ns:getQueryWatersResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getSYMC">
+      <wsdl:input wsaw:Action="urn:getSYMC" message="ns:getSYMCRequest" />
+      <wsdl:output wsaw:Action="urn:getSYMCResponse" message="ns:getSYMCResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getGPYQ">
+      <wsdl:input wsaw:Action="urn:getGPYQ" message="ns:getGPYQRequest" />
+      <wsdl:output wsaw:Action="urn:getGPYQResponse" message="ns:getGPYQResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WaterServiceSoap11Binding" type="ns:WaterServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getSSLB">
+      <soap:operation soapAction="urn:getSSLB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGPSJ">
+      <soap:operation soapAction="urn:getGPSJ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQueryWaters">
+      <soap:operation soapAction="urn:getQueryWaters" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSYMC">
+      <soap:operation soapAction="urn:getSYMC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGPYQ">
+      <soap:operation soapAction="urn:getGPYQ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WaterServiceSoap12Binding" type="ns:WaterServicePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getSSLB">
+      <soap12:operation soapAction="urn:getSSLB" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGPSJ">
+      <soap12:operation soapAction="urn:getGPSJ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQueryWaters">
+      <soap12:operation soapAction="urn:getQueryWaters" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSYMC">
+      <soap12:operation soapAction="urn:getSYMC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGPYQ">
+      <soap12:operation soapAction="urn:getGPYQ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WaterServiceHttpBinding" type="ns:WaterServicePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getSSLB">
+      <http:operation location="getSSLB" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGPSJ">
+      <http:operation location="getGPSJ" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQueryWaters">
+      <http:operation location="getQueryWaters" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSYMC">
+      <http:operation location="getSYMC" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGPYQ">
+      <http:operation location="getGPYQ" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WaterService">
+    <wsdl:port name="WaterServiceHttpSoap11Endpoint" binding="ns:WaterServiceSoap11Binding">
+      <soap:address location="http://192.168.1.100:8080/bpServ/services/WaterService.WaterServiceHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="WaterServiceHttpSoap12Endpoint" binding="ns:WaterServiceSoap12Binding">
+      <soap12:address location="http://192.168.1.100:8080/bpServ/services/WaterService.WaterServiceHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="WaterServiceHttpEndpoint" binding="ns:WaterServiceHttpBinding">
+      <http:address location="http://192.168.1.100:8080/bpServ/services/WaterService.WaterServiceHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
