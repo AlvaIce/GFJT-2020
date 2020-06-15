@@ -1,0 +1,1327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{097433C0-B0EE-435F-98DF-912DE56956D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QRST_DI_MS_Desktop</RootNamespace>
+    <AssemblyName>QRST_DI_MS_Desktop</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.5.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v11.1.Core, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.OfficeSkins.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v11.1.Core, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v11.1.Core, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.SpellChecker.v11.1.Core, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v11.1.UI, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v11.1.Core, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v11.1.Extensions, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotSpatial.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Runtime_DI\DotSpatial\x86\DotSpatial.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Mono, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Runtime_DI\DotSpatial\x86\DotSpatial.Mono.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Projections, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Runtime_DI\DotSpatial\x86\DotSpatial.Projections.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Serialization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Runtime_DI\DotSpatial\x86\DotSpatial.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Topology, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Runtime_DI\DotSpatial\x86\DotSpatial.Topology.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>ref\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="ProjNET, Version=1.0.2794.16965, Culture=neutral, PublicKeyToken=a1f5bdcd9c6f5740, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Ref\ProjNET.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpMap, Version=0.9.4698.31005, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Ref\SharpMap.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpMap.UI, Version=0.9.4698.31005, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Ref\SharpMap.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tamir.SharpSSH, Version=1.1.1.13, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Tamir.SharpSSH.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationClient" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DirectlyAddresser.cs" />
+    <Compile Include="frm_MSConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MSConsole.Designer.cs">
+      <DependentUpon>frm_MSConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HadoopInfo\HttpRequestHelper.cs" />
+    <Compile Include="HadoopInfo\ModelJobStatus.cs" />
+    <Compile Include="HadoopInfo\ModelNodeInfo.cs" />
+    <Compile Include="HadoopInfo\ModelNodesMemory.cs" />
+    <Compile Include="HadoopInfo\ShellHelp.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QueryInner\ProductTileDataPagingQuery.cs" />
+    <Compile Include="QueryInner\TileDataPagingQuery.cs" />
+    <Compile Include="QueryInner\QueryInner.cs" />
+    <Compile Include="QueryInner\QueryUCFunc.cs" />
+    <Compile Include="SpacialUtil\SpacialUtils.cs" />
+    <Compile Include="TheUniversal.cs" />
+    <Compile Include="UserInterfaces\ChildUI\DatabaseCatalogUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\ChildUI\DatabaseCatalogUI.Designer.cs">
+      <DependentUpon>DatabaseCatalogUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\ChildUI\DragDropTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\ChildUI\DragDropTreeView.Designer.cs">
+      <DependentUpon>DragDropTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\ColorRange.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\ColorRange.Designer.cs">
+      <DependentUpon>ColorRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlDisplayInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlDisplayInfo.Designer.cs">
+      <DependentUpon>CtrlDisplayInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlExternalDBMdl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlExternalDBMdl.Designer.cs">
+      <DependentUpon>CtrlExternalDBMdl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlImageDisplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlImageDisplay.Designer.cs">
+      <DependentUpon>CtrlImageDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlOrderProperity.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlOrderProperity.Designer.cs">
+      <DependentUpon>CtrlOrderProperity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlMonitorChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlMonitorChart.Designer.cs">
+      <DependentUpon>CtrlMonitorChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlPage.Designer.cs">
+      <DependentUpon>CtrlPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlTableManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlTableManager.Designer.cs">
+      <DependentUpon>CtrlTableManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlTaskModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\CtrlTaskModel.Designer.cs">
+      <DependentUpon>CtrlTaskModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\DisComputeUI\CtrlInputArg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\DisComputeUI\CtrlInputArg.Designer.cs">
+      <DependentUpon>CtrlInputArg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\DisComputeUI\CtrlSelectArg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\DisComputeUI\CtrlSelectArg.Designer.cs">
+      <DependentUpon>CtrlSelectArg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmAddOrderPara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmAddOrderPara.Designer.cs">
+      <DependentUpon>FrmAddOrderPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmAddTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmAddTask.Designer.cs">
+      <DependentUpon>FrmAddTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmAlgMake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmAlgMake.Designer.cs">
+      <DependentUpon>FrmAlgMake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmColorRange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmColorRange.Designer.cs">
+      <DependentUpon>FrmColorRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmDisplayInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmDisplayInfo.Designer.cs">
+      <DependentUpon>FrmDisplayInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmExportMetadata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmExportMetadata.Designer.cs">
+      <DependentUpon>FrmExportMetadata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmMetEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmMetEdit.designer.cs">
+      <DependentUpon>FrmMetEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmNewLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmNewLogin.Designer.cs">
+      <DependentUpon>FrmNewLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmOrderLogInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmOrderLogInfo.Designer.cs">
+      <DependentUpon>FrmOrderLogInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmRecover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmRecover.designer.cs">
+      <DependentUpon>FrmRecover.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmTaskDef.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmTaskDef.Designer.cs">
+      <DependentUpon>FrmTaskDef.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmTaskDistribution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FrmTaskDistribution.Designer.cs">
+      <DependentUpon>FrmTaskDistribution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\InputMessageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\InputMessageDialog.Designer.cs">
+      <DependentUpon>InputMessageDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\IOGF1dataBatchImport.cs" />
+    <Compile Include="UserInterfaces\ITStoreTilesNew.cs" />
+    <Compile Include="UserInterfaces\ITTileImport.cs" />
+    <Compile Include="UserInterfaces\LeftButtonUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\LeftButtonUserControl.Designer.cs">
+      <DependentUpon>LeftButtonUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\MSUserInterface.cs" />
+    <Compile Include="UserInterfaces\muc3DSearcher.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\muc3DSearcher.Designer.cs">
+      <DependentUpon>muc3DSearcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucComputeService.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucComputeService.Designer.cs">
+      <DependentUpon>mucComputeService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDataAnalyst.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDataAnalyst.Designer.cs">
+      <DependentUpon>mucDataAnalyst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDataBacker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDataBacker.Designer.cs">
+      <DependentUpon>mucDataBacker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDataMaintainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDataMaintainer.Designer.cs">
+      <DependentUpon>mucDataMaintainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDataQualityInspection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDataQualityInspection.Designer.cs">
+      <DependentUpon>mucDataQualityInspection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDetailViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDetailViewer.Designer.cs">
+      <DependentUpon>mucDetailViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDeviceManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDeviceManage.Designer.cs">
+      <DependentUpon>mucDeviceManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucExternalDbIntergration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucExternalDbIntergration.Designer.cs">
+      <DependentUpon>mucExternalDbIntergration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucMetadataDefiner.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucMetadataDefiner.Designer.cs">
+      <DependentUpon>mucMetadataDefiner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucMetadataModifier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucMetadataModifier.Designer.cs">
+      <DependentUpon>mucMetadataModifier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucSpectrumSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucSpectrumSearch.Designer.cs">
+      <DependentUpon>mucSpectrumSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucTaskOrderMonitor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucTaskOrderMonitor.Designer.cs">
+      <DependentUpon>mucTaskOrderMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucUserManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucUserManager.Designer.cs">
+      <DependentUpon>mucUserManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucSatalliteSensor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucSatalliteSensor.Designer.cs">
+      <DependentUpon>mucSatalliteSensor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucSiteStatusMonitor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucSiteStatusMonitor.Designer.cs">
+      <DependentUpon>mucSiteStatusMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucSysMonitor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucSysMonitor.Designer.cs">
+      <DependentUpon>mucSysMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucTaskDefiner.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucTaskDefiner.Designer.cs">
+      <DependentUpon>mucTaskDefiner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucOrderDefiner.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucOrderDefiner.Designer.cs">
+      <DependentUpon>mucOrderDefiner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucTaskMonitor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucTaskMonitor.Designer.cs">
+      <DependentUpon>mucTaskMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucTaskSubmitter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucTaskSubmitter.Designer.cs">
+      <DependentUpon>mucTaskSubmitter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucTSSiterManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucTSSiterManager.Designer.cs">
+      <DependentUpon>mucTSSiterManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\pictureEditImgDataFY.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\pictureEditImgDataFY.Designer.cs">
+      <DependentUpon>pictureEditImgDataFY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\RibbonPageBaseUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\ruc3DSearcher.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucComputeService.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucDataAnalyst.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucDataBacker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucDataImport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucDataImport.Designer.cs">
+      <DependentUpon>rucDataImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\rucDataMaintainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucDataQualityInspection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucDataQualityInspection.Designer.cs">
+      <DependentUpon>rucDataQualityInspection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\rucDetailViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucDeviceManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucDeviceManage.Designer.cs">
+      <DependentUpon>rucDeviceManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\rucExternalDbIntergration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucMetadataDefiner.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucMetadataModifier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucOrderDefiner.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucOrderManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucSatalliteSensor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucSiteStatusMonitor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucSpectrumSearch.cs" />
+    <Compile Include="UserInterfaces\rucSysMonitor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucSysMonitor.Designer.cs">
+      <DependentUpon>rucSysMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\rucTaskDefiner.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucTaskDefiner.Designer.cs">
+      <DependentUpon>rucTaskDefiner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\rucTaskManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucTaskManager.Designer.cs">
+      <DependentUpon>rucTaskManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\rucTaskMonitor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucTaskMonitor.Designer.cs">
+      <DependentUpon>rucTaskMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\rucTaskOrderManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucTaskSubmitter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucTaskSubmitter.Designer.cs">
+      <DependentUpon>rucTaskSubmitter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\rucTSSiterManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\rucUserManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\SearchConditionsPanel\RPGroupModule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\SearchConditionsPanel\RPGroupModule.Designer.cs">
+      <DependentUpon>RPGroupModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\SearchConditionsPanel\SysModuleSearchObj.cs" />
+    <Compile Include="UserInterfaces\SearchConditionsPanel\ModuleSearchObject.cs" />
+    <Compile Include="UserInterfaces\SearchConditionsPanel\SystemInfoSearchObject.cs" />
+    <Compile Include="UserInterfaces\SearchConditionsPanel\SystemSearchObject.cs" />
+    <Compile Include="UserInterfaces\TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\uc2DSearcher.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\uc2DSearcher.designer.cs">
+      <DependentUpon>uc2DSearcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\LeftButtonUserControlMetadata.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\LeftButtonUserControlMetadata.Designer.cs">
+      <DependentUpon>LeftButtonUserControlMetadata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDataImport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucDataImport.Designer.cs">
+      <DependentUpon>mucDataImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\mucVirtualDirManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\mucVirtualDirManager.Designer.cs">
+      <DependentUpon>mucVirtualDirManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\rucVirtualDirManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmMSConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMSConsole.Designer.cs">
+      <DependentUpon>frmMSConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MSConsole2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MSConsole2.Designer.cs">
+      <DependentUpon>frm_MSConsole2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frm_MSConsole.resx">
+      <DependentUpon>frm_MSConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\ChildUI\DatabaseCatalogUI.resx">
+      <DependentUpon>DatabaseCatalogUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\ColorRange.resx">
+      <DependentUpon>ColorRange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\CtrlDisplayInfo.resx">
+      <DependentUpon>CtrlDisplayInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\CtrlExternalDBMdl.resx">
+      <DependentUpon>CtrlExternalDBMdl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\CtrlImageDisplay.resx">
+      <DependentUpon>CtrlImageDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\CtrlOrderProperity.resx">
+      <DependentUpon>CtrlOrderProperity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\CtrlMonitorChart.resx">
+      <DependentUpon>CtrlMonitorChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\CtrlPage.resx">
+      <DependentUpon>CtrlPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\CtrlTableManager.resx">
+      <DependentUpon>CtrlTableManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\CtrlTaskModel.resx">
+      <DependentUpon>CtrlTaskModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\DisComputeUI\CtrlInputArg.resx">
+      <DependentUpon>CtrlInputArg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\DisComputeUI\CtrlSelectArg.resx">
+      <DependentUpon>CtrlSelectArg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmAddOrderPara.resx">
+      <DependentUpon>FrmAddOrderPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmAddTask.resx">
+      <DependentUpon>FrmAddTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmAlgMake.resx">
+      <DependentUpon>FrmAlgMake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmColorRange.resx">
+      <DependentUpon>FrmColorRange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmDisplayInfo.resx">
+      <DependentUpon>FrmDisplayInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmExportMetadata.resx">
+      <DependentUpon>FrmExportMetadata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmMetEdit.resx">
+      <DependentUpon>FrmMetEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmNewLogin.en.resx">
+      <DependentUpon>FrmNewLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmNewLogin.resx">
+      <DependentUpon>FrmNewLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmOrderLogInfo.resx">
+      <DependentUpon>FrmOrderLogInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmRecover.resx">
+      <DependentUpon>FrmRecover.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmTaskDef.resx">
+      <DependentUpon>FrmTaskDef.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FrmTaskDistribution.resx">
+      <DependentUpon>FrmTaskDistribution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\InputMessageDialog.resx">
+      <DependentUpon>InputMessageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\LeftButtonUserControl.resx">
+      <DependentUpon>LeftButtonUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\muc3DSearcher.resx">
+      <DependentUpon>muc3DSearcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucComputeService.resx">
+      <DependentUpon>mucComputeService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucDataAnalyst.resx">
+      <DependentUpon>mucDataAnalyst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucDataBacker.resx">
+      <DependentUpon>mucDataBacker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucDataMaintainer.resx">
+      <DependentUpon>mucDataMaintainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucDataQualityInspection.resx">
+      <DependentUpon>mucDataQualityInspection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucDetailViewer.resx">
+      <DependentUpon>mucDetailViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucDeviceManage.resx">
+      <DependentUpon>mucDeviceManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucExternalDbIntergration.resx">
+      <DependentUpon>mucExternalDbIntergration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucMetadataDefiner.resx">
+      <DependentUpon>mucMetadataDefiner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucMetadataModifier.resx">
+      <DependentUpon>mucMetadataModifier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucTaskOrderMonitor.resx">
+      <DependentUpon>mucTaskOrderMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucUserManager.resx">
+      <DependentUpon>mucUserManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucSatalliteSensor.resx">
+      <DependentUpon>mucSatalliteSensor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucSiteStatusMonitor.resx">
+      <DependentUpon>mucSiteStatusMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucSysMonitor.resx">
+      <DependentUpon>mucSysMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucTaskDefiner.resx">
+      <DependentUpon>mucTaskDefiner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucOrderDefiner.resx">
+      <DependentUpon>mucOrderDefiner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucTaskMonitor.resx">
+      <DependentUpon>mucTaskMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucTaskSubmitter.resx">
+      <DependentUpon>mucTaskSubmitter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucTSSiterManager.resx">
+      <DependentUpon>mucTSSiterManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\pictureEditImgDataFY.resx">
+      <DependentUpon>pictureEditImgDataFY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\RibbonPageBaseUC.resx">
+      <DependentUpon>RibbonPageBaseUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\ruc3DSearcher.resx">
+      <DependentUpon>ruc3DSearcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucComputeService.resx">
+      <DependentUpon>rucComputeService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucDataAnalyst.resx">
+      <DependentUpon>rucDataAnalyst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucDataBacker.resx">
+      <DependentUpon>rucDataBacker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucDataImport.resx">
+      <DependentUpon>rucDataImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucDataMaintainer.resx">
+      <DependentUpon>rucDataMaintainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucDataQualityInspection.resx">
+      <DependentUpon>rucDataQualityInspection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucDetailViewer.resx">
+      <DependentUpon>rucDetailViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucDeviceManage.resx">
+      <DependentUpon>rucDeviceManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucExternalDbIntergration.resx">
+      <DependentUpon>rucExternalDbIntergration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucMetadataDefiner.resx">
+      <DependentUpon>rucMetadataDefiner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucMetadataModifier.resx">
+      <DependentUpon>rucMetadataModifier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucOrderDefiner.resx">
+      <DependentUpon>rucOrderDefiner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucOrderManager.resx">
+      <DependentUpon>rucOrderManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucSatalliteSensor.resx">
+      <DependentUpon>rucSatalliteSensor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucSiteStatusMonitor.resx">
+      <DependentUpon>rucSiteStatusMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucSysMonitor.resx">
+      <DependentUpon>rucSysMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucTaskDefiner.resx">
+      <DependentUpon>rucTaskDefiner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucTaskManager.resx">
+      <DependentUpon>rucTaskManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucTaskMonitor.resx">
+      <DependentUpon>rucTaskMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucTaskOrderManager.resx">
+      <DependentUpon>rucTaskOrderManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucTaskSubmitter.resx">
+      <DependentUpon>rucTaskSubmitter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucTSSiterManager.resx">
+      <DependentUpon>rucTSSiterManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucUserManager.resx">
+      <DependentUpon>rucUserManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMSConsole.resx">
+      <DependentUpon>frmMSConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\SearchConditionsPanel\RPGroupModule.resx">
+      <DependentUpon>RPGroupModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\uc2DSearcher.resx">
+      <DependentUpon>uc2DSearcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MSConsole2.resx">
+      <DependentUpon>frm_MSConsole2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\LeftButtonUserControlMetadata.resx">
+      <DependentUpon>LeftButtonUserControlMetadata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucDataImport.resx">
+      <DependentUpon>mucDataImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\mucVirtualDirManager.resx">
+      <DependentUpon>mucVirtualDirManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\rucVirtualDirManager.resx">
+      <DependentUpon>rucVirtualDirManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="bin\Debug\QRST_DI_MS-Console.exe.config" />
+    <None Include="bin\Debug\RecoverFull.bat" />
+    <None Include="bin\Debug\RecoverFullTable.bat" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlNode.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\错误.png" />
+    <None Include="Resources\贴图1.png" />
+    <None Include="Resources\application_view_tile.png" />
+    <None Include="Resources\application_view_gallery.png" />
+    <None Include="Resources\application_view_columns.png" />
+    <None Include="Resources\32.ico" />
+    <None Include="Resources\33.ico" />
+    <None Include="Resources\icon_doc_excel_angle.png" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\logo.png" />
+    <Content Include="bin\Debug\mysql.exe" />
+    <Content Include="bin\Debug\mysqldump.exe" />
+    <Content Include="bin\Debug\QRST_DI_MS-Console.exe" />
+    <Content Include="bin\Debug\QRST_DI_MS-Console.pdb" />
+    <None Include="Resources\Action_Change_State.png" />
+    <None Include="Resources\ModelEditor_IndexDown.png" />
+    <None Include="Resources\ModelEditor_IndexUp.png" />
+    <None Include="Resources\ElementEditVertices32.png" />
+    <None Include="Resources\MapPackageMPKFile64.png" />
+    <None Include="Resources\取消检索.png" />
+    <None Include="Resources\timg8_副本2.jpg" />
+    <None Include="Resources\timg8_副本3.jpg" />
+    <None Include="Resources\timg8_副本31.jpg" />
+    <None Include="Resources\genghuan.jpg" />
+    <None Include="Resources\genghuan1.png" />
+    <None Include="Resources\lrgenghuan3.png" />
+    <None Include="Resources\lrgenghuan.png" />
+    <None Include="Resources\fuyuan.png" />
+    <None Include="Resources\任务管控子系统.bmp" />
+    <None Include="Resources\任务分配.png" />
+    <Content Include="Resources\任务监控.png" />
+    <Content Include="Resources\任务管控子系统.png" />
+    <None Include="Resources\完成1.png" />
+    <None Include="Resources\执行.png" />
+    <Content Include="Resources\数据查询浏览子系统\下载gff数据.png" />
+    <None Include="Resources\数据查询浏览子系统\取消贴图.png" />
+    <None Include="Resources\检索.png" />
+    <Content Include="Resources\清空选择.png" />
+    <Content Include="Resources\Ref\ProjNET.dll" />
+    <Content Include="Resources\Ref\SharpMap.dll" />
+    <Content Include="Resources\Ref\SharpMap.UI.dll" />
+    <None Include="Resources\放大.png" />
+    <None Include="Resources\缩小.png" />
+    <None Include="Resources\平移.png" />
+    <None Include="Resources\显示全图.png" />
+    <None Include="Resources\分布式数据库系统登陆界面副本.png" />
+    <None Include="Resources\分布式数据库系统登陆界面副本1.png" />
+    <None Include="Resources\文件夹.png" />
+    <None Include="Resources\表格数据.png" />
+    <None Include="Resources\订单日志.png" />
+    <None Include="Resources\远程任务.gif" />
+    <None Include="Resources\自定义任务.png" />
+    <None Include="Resources\订单删除.png" />
+    <None Include="Resources\订单定制2.png" />
+    <None Include="Resources\订单管控.png" />
+    <None Include="Resources\订单订制.png" />
+    <None Include="Resources\订单等待.png" />
+    <None Include="Resources\订单定制1.png" />
+    <None Include="Resources\订单管理.png" />
+    <None Include="Resources\订单删除.gif" />
+    <None Include="Resources\订单定制.png" />
+    <None Include="Resources\保存.png" />
+    <None Include="Resources\保存更新.png" />
+    <None Include="Resources\上传图片.png" />
+    <None Include="Resources\主键.png" />
+    <None Include="Resources\保存1.png" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\三维可视化综合检索.png" />
+    <None Include="Resources\任务定制.png" />
+    <None Include="Resources\元数据管理子系统.png" />
+    <None Include="Resources\元数据制作.png" />
+    <None Include="Resources\元数据修改.png" />
+    <None Include="Resources\20121231010242968_easyicon_cn_32.png" />
+    <None Include="Resources\Xp-MadB 007.png" />
+    <None Include="Resources\保存2.png" />
+    <None Include="Resources\任务定制1.png" />
+    <None Include="Resources\任务更新.png" />
+    <None Include="Resources\主键1.png" />
+    <None Include="Resources\保存3.png" />
+    <None Include="Resources\传感器数据添加.png" />
+    <None Include="Resources\传感器数据删除.png" />
+    <None Include="Resources\修改链接.png" />
+    <None Include="Resources\上传图片1.png" />
+    <None Include="Resources\保存用户.png" />
+    <None Include="Resources\修改密码.png" />
+    <None Include="Resources\保存用户1.png" />
+    <None Include="Resources\保存角色.png" />
+    <None Include="Resources\保存4.png" />
+    <None Include="Resources\上移.png" />
+    <None Include="Resources\下移.png" />
+    <Content Include="Resources\元数据管理子系统\上传图片.png" />
+    <Content Include="Resources\元数据管理子系统\主键.png" />
+    <Content Include="Resources\元数据管理子系统\保存.png" />
+    <Content Include="Resources\元数据管理子系统\保存更新.png" />
+    <Content Include="Resources\元数据管理子系统\元数据修改.png" />
+    <Content Include="Resources\元数据管理子系统\元数据制作.png" />
+    <Content Include="Resources\元数据管理子系统\创建字段.ico" />
+    <Content Include="Resources\元数据管理子系统\创建数据类型.png" />
+    <Content Include="Resources\元数据管理子系统\删除.png" />
+    <Content Include="Resources\元数据管理子系统\删除字段.ico" />
+    <Content Include="Resources\元数据管理子系统\删除节点.png" />
+    <Content Include="Resources\元数据管理子系统\外部数据库集成.png" />
+    <Content Include="Resources\元数据管理子系统\插入字段.ico" />
+    <Content Include="Resources\元数据管理子系统\新建链接.png" />
+    <Content Include="Resources\元数据管理子系统\涉密数据库.png" />
+    <Content Include="Resources\元数据管理子系统\添加.png" />
+    <Content Include="Resources\元数据管理子系统\移动节点.png" />
+    <None Include="Resources\创建字段.ico" />
+    <None Include="Resources\插入字段.ico" />
+    <None Include="Resources\删除.png" />
+    <None Include="Resources\删除节点.png" />
+    <None Include="Resources\创建字段1.ico" />
+    <None Include="Resources\创建数据类型.png" />
+    <None Include="Resources\删除记录.png" />
+    <None Include="Resources\创建新订单.gif" />
+    <None Include="Resources\创建新订单.png" />
+    <None Include="Resources\开始执行.png" />
+    <None Include="Resources\删除订单.png" />
+    <None Include="Resources\已完成.png" />
+    <None Include="Resources\挂起订单.png" />
+    <None Include="Resources\分类统计分析.png" />
+    <None Include="Resources\删除任务.png" />
+    <None Include="Resources\内置任务.png" />
+    <None Include="Resources\创建字段.png" />
+    <None Include="Resources\删除字段.png" />
+    <None Include="Resources\插入字段.png" />
+    <None Include="Resources\删除节点1.png" />
+    <None Include="Resources\卫星数据添加.png" />
+    <None Include="Resources\卫星数据删除.png" />
+    <None Include="Resources\删除链接.png" />
+    <None Include="Resources\删除角色.png" />
+    <None Include="Resources\导出.png" />
+    <None Include="Resources\删除记录1.png" />
+    <None Include="Resources\开始备份.png" />
+    <None Include="Resources\备份恢复.png" />
+    <None Include="Resources\删除1.png" />
+    <None Include="Resources\变化趋势.png" />
+    <None Include="Resources\批量检验.png" />
+    <None Include="Resources\取消.png" />
+    <None Include="Resources\完成.png" />
+    <None Include="Resources\删除2.png" />
+    <Content Include="Resources\数据交换子系统\任务定制.ico" />
+    <Content Include="Resources\数据交换子系统\保存.png" />
+    <Content Include="Resources\数据交换子系统\创建新订单.gif" />
+    <Content Include="Resources\数据交换子系统\删除任务.ico" />
+    <Content Include="Resources\数据交换子系统\定制任务.ico" />
+    <Content Include="Resources\数据交换子系统\挂起订单.gif" />
+    <Content Include="Resources\数据交换子系统\新建文本文档.txt" />
+    <Content Include="Resources\数据交换子系统\更新任务.ico" />
+    <Content Include="Resources\数据交换子系统\监控频率.gif" />
+    <Content Include="Resources\数据交换子系统\等待订单.gif" />
+    <Content Include="Resources\数据交换子系统\自定义任务.ico" />
+    <Content Include="Resources\数据交换子系统\订单删除.gif" />
+    <Content Include="Resources\数据交换子系统\订单完成.gif" />
+    <Content Include="Resources\数据交换子系统\订单定制.png" />
+    <Content Include="Resources\数据交换子系统\订单正在进行.gif" />
+    <Content Include="Resources\数据交换子系统\订单管理.png" />
+    <None Include="Resources\数据更新维护.png" />
+    <None Include="Resources\数据库查询浏览子系统.png" />
+    <None Include="Resources\数据更新维护子系统.png" />
+    <None Include="Resources\数据更新维护1.png" />
+    <None Include="Resources\数据备份恢复.png" />
+    <None Include="Resources\数据库交换子系统.png" />
+    <Content Include="Resources\数据更新维护子系统\保存更改.png" />
+    <Content Include="Resources\数据更新维护子系统\删除记录.png" />
+    <Content Include="Resources\数据更新维护子系统\备份恢复.png" />
+    <Content Include="Resources\数据更新维护子系统\开始备份.png" />
+    <Content Include="Resources\数据更新维护子系统\数据备份恢复.png" />
+    <Content Include="Resources\数据更新维护子系统\数据更新维护.png" />
+    <Content Include="Resources\数据更新维护子系统\新建文本文档.txt" />
+    <Content Include="Resources\数据更新维护子系统\显示图像信息.png" />
+    <Content Include="Resources\数据更新维护子系统\统计分析.png" />
+    <Content Include="Resources\数据查询浏览子系统\三维可视化检索.png" />
+    <Content Include="Resources\数据查询浏览子系统\下载此数据.png" />
+    <Content Include="Resources\数据查询浏览子系统\全不选.png" />
+    <Content Include="Resources\数据查询浏览子系统\全选.png" />
+    <Content Include="Resources\数据查询浏览子系统\应用.png" />
+    <Content Include="Resources\数据查询浏览子系统\手动选取.png" />
+    <Content Include="Resources\数据查询浏览子系统\显示图像信息.png" />
+    <Content Include="Resources\数据查询浏览子系统\查看详细结果面板.png" />
+    <Content Include="Resources\数据查询浏览子系统\查询浏览子系统.png" />
+    <None Include="Resources\涉密数据库.png" />
+    <None Include="Resources\移动节点.png" />
+    <None Include="Resources\数据阵列.png" />
+    <None Include="Resources\站点.png" />
+    <None Include="Resources\系统监控1.png" />
+    <None Include="Resources\站点1.png" />
+    <None Include="Resources\暂停执行.png" />
+    <None Include="Resources\正在执行.png" />
+    <None Include="Resources\查看详细结果版面.png" />
+    <None Include="Resources\服务器阵列站点管理.png" />
+    <None Include="Resources\系统管理子系统.png" />
+    <None Include="Resources\数据阵列站点管理.png" />
+    <None Include="Resources\系统状态监控.png" />
+    <None Include="Resources\用户管理.png" />
+    <None Include="Resources\系统工具集.png" />
+    <None Include="Resources\添加数据类型.png" />
+    <None Include="Resources\移动节点1.png" />
+    <None Include="Resources\新建连接.png" />
+    <None Include="Resources\添加用户.png" />
+    <None Include="Resources\添加角色.png" />
+    <None Include="Resources\数据阵列1.png" />
+    <None Include="Resources\站点添加.png" />
+    <None Include="Resources\站点更新.png" />
+    <None Include="Resources\站点删除.png" />
+    <None Include="Resources\站点信息.png" />
+    <None Include="Resources\系统日志.png" />
+    <None Include="Resources\清空日志面板.png" />
+    <None Include="Resources\服务器阵列.png" />
+    <None Include="Resources\站点信息1.png" />
+    <None Include="Resources\显示图像信息.png" />
+    <None Include="Resources\界面副本_副本.png" />
+    <None Include="Resources\矢量数据 .png" />
+    <None Include="Resources\栅格数据.png" />
+    <None Include="Resources\文档数据.png" />
+    <None Include="Resources\界面2副本.png" />
+    <None Include="Resources\数据检验.png" />
+    <None Include="Resources\数据质量检查.png" />
+    <None Include="Resources\添加.png" />
+    <None Include="Resources\等待 %281%29.png" />
+    <Content Include="Resources\系统管理子系统\数据阵列.png" />
+    <Content Include="Resources\系统管理子系统\日志信息.png" />
+    <Content Include="Resources\系统管理子系统\服务阵列.png" />
+    <Content Include="Resources\系统管理子系统\用户.png" />
+    <Content Include="Resources\系统管理子系统\用户权限.png" />
+    <Content Include="Resources\系统管理子系统\站点.png" />
+    <Content Include="Resources\系统管理子系统\站点监控信息.png" />
+    <Content Include="Resources\系统管理子系统\管理员.png" />
+    <Content Include="Resources\系统管理子系统\系统工具.png" />
+    <Content Include="Resources\系统管理子系统\系统监控1.png" />
+    <None Include="Resources\colourback_8016.jpg" />
+    <None Include="Resources\colourback_80161.jpg" />
+    <None Include="Resources\colourback_80162.jpg" />
+    <Content Include="Resources\ConsoleIcon.ico" />
+    <Content Include="Resources\db.Schema.16x16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\db.Schema.24x24.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\db.Schema.32x32.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\db.Table.16x16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\db.Table.24x24.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\db.Table.48x48.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\test.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\tiny_refresh.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\地科学数据国家共享平台.png" />
+    <None Include="Resources\北师大数据库.png" />
+    <None Include="Resources\卫星.jpg" />
+    <None Include="Resources\传感器.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MoveFile\MoveFile.csproj">
+      <Project>{3f09dbe3-9136-4936-ade3-ce962ea36ff6}</Project>
+      <Name>MoveFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST.WorldGlobeTool\QRST.WorldGlobeTool.csproj">
+      <Project>{9AC490BC-BABF-404B-8667-91A76FB67D8F}</Project>
+      <Name>QRST.WorldGlobeTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI-Resources\QRST_DI-Resources.csproj">
+      <Project>{2CBD592C-5DC7-4ABE-AF91-E7649CD4908F}</Project>
+      <Name>QRST_DI-Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS-Basis\QRST_DI_DS-Basis.csproj">
+      <Project>{C31DA657-ED54-479E-80C2-8420AAD9532D}</Project>
+      <Name>QRST_DI_DS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS-Metadata\QRST_DI_DS-Metadata.csproj">
+      <Project>{0D696972-922C-4252-898D-4415A260C38D}</Project>
+      <Name>QRST_DI_DS-Metadata</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_DS_MetadataQuery\QRST_DI_DS_MetadataQuery.csproj">
+      <Project>{F95AFE51-F517-438D-B21C-5120C899CF8C}</Project>
+      <Name>QRST_DI_DS_MetadataQuery</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_MS-Basis\QRST_DI_MS-Basis.csproj">
+      <Project>{FE9E2418-C7EA-4D0B-83CD-B2C70262BF1A}</Project>
+      <Name>QRST_DI_MS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_MS-Component\QRST_DI_MS-Component.csproj">
+      <Project>{E347A309-6D11-4CE9-9B51-AEDDC8DD1676}</Project>
+      <Name>QRST_DI_MS-Component</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_Basis\QRST_DI_SS_Basis.csproj">
+      <Project>{8ba4280f-807f-4345-a91e-8f42988954b2}</Project>
+      <Name>QRST_DI_SS_Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_SS_DBInterfaces\QRST_DI_SS_DBInterfaces.csproj">
+      <Project>{1495d023-5226-40c0-935f-044b4c72b53b}</Project>
+      <Name>QRST_DI_SS_DBInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_TS-Basis\QRST_DI_TS-Basis.csproj">
+      <Project>{BAA54246-EE88-4BD8-84C8-04D363462285}</Project>
+      <Name>QRST_DI_TS-Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QRST_DI_TS-Process\QRST_DI_TS-Process.csproj">
+      <Project>{450831E4-607C-49E2-BB37-3715803AB676}</Project>
+      <Name>QRST_DI_TS-Process</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="Resources\计算服务子系统\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

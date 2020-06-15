@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>2DMap</title>
+<style type="text/css">
+</style>
+<script type="text/javascript" src="OpenLayers.js"></script>
+<script type="text/javascript">
+    var map;
+    var vector_base, vector_display;
+    //var isDraw = 0;
+    var draw_polygon_control;
+    var world, earth;
+
+    window.onload = function () { 
+    }
+    function init() {
+        var options =
+		{ 	//minResolution: 0.00274658203125,
+		    //maxResolution: 0.3515625,
+		    numZoomLevels: 10,
+		    controls: []
+		};
+        map = new OpenLayers.Map('map_element', options);
+	     world = new OpenLayers.Layer.WMS(
+		'二维地图',
+		'http://192.168.2.106:8090/geoserver/it.geosolutions/wms?',
+		{ layers: 'it.geosolutions:world' },
+		{ isBaseLayer: true }
+		);
+         earth = new OpenLayers.Layer.WMS(
+		'二维影像图',
+		'http://192.168.2.106:8090/geoserver/it.geosolutions/wms?',
+		{ layers: 'it.geosolutions:earth' },
+        { isBaseLayer: true }
+		);
+        var china = new OpenLayers.Layer.WMS(
+		'中国政区',
+		'http://192.168.2.106:8090/geoserver/it.geosolutions/wms?',
+		{ layers: 'it.geosolutions:china', transparent: true },
+		{}
+		);
+        var city = new OpenLayers.Layer.WMS(
+ 		'省会',
+ 		'http://192.168.2.106:8090/geoserver/it.geosolutions/wms?',
+ 		{ layers: 'it.geosolutions:city', transparent: true },
+ 		{ maxResolution: 0.02197265625 }
+ 		);
+		var xian = new OpenLayers.Layer.WMS(
+ 		'县界',
+ 		'http://192.168.2.106:8090/geoserver/it.geosolutions/wms?',
+ 		{ layers: 'it.geosolutions:xian', transparent: true },
+ 		{ maxResolution: 0.02197265625 }
+ 		);
+        var myStyles = new OpenLayers.StyleMap({
+            "default": new OpenLayers.Style({
+                fill: false,
+                strokeColor: "#3399ff",
+                graphicZIndex: 1
+            })
+        });
+        vector_base = new OpenLayers.Layer.Vector('Basic Vector Layer', { displayInLayerSwitcher: false, styleMap: myStyles,rendererOptions: { zIndexing: true}});
+        map.addLayers([world,china,city,xian,vector_base]);
+        map.addControl(new OpenLayers.Control.Navigation({})); 
+        map.addControl(new OpenLayers.Control.PanZoomBar({zoomWorldIcon: true }));
+        map.addControl(new OpenLayers.Control.LayerSwitcher({}));
+        map.addControl(new OpenLayers.Control.MousePosition({}));
+        map.addControl(new OpenLayers.Control.ScaleLine());
+        var overview_map = new OpenLayers.Control.OverviewMap();
+        map.addControls([overview_map, new OpenLayers.Control.KeyboardDefaults()]);
+        map.getLayersByName("Basic Vector Layer")[0].events.register('sketchcomplete', this, sketch_complete);
+        map.getLayersByName("Basic Vector Layer")[0].events.register('beforefeatureadded', this, delete_features);
+        if (!map.getCenter()) {
+            map.zoomToExtent(new OpenLayers.Bounds([70, 25, 140, 50]));
+        }
+    }
+    function feature_select(feature) {
+        
+     }
+	 function destroyDisplay()
+	 {
+		if (map.getLayersByName("Display Vector Layer").length != 0) {
+            map.getLayersByName("Display Vector Layer")[0].destroy();
+        }
+	 }
+    function sketch_complete(feature) {
+        if (map.getLayersByName("Display Vector Layer").length != 0) {
+            map.getLayersByName("Display Vector Layer")[0].destroy();
+        }
+        var bound = feature.feature.geometry.getBounds();
+        window.external.sendBound(bound.left, bound.right, bound.bottom, bound.top);
+    }
+	function displayRaster(para)
+	{
+		if(map.getLayersByName("查询结果").length!=0)
+		{
+			map.getLayersByName("查询结果")[0].removeMap(map);
+			map.getLayersByName("查询结果")[0].destroy();
+		}
+		var paras=new Array();
+		paras=para.split(",");
+		var path='img/raster/'+paras[0];
+		var options = {isBaseLayer: false,maxResolution: 1};
+		 var graphic = new OpenLayers.Layer.Image(
+                '查询结果',
+                path,
+                new OpenLayers.Bounds(paras[3], paras[4],paras[5],paras[6]),
+                new OpenLayers.Size(paras[1],paras[2]),
+				options
+            );
+		map.addLayer(graphic);
+		map.getLayersByName("Basic Vector Layer")[0].destroyFeatures();
+		if (map.getControlsByClass("OpenLayers.Control.DrawFeature").length > 0) {
+                map.getControlsByClass("OpenLayers.Control.DrawFeature")[0].destroy();
+				}
+	}
+	function displayTile(para)
+	{
+		if(map.getLayersByName("查询结果").length!=0)
+		{
+			map.getLayersByName("查询结果")[0].removeMap(map);
+			map.getLayersByName("查询结果")[0].destroy();
+		}
+		var paras=new Array();
+		paras=para.split(",");
+		var path='img/tile/'+paras[0];
+		var options = {isBaseLayer: false,maxResolution: 1};
+		 var graphic = new OpenLayers.Layer.Image(
+                '查询结果',
+                path,
+                new OpenLayers.Bounds(paras[3], paras[4],paras[5],paras[6]),
+                new OpenLayers.Size(paras[1],paras[2]),
+				options
+            );
+		map.addLayer(graphic);
+		map.getLayersByName("Basic Vector Layer")[0].destroyFeatures();
+		if (map.getControlsByClass("OpenLayers.Control.DrawFeature").length > 0) {
+                map.getControlsByClass("OpenLayers.Control.DrawFeature")[0].destroy();
+				}
+	}
+    function displayTiles(extents) {
+        var myStyles = new OpenLayers.StyleMap({
+            "default": new OpenLayers.Style({
+            'cursor': 'pointer',
+            'fillColor': '#ff9933',
+            'fillOpacity': .1,
+            'fontColor': '#9933ff',
+            'strokeColor': '#3399ff',
+            'strokeDashstyle': 'solid',
+            'strokeWidth': '${width}'
+        }),
+            "select": new OpenLayers.Style({
+            'cursor': 'pointer',
+            'fillColor': '#3399ff',
+            'fillOpacity': .1,
+            'fontColor': '#9933ff',
+            'label': '${label}',
+            'strokeColor': '#ff9933',
+            'strokeDashstyle': 'solid',
+            'strokeWidth': '${width}'
+        })
+        });
+        vector_display = new OpenLayers.Layer.Vector('Display Vector Layer', { displayInLayerSwitcher: false, styleMap: myStyles });
+        map.addLayer(vector_display);
+        var allExtents = new Array();
+		allExtents=extents.split("|");
+        for (var i = 0; i < allExtents.length; i++) {
+            var extent=allExtents[i].split(",");
+			var minLon=extent[0];
+			var minLat=extent[1];
+			var maxLon=extent[2];
+			var maxLat=extent[3];
+            tile = new OpenLayers.Geometry.LinearRing([
+            		new OpenLayers.Geometry.Point(minLon, minLat),
+            		new OpenLayers.Geometry.Point(minLon, maxLat),
+            		new OpenLayers.Geometry.Point(maxLon, maxLat),
+            		new OpenLayers.Geometry.Point(maxLon, minLat)
+            		]);
+            feature_tile = new OpenLayers.Feature.Vector(tile, {label:minLon});
+            vector_display.addFeatures([feature_tile]);
+        }
+        vector_display.events.register('featureselected', this, feature_select);
+        var tilesExtent = map.getLayersByName("Display Vector Layer")[0].getDataExtent();
+        map.zoomToExtent(tilesExtent);
+    }
+    function delete_features() {
+        map.getLayersByName("Basic Vector Layer")[0].destroyFeatures();
+    }
+    function enabledDrawPolygon()
+    {
+       //if (isDraw == 0) {
+            draw_polygon_control = new OpenLayers.Control.DrawFeature(vector_base, OpenLayers.Handler.Polygon);
+            map.addControl(draw_polygon_control);
+            draw_polygon_control.activate();
+            //isDraw = 1;
+            if (map.getControlsByClass("OpenLayers.Control.SelectFeature").length > 0) {
+                map.getControlsByClass("OpenLayers.Control.SelectFeature")[0].destroy();
+            }
+        //}
+        //else {
+			//if (map.getLayersByName("Display Vector Layer").length != 0)
+			//{
+				//var select_control = new OpenLayers.Control.SelectFeature(vector_display, {});
+				//map.addControl(select_control);
+				//select_control.activate();
+			//}
+            //draw_polygon_control.destroy();
+            map.getLayersByName("Basic Vector Layer")[0].destroyFeatures();
+            //isDraw = 0;
+        //}
+    }
+	function zoomToDefault()
+	{
+		map.zoomToExtent(new OpenLayers.Bounds([70, 25, 140, 50]));
+	}
+	function zoomTo(extent)
+	{
+		var ext=new Array();
+		ext=extent.split(",");
+		map.zoomToExtent(new OpenLayers.Bounds([ext[0], ext[1], ext[2], ext[3]]));
+	}
+	function layerClear()
+	{
+		if(map.getLayersByName("查询结果").length!=0)
+		{
+			map.getLayersByName("查询结果")[0].removeMap(map);
+			map.getLayersByName("查询结果")[0].destroy();
+		}
+	}
+	function setSize(size)
+	{
+		var mapSize=new Array();
+		mapSize=size.split(",");
+		var width=mapSize[0]-35;
+		var height=mapSize[1]-35;
+		document.getElementById("map_element").style.width = width+"px";
+        document.getElementById("map_element").style.height = height+"px";
+	}
+	function addMapClickEvent()
+	{
+		map.events.register("click", map, onMapClick);
+	}
+	function onMapClick(e)
+	{
+		var ContextLonLat = map.getLonLatFromPixel(new OpenLayers.Pixel(e.xy.x, e.xy.y));
+		window.external.getPos(ContextLonLat.lon,ContextLonLat.lat);
+	}
+	function removeMapClickEvent()
+	{
+		map.events.unregister('click', map, onMapClick);
+	}
+	function drawSelectedExtent(ext)
+	{
+		if (map.getLayersByName("Display Vector Layer").length != 0) 
+			{
+				map.getLayersByName("Display Vector Layer")[0].destroy();
+			}
+		vector_display = new OpenLayers.Layer.Vector('Display Vector Layer', { displayInLayerSwitcher: false});
+        map.addLayer(vector_display);
+        var extent = new Array();
+		extent=ext.split(",");
+		var minLon=extent[0];
+		var minLat=extent[1];
+		var maxLon=extent[2];
+		var maxLat=extent[3];
+		tile = new OpenLayers.Geometry.LinearRing([
+				new OpenLayers.Geometry.Point(minLon, minLat),
+				new OpenLayers.Geometry.Point(minLon, maxLat),
+				new OpenLayers.Geometry.Point(maxLon, maxLat),
+				new OpenLayers.Geometry.Point(maxLon, minLat)
+				]);
+		feature_tile = new OpenLayers.Feature.Vector(tile);
+		vector_display.addFeatures([feature_tile]);
+		map.zoomToExtent(new OpenLayers.Bounds([minLon, minLat, maxLon, maxLat]));
+		map.zoomOut();
+	}
+	function showRaster() {
+	    map.removeLayer(world);
+	    map.addLayer(earth);
+	}
+	function showVector() {
+	    map.removeLayer(earth);
+	    map.addLayer(world);
+	}
+	
+</script>
+</head>
+<body id='main' onload='init();'>
+ <div id='map_element' style="width:1140px;height:545px">
+ </div>
+</body>
+</html>

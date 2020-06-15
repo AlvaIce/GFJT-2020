@@ -1,0 +1,5 @@
+[taskinfo Add Error]sql:insert into taskinfo (NAME,SubsystemID,MethodID,SourceName,Status,Assigntime,Priority,Comment)values ('道路网提取','1','0','','waiting','2017-07-29 10:46:33','normal','1111')###Exception:未将对象引用设置到对象的实例。
+[taskinfo Add Error]sql:insert into taskinfo (NAME,SubsystemID,MethodID,SourceName,Status,Assigntime,Priority,Comment)values ('公路设计多因素综合评价','2','1','','waiting','2017-07-29 10:49:25','normal','1111')###Exception:未将对象引用设置到对象的实例。
+[taskinfo Add Error]sql:###Exception:服务器遇到内部错误。有关更多信息，请关闭服务器的 .config 文件中的 customErrors。
+任务分发失败:###Exception:未能找到路径“\\localhost\gfjtData\子系统任务分配\航运与环境监测子系统\3基于地面控制点和水上浮动控制点的水位线提取\数据说明.txt”的一部分。
+任务分发失败:###Exception:未能找到路径“\\localhost\gfjtData\子系统任务分配\交通路网规划与可行性分析子系统\4道路附属设施信息提取\数据说明.txt”的一部分。
