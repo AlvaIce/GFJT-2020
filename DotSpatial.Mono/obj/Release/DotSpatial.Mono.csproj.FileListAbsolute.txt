@@ -1,0 +1,5 @@
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\bin\Release\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\bin\Release\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\obj\Release\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\obj\Release\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\obj\Release\DotSpatial.Mono.pdb

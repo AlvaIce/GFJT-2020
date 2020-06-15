@@ -1,0 +1,6 @@
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.ProjNet\bin\x86\Release\ProjNet.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.ProjNet\bin\x86\Release\ProjNet.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.ProjNet\bin\x86\Release\ProjNet.xml
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.ProjNet\obj\x86\Release\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.ProjNet\obj\x86\Release\ProjNet.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.ProjNet\obj\x86\Release\ProjNet.pdb

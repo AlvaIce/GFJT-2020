@@ -1,0 +1,73 @@
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.Properties.Resources.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.csproj.GenerateResource.Cache
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.csprojResolveAssemblyReference.cache
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.Properties.Resources.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.csproj.GenerateResource.Cache
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Serialization\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Serialization\obj\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Serialization\obj\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Serialization\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Serialization\obj\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Serialization\obj\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.Properties.Resources.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.csproj.GenerateResource.Cache
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Serialization\bin\Debug\DotSpatial.Serialization.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.Properties.Resources.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.csproj.GenerateResource.Cache
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Serialization\obj\Debug\DotSpatial.Serialization.pdb

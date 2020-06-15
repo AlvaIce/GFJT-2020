@@ -1,0 +1,431 @@
+E:\JiangHua\QRST_DI_20170407\QRST_DI\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csprojResolveAssemblyReference.cache
+E:\JiangHua\QRST_DI_20170407\QRST_DI\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.Properties.Resources.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.QrstAxGlobeControl.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.VisualControl.Colorbar.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginDialog.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginInstallDialog.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginListView.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.exe
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\gdal_csharp.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\NetTopologySuite.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\GeoAPI.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Oracle.DataAccess.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Npgsql.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\PostgreSql.Data.PostgreSqlClient.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\System.Data.SQLite.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\BruTile.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ogr_csharp.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\osr_csharp.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.pdb
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.pdb
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.pdb
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.xml
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.pdb
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.xml
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.pdb
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.pdb
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csprojResolveAssemblyReference.cache
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.QrstAxGlobeControl.resources
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.VisualControl.Colorbar.resources
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginInstallDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginListView.resources
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+D:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.exe
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\gdal_csharp.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\NetTopologySuite.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\System.Data.SQLite.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\GeoAPI.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Npgsql.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Oracle.DataAccess.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\PostgreSql.Data.PostgreSqlClient.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\BruTile.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ogr_csharp.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\osr_csharp.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.xml
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.xml
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.QrstAxGlobeControl.resources
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.VisualControl.Colorbar.resources
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginInstallDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginListView.resources
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.exe
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\gdal_csharp.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\NetTopologySuite.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\System.Data.SQLite.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\GeoAPI.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Npgsql.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Oracle.DataAccess.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\PostgreSql.Data.PostgreSqlClient.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\BruTile.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ogr_csharp.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\osr_csharp.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.xml
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.xml
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csprojResolveAssemblyReference.cache
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.Properties.Resources.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.QrstAxGlobeControl.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.VisualControl.Colorbar.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginDialog.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginInstallDialog.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginListView.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csproj.GenerateResource.Cache
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.exe
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\gdal_csharp.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\System.Data.SQLite.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\NetTopologySuite.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Oracle.DataAccess.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\PostgreSql.Data.PostgreSqlClient.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Npgsql.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\GeoAPI.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\BruTile.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ogr_csharp.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\osr_csharp.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.xml
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.xml
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csprojResolveAssemblyReference.cache
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.QrstAxGlobeControl.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.VisualControl.Colorbar.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginInstallDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginListView.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.exe
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\gdal_csharp.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\NetTopologySuite.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\System.Data.SQLite.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\GeoAPI.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Npgsql.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Oracle.DataAccess.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\PostgreSql.Data.PostgreSqlClient.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\BruTile.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ogr_csharp.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\osr_csharp.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.xml
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.xml
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csprojResolveAssemblyReference.cache
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.QrstAxGlobeControl.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.VisualControl.Colorbar.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginInstallDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginListView.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.exe
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\gdal_csharp.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\System.Data.SQLite.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\NetTopologySuite.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Npgsql.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\GeoAPI.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Oracle.DataAccess.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\PostgreSql.Data.PostgreSqlClient.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\BruTile.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ogr_csharp.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\osr_csharp.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.xml
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.xml
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csprojResolveAssemblyReference.cache
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.QrstAxGlobeControl.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.VisualControl.Colorbar.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginInstallDialog.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginListView.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.exe
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\NetTopologySuite.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\System.Data.SQLite.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\gdal_csharp.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\GeoAPI.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Npgsql.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\PostgreSql.Data.PostgreSqlClient.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Oracle.DataAccess.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\BruTile.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ogr_csharp.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\osr_csharp.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.xml
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.xml
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.QrstAxGlobeControl.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.VisualControl.Colorbar.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginInstallDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginListView.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.exe
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\NetTopologySuite.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\System.Data.SQLite.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\gdal_csharp.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\GeoAPI.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Npgsql.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\PostgreSql.Data.PostgreSqlClient.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Oracle.DataAccess.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\BruTile.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ogr_csharp.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\osr_csharp.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.xml
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.xml
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.QrstAxGlobeControl.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.VisualControl.Colorbar.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginInstallDialog.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginListView.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.exe
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\gdal_csharp.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\NetTopologySuite.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\System.Data.SQLite.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\PostgreSql.Data.PostgreSqlClient.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\GeoAPI.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Npgsql.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Oracle.DataAccess.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\BruTile.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ogr_csharp.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\osr_csharp.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.xml
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.xml
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csprojResolveAssemblyReference.cache
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.Properties.Resources.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.QrstAxGlobeControl.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.VisualControl.Colorbar.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginDialog.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginInstallDialog.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginListView.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csproj.GenerateResource.Cache
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.exe
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\gdal_csharp.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\NetTopologySuite.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\System.Data.SQLite.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Oracle.DataAccess.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\GeoAPI.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Npgsql.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\PostgreSql.Data.PostgreSqlClient.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\BruTile.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ogr_csharp.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\osr_csharp.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Data.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Topology.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Dstile.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.MapTools.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\Irsa.Henu.Xuhui.Map.xml
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\ProjNet.xml
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Serialization.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Projections.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\bin\Debug\DotSpatial.Mono.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csprojResolveAssemblyReference.cache
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.Properties.Resources.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.QrstAxGlobeControl.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Qrst.VisualControl.Colorbar.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginDialog.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginInstallDialog.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\WorldWind.PluginEngine.PluginListView.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.csproj.GenerateResource.Cache
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\Irsa.Henu.Xuhui.GlobeTools\obj\x86\Debug\Irsa.Henu.Xuhui.GlobeTools.pdb

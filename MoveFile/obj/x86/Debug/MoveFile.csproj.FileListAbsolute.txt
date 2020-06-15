@@ -1,0 +1,193 @@
+E:\JiangHua\QRST_DI_20170407\QRST_DI\MoveFile\bin\Debug\HAlgPublishConfig.xml
+E:\JiangHua\QRST_DI_20170407\QRST_DI\MoveFile\bin\Debug\MoveFile.exe
+E:\JiangHua\QRST_DI_20170407\QRST_DI\MoveFile\bin\Debug\MoveFile.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI\MoveFile\obj\x86\Debug\MoveFile.csprojResolveAssemblyReference.cache
+E:\JiangHua\QRST_DI_20170407\QRST_DI\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+E:\JiangHua\QRST_DI_20170407\QRST_DI\MoveFile\obj\x86\Debug\MoveFile.exe
+E:\JiangHua\QRST_DI_20170407\QRST_DI\MoveFile\obj\x86\Debug\MoveFile.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\MoveFile\bin\Debug\HAlgPublishConfig.xml
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\MoveFile\bin\Debug\MoveFile.exe
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\MoveFile\bin\Debug\MoveFile.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\MoveFile\obj\x86\Debug\MoveFile.exe
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\MoveFile\obj\x86\Debug\MoveFile.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\MoveFile\obj\x86\Debug\MoveFile.csprojResolveAssemblyReference.cache
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\MoveFile\bin\Debug\HAlgPublishConfig.xml
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\MoveFile\bin\Debug\MoveFile.exe
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\MoveFile\bin\Debug\MoveFile.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.exe
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.csprojResolveAssemblyReference.cache
+D:\运管数据库部署\QRST_DI_Mixed\MoveFile\bin\Debug\HAlgPublishConfig.xml
+D:\运管数据库部署\QRST_DI_Mixed\MoveFile\bin\Debug\MoveFile.exe
+D:\运管数据库部署\QRST_DI_Mixed\MoveFile\bin\Debug\MoveFile.pdb
+D:\运管数据库部署\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+D:\运管数据库部署\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.exe
+D:\运管数据库部署\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.pdb
+D:\运管数据库部署\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.csprojResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\MoveFile\bin\Debug\HAlgPublishConfig.xml
+E:\运管数据库部署\QRST_DI_Mixed\MoveFile\bin\Debug\MoveFile.exe
+E:\运管数据库部署\QRST_DI_Mixed\MoveFile\bin\Debug\MoveFile.pdb
+E:\运管数据库部署\QRST_DI_Mixed\MoveFile\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+E:\运管数据库部署\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed\MoveFile\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed\MoveFile\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.exe
+E:\运管数据库部署\QRST_DI_Mixed\MoveFile\obj\x86\Debug\MoveFile.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\bin\Debug\HAlgPublishConfig.xml
+H:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\bin\Debug\MoveFile.exe
+H:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\bin\Debug\MoveFile.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\obj\x86\Debug\MoveFile.csprojResolveAssemblyReference.cache
+H:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+H:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\obj\x86\Debug\MoveFile.exe
+H:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\obj\x86\Debug\MoveFile.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\bin\Debug\HAlgPublishConfig.xml
+D:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\bin\Debug\MoveFile.exe
+D:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\bin\Debug\MoveFile.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\obj\x86\Debug\MoveFile.exe
+D:\运管数据库部署\QRST_DI_Mixed-20170731\MoveFile\obj\x86\Debug\MoveFile.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\MoveFile\bin\Debug\HAlgPublishConfig.xml
+D:\运管数据库部署\QRST_DI_Mixed-20170802\MoveFile\bin\Debug\MoveFile.exe
+D:\运管数据库部署\QRST_DI_Mixed-20170802\MoveFile\bin\Debug\MoveFile.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170802\MoveFile\obj\x86\Debug\MoveFile.exe
+D:\运管数据库部署\QRST_DI_Mixed-20170802\MoveFile\obj\x86\Debug\MoveFile.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\MoveFile\bin\Debug\HAlgPublishConfig.xml
+D:\运管数据库部署\QRST_DI_Mixed-20170908\MoveFile\bin\Debug\MoveFile.exe
+D:\运管数据库部署\QRST_DI_Mixed-20170908\MoveFile\bin\Debug\MoveFile.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170908\MoveFile\obj\x86\Debug\MoveFile.exe
+D:\运管数据库部署\QRST_DI_Mixed-20170908\MoveFile\obj\x86\Debug\MoveFile.pdb
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\MoveFile\bin\Debug\HAlgPublishConfig.xml
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\MoveFile\bin\Debug\MoveFile.exe
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\MoveFile\bin\Debug\MoveFile.pdb
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\MoveFile\obj\x86\Debug\MoveFile.exe
+D:\运管数据库部署\QRST_DI_Mixed(yuan)\MoveFile\obj\x86\Debug\MoveFile.pdb
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\bin\Debug\HAlgPublishConfig.xml
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\bin\Debug\MoveFile.exe
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\bin\Debug\MoveFile.pdb
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\obj\x86\Debug\MoveFile.exe
+D:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\obj\x86\Debug\MoveFile.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\bin\Debug\HAlgPublishConfig.xml
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\bin\Debug\MoveFile.exe
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\bin\Debug\MoveFile.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\obj\x86\Debug\MoveFile.csprojResolveAssemblyReference.cache
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\obj\x86\Debug\MoveFile.exe
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.8\MoveFile\obj\x86\Debug\MoveFile.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\MoveFile\bin\Debug\HAlgPublishConfig.xml
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\MoveFile\bin\Debug\MoveFile.exe
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\MoveFile\bin\Debug\MoveFile.pdb
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\MoveFile\obj\x86\Debug\MoveFile.exe
+F:\运管数据库部署\QRST_DI_Mixed_2017.9.18\MoveFile\obj\x86\Debug\MoveFile.pdb
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\MoveFile\bin\Debug\HAlgPublishConfig.xml
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\MoveFile\bin\Debug\MoveFile.exe
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\MoveFile\bin\Debug\MoveFile.pdb
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\MoveFile\obj\x86\Debug\MoveFile.exe
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\MoveFile\obj\x86\Debug\MoveFile.pdb
+F:\高分交通运管系统\QRST_DI_Mixed_2017.9.18\MoveFile\obj\x86\Debug\MoveFile.csprojResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_Share\MoveFile\bin\Debug\HAlgPublishConfig.xml
+E:\运管数据库部署\QRST_DI_Mixed_Share\MoveFile\bin\Debug\MoveFile.exe
+E:\运管数据库部署\QRST_DI_Mixed_Share\MoveFile\bin\Debug\MoveFile.pdb
+E:\运管数据库部署\QRST_DI_Mixed_Share\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed_Share\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+E:\运管数据库部署\QRST_DI_Mixed_Share\MoveFile\obj\x86\Debug\MoveFile.exe
+E:\运管数据库部署\QRST_DI_Mixed_Share\MoveFile\obj\x86\Debug\MoveFile.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\MoveFile\bin\Debug\HAlgPublishConfig.xml
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\MoveFile\bin\Debug\MoveFile.exe
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\MoveFile\bin\Debug\MoveFile.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\MoveFile\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\MoveFile\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\MoveFile\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\MoveFile\obj\x86\Debug\MoveFile.exe
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\MoveFile\obj\x86\Debug\MoveFile.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\MoveFile\bin\Debug\HAlgPublishConfig.xml
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\MoveFile\bin\Debug\MoveFile.exe
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\MoveFile\bin\Debug\MoveFile.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\MoveFile\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\MoveFile\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\MoveFile\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\MoveFile\obj\x86\Debug\MoveFile.exe
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\MoveFile\obj\x86\Debug\MoveFile.pdb
+F:\QRST_DI_Mixed_2017.12.17\MoveFile\bin\Debug\HAlgPublishConfig.xml
+F:\QRST_DI_Mixed_2017.12.17\MoveFile\bin\Debug\MoveFile.exe
+F:\QRST_DI_Mixed_2017.12.17\MoveFile\bin\Debug\MoveFile.pdb
+F:\QRST_DI_Mixed_2017.12.17\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+F:\QRST_DI_Mixed_2017.12.17\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+F:\QRST_DI_Mixed_2017.12.17\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+F:\QRST_DI_Mixed_2017.12.17\MoveFile\obj\x86\Debug\MoveFile.exe
+F:\QRST_DI_Mixed_2017.12.17\MoveFile\obj\x86\Debug\MoveFile.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\MoveFile\bin\Debug\HAlgPublishConfig.xml
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\MoveFile\bin\Debug\MoveFile.exe
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\MoveFile\bin\Debug\MoveFile.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\MoveFile\obj\x86\Debug\MoveFile.exe
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\MoveFile\obj\x86\Debug\MoveFile.pdb
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\MoveFile\bin\Debug\HAlgPublishConfig.xml
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\MoveFile\bin\Debug\MoveFile.exe
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\MoveFile\bin\Debug\MoveFile.pdb
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\MoveFile\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\MoveFile\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\MoveFile\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\MoveFile\obj\x86\Debug\MoveFile.exe
+D:\QRST_DB_Prototype\resultTiles\sql0515\QRST_DI_Mixed_2018.05.11 - 副本\MoveFile\obj\x86\Debug\MoveFile.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\MoveFile\bin\Debug\HAlgPublishConfig.xml
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\MoveFile\bin\Debug\MoveFile.exe
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\MoveFile\bin\Debug\MoveFile.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.Cache
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\MoveFile\obj\x86\Debug\MoveFile.exe
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\MoveFile\obj\x86\Debug\MoveFile.pdb
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\MoveFile\bin\Debug\HAlgPublishConfig.xml
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\MoveFile\bin\Debug\MoveFile.exe
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\MoveFile\bin\Debug\MoveFile.pdb
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\MoveFile\obj\x86\Debug\MoveFile.csprojAssemblyReference.cache
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\MoveFile\obj\x86\Debug\MoveFile.Form1.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\MoveFile\obj\x86\Debug\MoveFile.Properties.Resources.resources
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\MoveFile\obj\x86\Debug\MoveFile.csproj.GenerateResource.cache
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\MoveFile\obj\x86\Debug\MoveFile.csproj.CoreCompileInputs.cache
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\MoveFile\obj\x86\Debug\MoveFile.exe
+C:\Software\BaiduNetdisk\QRST_DI_Mixed_2018.08.22\QRST_DI_Mixed_2018.08.22\MoveFile\obj\x86\Debug\MoveFile.pdb

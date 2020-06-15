@@ -1,0 +1,13 @@
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.MapGUI\bin\x86\Release\Irsa.Henu.Xuhui.MapGUI.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.MapGUI\bin\x86\Release\Irsa.Henu.Xuhui.MapGUI.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.MapGUI\bin\x86\Release\Irsa.Henu.Xuhui.MapGUI.xml
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.MapGUI\bin\x86\Release\Irsa.Henu.Xuhui.Map.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.MapGUI\bin\x86\Release\ProjNet.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.MapGUI\bin\x86\Release\BruTile.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.MapGUI\bin\x86\Release\Irsa.Henu.Xuhui.Map.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.MapGUI\bin\x86\Release\Irsa.Henu.Xuhui.Map.xml
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.MapGUI\bin\x86\Release\ProjNet.pdb
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.MapGUI\bin\x86\Release\ProjNet.xml
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.MapGUI\obj\x86\Release\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.MapGUI\obj\x86\Release\Irsa.Henu.Xuhui.MapGUI.dll
+E:\运管数据库部署\QRST_DI_Mixed\Irsa.Henu.Xuhui.MapGUI\obj\x86\Release\Irsa.Henu.Xuhui.MapGUI.pdb

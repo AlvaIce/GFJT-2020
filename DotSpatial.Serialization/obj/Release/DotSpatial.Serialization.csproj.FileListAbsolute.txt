@@ -1,0 +1,8 @@
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\bin\Release\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\bin\Release\DotSpatial.Serialization.pdb
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Release\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Release\DotSpatial.Serialization.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Release\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Release\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Release\DotSpatial.Serialization.dll
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Serialization\obj\Release\DotSpatial.Serialization.pdb

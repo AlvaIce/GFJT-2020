@@ -1,0 +1,48 @@
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.csprojResolveAssemblyReference.cache
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Mono\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Mono\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Mono\bin\Debug\DotSpatial.Mono.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Mono\obj\Debug\DotSpatial.Mono.pdb

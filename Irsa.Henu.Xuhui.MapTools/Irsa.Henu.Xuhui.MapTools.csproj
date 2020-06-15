@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A4140C12-53F5-438C-8D24-9E48C504FECF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SharpMap</RootNamespace>
+    <AssemblyName>Irsa.Henu.Xuhui.MapTools</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Release\Irsa.Henu.Xuhui.MapTools.xml</DocumentationFile>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Irsa.Henu.Xuhui.MapTools.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Release\Irsa.Henu.Xuhui.MapTools.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Irsa.Henu.Xuhui.MapTools.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="gdalconst_csharp, Version=1.0.3671.21225, Culture=neutral, PublicKeyToken=db5a52b08dc5b321">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ref\gdalconst_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="gdal_csharp, Version=1.0.4704.32537, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\gdal_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="GeoAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a1a0da7def465678, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\GeoAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="NetTopologySuite, Version=1.7.1.29911, Culture=neutral, PublicKeyToken=f580a05016ebada1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NetTopologySuite.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=0.99.3.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="ogr_csharp, Version=1.0.3671.21225, Culture=neutral, PublicKeyToken=db5a52b08dc5b321">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ref\ogr_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=2.102.2.10, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="osr_csharp, Version=1.0.3671.21224, Culture=neutral, PublicKeyToken=db5a52b08dc5b321">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ref\osr_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PostgreSql.Data.PostgreSqlClient, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\PostgreSql.Data.PostgreSqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.60.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Data.SQLite.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\Providers\DataTablePoint.cs" />
+    <Compile Include="Data\FwToolsHelper.cs" />
+    <Compile Include="Data\Providers\NtsGeometryConverter.cs" />
+    <Compile Include="Data\Providers\NtsProvider.cs" />
+    <Compile Include="Data\Providers\Oracle.cs" />
+    <Compile Include="Data\Providers\PostGIS.cs" />
+    <Compile Include="Data\Providers\PostGIS2.cs" />
+    <Compile Include="Data\Providers\SqlLite.cs" />
+    <Compile Include="Data\Providers\SpatiaLite.cs" />
+    <Compile Include="EnvironmentalGdal.cs" />
+    <Compile Include="Layers\GdalGridRasterLayer.cs" />
+    <Compile Include="Layers\GdalRasterLayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Layers\GdalRasterLayerCachingProxy.cs" />
+    <Compile Include="Layers\GeoTransform.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Irsa.Henu.Xuhui.Map\Irsa.Henu.Xuhui.Map.csproj">
+      <Project>{C83777FC-AABB-47D9-911F-D76255D4D541}</Project>
+      <Name>Irsa.Henu.Xuhui.Map</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Irsa.Henu.Xuhui.ProjNet\ProjNet.csproj">
+      <Project>{E028BDD2-55E1-4E5F-BE31-35FAEC8D6428}</Project>
+      <Name>ProjNet</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BruTile.dll.config" />
+    <None Include="bin\Debug\data\alias.csv" />
+    <None Include="bin\Debug\data\area.csv" />
+    <None Include="bin\Debug\data\change.csv" />
+    <None Include="bin\Debug\data\codes.csv" />
+    <None Include="bin\Debug\data\coordinate_axis.csv" />
+    <None Include="bin\Debug\data\coordinate_axis_name.csv" />
+    <None Include="bin\Debug\data\coordinate_operation.csv" />
+    <None Include="bin\Debug\data\coordinate_operation_method.csv" />
+    <None Include="bin\Debug\data\coordinate_operation_parameter.csv" />
+    <None Include="bin\Debug\data\coordinate_operation_parameter_value.csv" />
+    <None Include="bin\Debug\data\coordinate_operation_path.csv" />
+    <None Include="bin\Debug\data\coordinate_reference_system.csv" />
+    <None Include="bin\Debug\data\coordinate_system.csv" />
+    <None Include="bin\Debug\data\cubewerx_extra.wkt" />
+    <None Include="bin\Debug\data\datum.csv" />
+    <None Include="bin\Debug\data\datum_shift.csv" />
+    <None Include="bin\Debug\data\deprecation.csv" />
+    <None Include="bin\Debug\data\ecw_cs.dat" />
+    <None Include="bin\Debug\data\ecw_cs.wkt" />
+    <None Include="bin\Debug\data\ellipsoid.csv" />
+    <None Include="bin\Debug\data\epsg.wkt" />
+    <None Include="bin\Debug\data\esri_datum_override.csv" />
+    <None Include="bin\Debug\data\esri_extra.wkt" />
+    <None Include="bin\Debug\data\gcs.csv" />
+    <None Include="bin\Debug\data\gcs.override.csv" />
+    <None Include="bin\Debug\data\gdal_datum.csv" />
+    <None Include="bin\Debug\data\gt_datum.csv" />
+    <None Include="bin\Debug\data\gt_ellips.csv" />
+    <None Include="bin\Debug\data\header.dxf" />
+    <None Include="bin\Debug\data\IAU2000.wkt" />
+    <None Include="bin\Debug\data\naming_system.csv" />
+    <None Include="bin\Debug\data\pcs.csv" />
+    <None Include="bin\Debug\data\pcs.override.csv" />
+    <None Include="bin\Debug\data\prime_meridian.csv" />
+    <None Include="bin\Debug\data\projop_wparm.csv" />
+    <None Include="bin\Debug\data\s57agencies.csv" />
+    <None Include="bin\Debug\data\s57attributes.csv" />
+    <None Include="bin\Debug\data\s57attributes_aml.csv" />
+    <None Include="bin\Debug\data\s57attributes_iw.csv" />
+    <None Include="bin\Debug\data\s57expectedinput.csv" />
+    <None Include="bin\Debug\data\s57objectclasses.csv" />
+    <None Include="bin\Debug\data\s57objectclasses_aml.csv" />
+    <None Include="bin\Debug\data\s57objectclasses_iw.csv" />
+    <None Include="bin\Debug\data\seed_2d.dgn" />
+    <None Include="bin\Debug\data\seed_3d.dgn" />
+    <None Include="bin\Debug\data\stateplane.csv" />
+    <None Include="bin\Debug\data\trailer.dxf" />
+    <None Include="bin\Debug\data\unit_of_measure.csv" />
+    <None Include="bin\Debug\data\version_history.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BruTile.dll" />
+    <Content Include="bin\Debug\data\gdalicon.png" />
+    <Content Include="bin\Debug\data\GDALLogoBW.svg" />
+    <Content Include="bin\Debug\data\GDALLogoColor.svg" />
+    <Content Include="bin\Debug\data\GDALLogoGS.svg" />
+    <Content Include="bin\Debug\gdalconst_csharp.dll" />
+    <Content Include="bin\Debug\gdalDepend\adrg.dll" />
+    <Content Include="bin\Debug\gdalDepend\bgd.dll" />
+    <Content Include="bin\Debug\gdalDepend\dtcanada.dll" />
+    <Content Include="bin\Debug\gdalDepend\dted.dll" />
+    <Content Include="bin\Debug\gdalDepend\dtusa.dll" />
+    <Content Include="bin\Debug\gdalDepend\gdalconst_wrap.dll" />
+    <Content Include="bin\Debug\gdalDepend\gdal_fw.dll" />
+    <Content Include="bin\Debug\gdalDepend\gdal_wrap.dll" />
+    <Content Include="bin\Debug\gdalDepend\gdk-1.3.dll" />
+    <Content Include="bin\Debug\gdalDepend\geos_fw.dll" />
+    <Content Include="bin\Debug\gdalDepend\geotiff_fw.dll" />
+    <Content Include="bin\Debug\gdalDepend\glib-1.3.dll" />
+    <Content Include="bin\Debug\gdalDepend\gmodule-1.3.dll" />
+    <Content Include="bin\Debug\gdalDepend\gnu-intl.dll" />
+    <Content Include="bin\Debug\gdalDepend\gthread-1.3.dll" />
+    <Content Include="bin\Debug\gdalDepend\gtk-1.3.dll" />
+    <Content Include="bin\Debug\gdalDepend\gtkextra-0.99.dll" />
+    <Content Include="bin\Debug\gdalDepend\gtkglarea.dll" />
+    <Content Include="bin\Debug\gdalDepend\hdf5dll.dll" />
+    <Content Include="bin\Debug\gdalDepend\HDF5DotNet.dll" />
+    <Content Include="bin\Debug\gdalDepend\hdf_fw.dll" />
+    <Content Include="bin\Debug\gdalDepend\iconv.dll" />
+    <Content Include="bin\Debug\gdalDepend\jpeg12_osgeo.dll" />
+    <Content Include="bin\Debug\gdalDepend\jpeg_osgeo.dll" />
+    <Content Include="bin\Debug\gdalDepend\libcurl.dll" />
+    <Content Include="bin\Debug\gdalDepend\libeay32.dll" />
+    <Content Include="bin\Debug\gdalDepend\libexpat.dll" />
+    <Content Include="bin\Debug\gdalDepend\libfcgi.dll" />
+    <Content Include="bin\Debug\gdalDepend\libmap.dll" />
+    <Content Include="bin\Debug\gdalDepend\libmysql.dll" />
+    <Content Include="bin\Debug\gdalDepend\libpq.dll" />
+    <Content Include="bin\Debug\gdalDepend\libtiff_fw.dll" />
+    <Content Include="bin\Debug\gdalDepend\libxml2.dll" />
+    <Content Include="bin\Debug\gdalDepend\lodbc.dll" />
+    <Content Include="bin\Debug\gdalDepend\lti_dsdk_cdll.dll" />
+    <Content Include="bin\Debug\gdalDepend\lti_dsdk_dll.dll" />
+    <Content Include="bin\Debug\gdalDepend\mapscript.dll" />
+    <Content Include="bin\Debug\gdalDepend\mapscript_csharp.dll" />
+    <Content Include="bin\Debug\gdalDepend\mfhdf_fw.dll" />
+    <Content Include="bin\Debug\gdalDepend\msvcp60.dll" />
+    <Content Include="bin\Debug\gdalDepend\msvcp70.dll" />
+    <Content Include="bin\Debug\gdalDepend\msvcp71.dll" />
+    <Content Include="bin\Debug\gdalDepend\msvcr71.dll" />
+    <Content Include="bin\Debug\gdalDepend\msvcrt.dll" />
+    <Content Include="bin\Debug\gdalDepend\NCScnet_fw.dll" />
+    <Content Include="bin\Debug\gdalDepend\NCSEcwC_fw.dll" />
+    <Content Include="bin\Debug\gdalDepend\NCSEcw_fw.dll" />
+    <Content Include="bin\Debug\gdalDepend\NCSUtil_fw.dll" />
+    <Content Include="bin\Debug\gdalDepend\netcdf.dll" />
+    <Content Include="bin\Debug\gdalDepend\ogdi_32b1.dll" />
+    <Content Include="bin\Debug\gdalDepend\ogr_wrap.dll" />
+    <Content Include="bin\Debug\gdalDepend\OpenGL32.dll" />
+    <Content Include="bin\Debug\gdalDepend\osr_wrap.dll" />
+    <Content Include="bin\Debug\gdalDepend\proj.dll" />
+    <Content Include="bin\Debug\gdalDepend\pthread.dll" />
+    <Content Include="bin\Debug\gdalDepend\python23.dll" />
+    <Content Include="bin\Debug\gdalDepend\remote.dll" />
+    <Content Include="bin\Debug\gdalDepend\rpf.dll" />
+    <Content Include="bin\Debug\gdalDepend\skeleton.dll" />
+    <Content Include="bin\Debug\gdalDepend\sqlite3.dll" />
+    <Content Include="bin\Debug\gdalDepend\ssleay32.dll" />
+    <Content Include="bin\Debug\gdalDepend\szlibdll.dll" />
+    <Content Include="bin\Debug\gdalDepend\vrf.dll" />
+    <Content Include="bin\Debug\gdalDepend\xerces-c_2_7.dll" />
+    <Content Include="bin\Debug\gdalDepend\xerces-depdom_2_7.dll" />
+    <Content Include="bin\Debug\gdalDepend\zlib1.dll" />
+    <Content Include="bin\Debug\gdalDepend\zlib_fw.dll" />
+    <Content Include="bin\Debug\gdalDepend\zlib_osgeo.dll" />
+    <Content Include="bin\Debug\gdal_csharp.dll" />
+    <Content Include="bin\Debug\GeoAPI.dll" />
+    <Content Include="bin\Debug\NetTopologySuite.dll" />
+    <Content Include="bin\Debug\Npgsql.dll" />
+    <Content Include="bin\Debug\ogr_csharp.dll" />
+    <Content Include="bin\Debug\Oracle.DataAccess.dll" />
+    <Content Include="bin\Debug\osr_csharp.dll" />
+    <Content Include="bin\Debug\PostgreSql.Data.PostgreSqlClient.dll" />
+    <Content Include="bin\Debug\System.Data.SQLite.DLL" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>  -->
+  <!--<PropertyGroup>
+    <PostBuildEvent>xcopy /Y "$(ProjectDir)..\ExternalReferences\References4SharpMap.Extensions\FWToolsUnmanaged2.4.2\*.dll" $(TargetDir)</PostBuildEvent>
+  </PropertyGroup>-->
+</Project>

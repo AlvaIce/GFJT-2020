@@ -1,0 +1,95 @@
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionMessages.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionNames.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.Properties.Resources.resources
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.csproj.GenerateResource.Cache
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.dll
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.pdb
+E:\JiangHua\QRST_DI_20170407\QRST_DI_Lite\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.csprojResolveAssemblyReference.cache
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionMessages.resources
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionNames.resources
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.pdb
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.dll
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.pdb
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionMessages.resources
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionNames.resources
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.dll
+E:\运管数据库部署\QRST_DI_Mixed\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.pdb
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionMessages.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionNames.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.Properties.Resources.resources
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.csproj.GenerateResource.Cache
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.dll
+H:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionMessages.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionNames.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170731\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionMessages.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionNames.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170802\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.pdb
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionMessages.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionNames.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.Properties.Resources.resources
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.csproj.GenerateResource.Cache
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.dll
+D:\运管数据库部署\QRST_DI_Mixed-20170908\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Projections\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionMessages.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionNames.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Projections\obj\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Projections\obj\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.12\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.pdb
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Projections\obj\Debug\ResolveAssemblyReference.cache
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionMessages.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionNames.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.Properties.Resources.resources
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Projections\obj\Debug\GenerateResource.read.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Projections\obj\Debug\GenerateResource.write.1.tlog
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.dll
+E:\运管数据库部署\QRST_DI_Mixed_2017.12.16\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.pdb
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionMessages.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionNames.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.Properties.Resources.resources
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.csproj.GenerateResource.Cache
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.dll
+G:\高分交通\运管系统\QRST_DI_Mixed_2018.03.01 - 副本\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Projections\bin\Debug\DotSpatial.Projections.pdb
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionMessages.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.ProjectionNames.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.Properties.Resources.resources
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.csproj.GenerateResource.Cache
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.dll
+H:\高分交通\运管系统\QRST_DI_Mixed_2018.08.22\DotSpatial.Projections\obj\Debug\DotSpatial.Projections.pdb
